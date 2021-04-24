@@ -4,8 +4,11 @@
 ### Roles
 Week 1: 
 Github: Dan Marks
+
 MI : Lauren Valencia
+
 Dashboard : Perry Abdulkadir
+
 Database : Wengi 
 
 ### Protocals
