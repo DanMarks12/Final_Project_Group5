@@ -32,24 +32,44 @@ Is there any association between stock value and popularity of a company?
 
 
 ### Stocks to look out:
-AAPL
-SONO
+AAPL 
+
+SONO 
+
 AMD - covid implications
+
 NVDA - covid implications
-MTCH
+
+MTCH 
+
 ADBE
+
 CSCO
+
 MSFT
+
 CRM - covid implications
+
 BABA
+
 SPOT
+
 DBX
+
 FB
+
 T
+
 INTC
+
 AMZN - covid implications
+
 ZM - covid implications
+
 SQ
+
 ROKU - covid implications
+
 GOOG/GOOGL - covid implications
+
 TSLA
