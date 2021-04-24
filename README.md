@@ -2,7 +2,8 @@
 
 ## Communication Protocals 
 ### Roles
-Week 1: 
+#### WEEK 1:
+
 Github: Dan Marks
 
 MI : Lauren Valencia
@@ -10,6 +11,8 @@ MI : Lauren Valencia
 Dashboard : Perry Abdulkadir
 
 Database : Wengi 
+
+#### WEEK 2:TBD
 
 ### Protocals
 - Colaboration through Slack group
