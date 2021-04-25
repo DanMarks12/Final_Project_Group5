@@ -6,47 +6,47 @@ See Main branch for other commits/week 1 Github progress
 ## Question: Startup Tech Companies vs Bluechip/Established: Analysis on performance and profitability: 
 
 ### Blue Chip Stocks:
-AAPL
+AAPL - Apple
 
-SONO
+SONO - Sonos
 
-AMD - covid implications
+AMD - Advanced Micro Devices
 
-NVDA - covid implications
+NVDA - Nvidia
 
-MTCH
+MTCH - Match Group
 
-ADBE
+ADBE - Adobe
 
-CSCO
+CSCO - Cisco
 
-MSFT
+MSFT - Microsoft
 
-CRM - covid implications
+CRM - Salesforce
 
-BABA
+BABA - Alibaba
 
-SPOT
+SPOT - Spotify
 
-DBX
+DBX - Dropbox
 
-FB
+FB - Facebook
 
-T
+T - Twitter
 
-INTC
+INTC - Intel Corporation
 
-AMZN - covid implications
+AMZN - Amazon
 
-ZM - covid implications
+ZM - Zoom
 
-SQ
+SQ - Square Inc
 
-ROKU - covid implications
+ROKU - Roku
 
-GOOG/GOOGL - covid implications
+GOOG/GOOGL - Google
 
-TSLA
+TSLA - Tesla
 
 
 
