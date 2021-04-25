@@ -30,7 +30,7 @@ Hypothesis:
 
 #### Start up tech compnies vs established ones when it comes to performance and profitability?
 
-Hypothesis: Blue chip companies will have safer more controlled growth whereas startups with have more volitality, higher risk but also higher gains in positive cases
+Hypothesis: Blue chip companies will have safer more controlled growth whereas startups with have more volitality, higher risk but also higher gains in positive cases and losses in negative cases 
 
 #### How did tech compnies manage during covid, some flourished, while others fell. Were different subsectors of tech hit differently?
 
