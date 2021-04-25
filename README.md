@@ -19,7 +19,7 @@ Database : Wengi
 - Lay out 5 questions we will be answering, distributed questions
 - Meetings throughout the week outside of class
 - Shared Google doc: https://docs.google.com/document/d/1SY56LAwAWJcryRgtg58EKAuqdpSpt0IqHUjSmKUIQa4/edit
-- 
+- Zoom meetings
 
 
 ## Questions:
@@ -46,7 +46,7 @@ Hypothesis:
 
 
 ## Source Data: 
-We will be pulling data from finance.yahoo.com, finance.google.com and ______
+We will be pulling data from finance.yahoo.com, finance.google.com and FactSet data sets
 
 #### Blue Chip Stocks:
 AAPL - Apple
