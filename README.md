@@ -4,6 +4,7 @@
 See Main branch for other commits/week 1 Github progress
 
 ## Question: Startup Tech Companies vs Bluechip/Established: Analysis on performance and profitability: 
+#### Hypothesis: Blue chip companies will have safer more controlled growth whereas startups with have more volitality, higher risk but also higher gains in positive cases and losses in negative cases
 
 ### Blue Chip Stocks:
 AAPL - Apple
