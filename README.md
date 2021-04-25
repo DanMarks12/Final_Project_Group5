@@ -31,6 +31,9 @@ Is there a positive correlation between a companys ethical practices and profita
 Is there any association between stock value and popularity of a company?
 
 
+## Source Data: 
+We will be pulling data from finance.yahoo.com, finance.google.com and ______
+
 ### Stocks to look out:
 AAPL 
 
