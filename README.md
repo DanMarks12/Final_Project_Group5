@@ -52,24 +52,45 @@ TSLA
 
 ### Start Up Tech Stocks: (IPOd 2020 or later)
 AFRM - Affirm
+
 POSH - Poshmark
+
 PLTK - Playtika
+
 XM - Qualtrics
+
 BMBL - Bumble
+
 OSCR - Oscar Health
+
 CPNG - Coupang
+
 DOCN - Digital Ocean
+
 VZIO - Vizio
+
 TDUP - ThredUp
+
 COUR - Coursera
+
 CMPGY - Compass
+
 APP - AppLovin
+
 RBLX - Roblox
+
 COIN - Coinbase
+
 ASAN - Asana
+
 MCFE - McAfee
+
 DASH - DoorDash
+
 ABNB - AirBnb
+
 WISH - Wish
+
 CSPR - Casper
+
 ONEM - One Medical
