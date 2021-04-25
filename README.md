@@ -24,55 +24,116 @@ Database : Wengi
 
 ## Questions:
 
-Are tech companies' worthwhile investment with long-term growth potential?
-Start up tech compnies vs established ones when it comes to performance and profitability?
-How did tech compnies manage during covid, some flourished, while others fell. Were different subsectors of tech hit differently?
-Is there a positive correlation between a companys ethical practices and profitability?
-Is there any association between stock value and popularity of a company?
+#### Are tech companies' worthwhile investment with long-term growth potential?
+
+Hypothesis: 
+
+#### Start up tech compnies vs established ones when it comes to performance and profitability?
+
+Hypothesis: Blue chip companies will have safer more controlled growth whereas startups with have more volitality, higher risk but also higher gains in positive cases
+
+#### How did tech compnies manage during covid, some flourished, while others fell. Were different subsectors of tech hit differently?
+
+Hypothesis: 
+
+#### Is there a positive correlation between a companys ethical practices and profitability?
+
+Hypothesis: 
+
+#### Is there any association between stock value and popularity of a company?
+
+Hypothesis: 
 
 
 ## Source Data: 
 We will be pulling data from finance.yahoo.com, finance.google.com and ______
 
-### Stocks to look out:
-AAPL 
+#### Blue Chip Stocks:
+AAPL - Apple
 
-SONO 
+SONO - Sonos
 
-AMD - covid implications
+AMD - Advanced Micro Devices
 
-NVDA - covid implications
+NVDA - Nvidia
 
-MTCH 
+MTCH - Match Group
 
-ADBE
+ADBE - Adobe
 
-CSCO
+CSCO - Cisco
 
-MSFT
+MSFT - Microsoft
 
-CRM - covid implications
+CRM - Salesforce
 
-BABA
+BABA - Alibaba
 
-SPOT
+SPOT - Spotify
 
-DBX
+DBX - Dropbox
 
-FB
+FB - Facebook
 
-T
+T - Twitter
 
-INTC
+INTC - Intel Corporation
 
-AMZN - covid implications
+AMZN - Amazon
 
-ZM - covid implications
+ZM - Zoom
 
-SQ
+SQ - Square Inc
 
-ROKU - covid implications
+ROKU - Roku
 
-GOOG/GOOGL - covid implications
+GOOG/GOOGL - Google
 
-TSLA
+TSLA - Tesla
+
+
+
+#### Start Up Tech Stocks: (IPOd 2020 or later)
+AFRM - Affirm
+
+POSH - Poshmark
+
+PLTK - Playtika
+
+XM - Qualtrics
+
+BMBL - Bumble
+
+OSCR - Oscar Health
+
+CPNG - Coupang
+
+DOCN - Digital Ocean
+
+VZIO - Vizio
+
+TDUP - ThredUp
+
+COUR - Coursera
+
+CMPGY - Compass
+
+APP - AppLovin
+
+RBLX - Roblox
+
+COIN - Coinbase
+
+ASAN - Asana
+
+MCFE - McAfee
+
+DASH - DoorDash
+
+ABNB - AirBnb
+
+WISH - Wish
+
+CSPR - Casper
+
+ONEM - One Medical
