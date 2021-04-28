@@ -32,6 +32,10 @@ Hypothesis:
 
 Hypothesis: Blue chip companies will have safer more controlled growth whereas startups with have more volitality, higher risk but also higher gains in positive cases and losses in negative cases 
 
+#### The Rise of SPACs: Which has been more succesful SPACs or IPO during covid
+
+Hypothesis: 
+
 #### How did tech compnies manage during covid, some flourished, while others fell. Were different subsectors of tech hit differently?
 
 Hypothesis: 
@@ -40,9 +44,7 @@ Hypothesis:
 
 Hypothesis: 
 
-#### The Rise of SPACs: Which has been more succesful SPACs or IPO during covid
 
-Hypothesis: 
 
 
 ## Source Data: 
