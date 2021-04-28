@@ -40,7 +40,7 @@ Hypothesis:
 
 Hypothesis: 
 
-#### Is there any association between stock value and popularity of a company?
+#### The Rise of SPACs: Which has been more succesful SPACs or IPO during covid
 
 Hypothesis: 
 
