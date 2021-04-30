@@ -1,4 +1,6 @@
-# Final_Project_Group5: An Analysis into Tech Companys  
+# Final_Project_Group5: An Analysis into the Tech Sector before and after Covid:
+The uncertainty that COVID has brought to various industries around the world has seemingly overlooked or enriched certain sectors. Tech in particular has been able to flourish during pandemic,in part due to many business moving from office workplace to employees working from home; schools moving to remote learning and public transportation shifting to private rides and other forms of transportation. Our goal in our final project is to take a look at the impact covid has had on the Tech industry, and where we expect it to go moving forward. 
+
 
 ## Communication Protocals 
 ### Roles
