@@ -54,3 +54,7 @@ We will be pulling data from finance.yahoo.com, finance.google.com and FactSet d
 
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/Tickers.JPG)
+
+
+## Database Design
+![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/DBD_outline.JPG)
