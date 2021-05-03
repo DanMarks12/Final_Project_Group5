@@ -30,9 +30,9 @@ Database : Wengi
 
 Hypothesis: the large cap stocks in the tech sector have outperformed stocks in other industries during the Covid-19 pandemic as a combination of less reliance on brick-and-mortar retail and more need for electronic communication have inoculated them against the economic fallout of the pandemic.
 
-#### Start up tech compnies vs established ones when it comes to performance and profitability?
+#### Have established tech companies outperformed their younger rivals during the Covid-19 pandemic?
 
-Hypothesis: Blue chip companies will have safer more controlled growth whereas startups with have more volitality, higher risk but also higher gains in positive cases and losses in negative cases 
+Hypothesis: there is traditionally a premium associated with smaller and newer companies as they have more room to grow. However, they are also riskier investments. During the Covid-19 pandemic, blue chip stocks outperformed their less-established counterparts because they had more cash on-hand to survive the economic disruption of the pandemic. 
 
 #### The Rise of SPACs: Which has been more succesful SPACs or IPO during covid
 
