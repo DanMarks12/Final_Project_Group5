@@ -34,9 +34,9 @@ Hypothesis: the large cap stocks in the tech sector have outperformed stocks in 
 
 Hypothesis: there is traditionally a premium associated with smaller and newer companies as they have more room to grow. However, they are also riskier investments. During the Covid-19 pandemic, blue chip stocks outperformed their less-established counterparts because they had more cash on-hand to survive the economic disruption of the pandemic. 
 
-#### The Rise of SPACs: Which has been more succesful SPACs or IPO during covid
+#### Have SPACs overtaken IPOs for investor returns in the tech sector?
 
-Hypothesis: 
+Hypothesis: SPACs (Special Purpose Acquisition Corporations) are essentially shell corporations that form with the intention of purchasing a private corporation. It is an alternate method of taking a corporation public with less red tape than an IPO. The SPAC has existed for several decades, but has gained a great deal of attention lately. Despite the buzz around SPACs, they have generated less return for investors than IPOs because this alternate method of going public signals to markets some underlying issue in the company’s fiscal health.
 
 #### How did tech compnies manage during covid, some flourished, while others fell. Were different subsectors of tech hit differently?
 
