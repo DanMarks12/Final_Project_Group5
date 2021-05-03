@@ -16,7 +16,7 @@ Database : Wengi
 
 #### WEEK 2:TBD
 
-### Protocals
+### Protocols
 - Colaboration through Slack group
 - Lay out 5 questions we will be answering, distributed questions
 - Meetings throughout the week outside of class
