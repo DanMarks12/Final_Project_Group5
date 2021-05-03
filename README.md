@@ -30,7 +30,7 @@ Database : Wengi
 
 Hypothesis: 
 
-#### Start up tech compnies vs established ones when it comes to performance and profitability?
+#### ML Question: Can we predict the big 5 tech stocks more accurately than tech companys that IPOd after 2019?
 
 Hypothesis: Blue chip companies will have safer more controlled growth whereas startups with have more volitality, higher risk but also higher gains in positive cases and losses in negative cases 
 
