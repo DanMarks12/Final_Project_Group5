@@ -42,9 +42,10 @@ Hypothesis: SPACs (Special Purpose Acquisition Corporations) are essentially she
 
 Hypothesis: certain sub-sectors of the tech industry have generated smaller returns to shareholders because of greater exposure to the economic risks associated with Covid-19. Semiconductor manufacturers suffered lower returns because of greater supply chain disruption. Meanwhile, social media companies have reaped the rewards of a world that is now fully reliant on the Internet for social interaction.
 
-#### Is there a positive correlation between a companys ethical practices and profitability?
+#### Have tech stocks with higher ESG scores generated higher returns during the Covid-19 pandemic?
 
-Hypothesis: 
+Hypothesis: companies with better ESG scores (environmental, social, governance) have performed better during the Covid-19 pandemic. In a chaotic world, consumers are more likely to support charitable corporations. Furthermore, companies that have better accommodated employees during the pandemic by providing more sick leave, greater remote work opportunities, and bonuses have reaped the rewards of greater employee morale and productivity.
+
 
 
 
