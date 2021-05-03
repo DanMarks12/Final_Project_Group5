@@ -38,9 +38,9 @@ Hypothesis: there is traditionally a premium associated with smaller and newer c
 
 Hypothesis: SPACs (Special Purpose Acquisition Corporations) are essentially shell corporations that form with the intention of purchasing a private corporation. It is an alternate method of taking a corporation public with less red tape than an IPO. The SPAC has existed for several decades, but has gained a great deal of attention lately. Despite the buzz around SPACs, they have generated less return for investors than IPOs because this alternate method of going public signals to markets some underlying issue in the company’s fiscal health.
 
-#### How did tech compnies manage during covid, some flourished, while others fell. Were different subsectors of tech hit differently?
+#### How have different sub-sectors of the tech industry performed during the Covid-19 pandemic? 
 
-Hypothesis: 
+Hypothesis: certain sub-sectors of the tech industry have generated smaller returns to shareholders because of greater exposure to the economic risks associated with Covid-19. Semiconductor manufacturers suffered lower returns because of greater supply chain disruption. Meanwhile, social media companies have reaped the rewards of a world that is now fully reliant on the Internet for social interaction.
 
 #### Is there a positive correlation between a companys ethical practices and profitability?
 
