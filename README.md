@@ -51,7 +51,7 @@ Hypothesis: companies with better ESG scores (environmental, social, governance)
 
 
 ## Source Data: 
-We will be pulling data from finance.yahoo.com, finance.google.com and FactSet data sets
+We will be pulling data from finance.yahoo.com, finance.google.com, FactSet data sets, Sustainalytics, and MSCI.
 
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/Tickers.JPG)
