@@ -55,3 +55,8 @@ We will be pulling data from finance.yahoo.com, finance.google.com, FactSet data
 
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/Tickers.JPG)
+
+
+
+## Presentation
+https://docs.google.com/presentation/d/1lW8-Si68omeYsMeeIKVGWdINQx402azv0Sgm5ooQO6I/edit?usp=sharing
