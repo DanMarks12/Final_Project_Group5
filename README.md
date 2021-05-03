@@ -26,9 +26,9 @@ Database : Wengi
 
 ## Questions:
 
-#### Are tech companies' worthwhile investment with long-term growth potential?
+#### Have tech stocks outperformed other sectors since the beginning of the Covid-19 pandemic?
 
-Hypothesis: 
+Hypothesis: the large cap stocks in the tech sector have outperformed stocks in other industries during the Covid-19 pandemic as a combination of less reliance on brick-and-mortar retail and more need for electronic communication have inoculated them against the economic fallout of the pandemic.
 
 #### Start up tech compnies vs established ones when it comes to performance and profitability?
 
