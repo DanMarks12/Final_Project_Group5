@@ -50,7 +50,7 @@ Hypothesis:
 
 
 ## Source Data: 
-We will be pulling data from finance.yahoo.com, finance.google.com and FactSet data sets
+We will be pulling data from finance.yahoo.com, finance.google.com, Bloomberg and FactSet data sets
 
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/Tickers.JPG)
