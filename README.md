@@ -8,7 +8,7 @@ Kept Github up to date, created DBD to be used in other questions as well as val
 
 ##### ML using DecisionTreeClassifier
 
-![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/AAPL_ML_test1.JPG)
+![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/GOOGL_ML_test2.JPG)
 
 
 ##### Linear Regression:
