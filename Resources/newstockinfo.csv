@@ -1,0 +1,502 @@
+ticker,c_name,last_sale,market_cap,ipo_year,sector,industry
+AAOI,Applied Optoelectronics Inc. Common Stock,$7.58,202382566.0,2013.0,Technology,Semiconductors
+AAPL,Apple Inc. Common Stock,$130.21,2257495041400.0,1980.0,Technology,Computer Manufacturing
+ABM,ABM Industries Incorporated Common Stock,$52.81,3543006846.0,,Technology,Diversified Commercial Services
+ACEV,ACE Convergence Acquisition Corp. Class A Ordinary Shares,$10.04,288650000.0,2020.0,Technology,Semiconductors
+ACEVU,ACE Convergence Acquisition Corp. Unit,$11.00,0.0,2020.0,Technology,Semiconductors
+ACEVW,ACE Convergence Acquisition Corp. Warrant,$1.95,0.0,2020.0,Technology,Semiconductors
+ACIW,ACI Worldwide Inc. Common Stock,$38.33,4528019453.0,,Technology,EDP Services
+ACLS,Axcelis Technologies Inc. Common Stock,$41.02,1385432410.0,2000.0,Technology,Industrial Machinery/Components
+ACMR,ACM Research Inc. Class A Common Stock,$76.07,1447827682.0,2017.0,Technology,Industrial Machinery/Components
+ACVA,ACV Auctions Inc. Class A Common Stock,$33.08,5099317164.0,2021.0,Technology,EDP Services
+ACY,AeroCentury Corp. Common Stock,$7.82,12088813.0,,Technology,Diversified Commercial Services
+ADBE,Adobe Inc. Common Stock,$488.73,233612940000.0,1986.0,Technology,Computer Software: Prepackaged Software
+ADI,Analog Devices Inc. Common Stock,$157.26,58092404160.0,,Technology,Semiconductors
+ADSK,Autodesk Inc. Common Stock,$285.76,62885188306.0,,Technology,Computer Software: Prepackaged Software
+ADV,Advantage Solutions Inc. Class A Common Stock,$12.96,4127111559.0,2019.0,Technology,Advertising
+ADVWW,Advantage Solutions Inc. Warrant,$3.56,0.0,2019.0,Technology,Advertising
+AEYE,AudioEye Inc. Common Stock,$20.34,218413239.0,,Technology,EDP Services
+AFRM,Affirm Holdings Inc. Class A Common Stock,$54.00,13900002354.0,2021.0,Technology,EDP Services
+AGYS,Agilysys Inc. Common Stock,$52.15,1232698337.0,,Technology,Computer Software: Prepackaged Software
+AIRG,Airgain Inc. Common Stock,$21.51,215156915.0,2016.0,Technology,Radio And Television Broadcasting And Communications Equipment
+AL,Air Lease Corporation Class A Common Stock,$44.15,5037111557.0,2011.0,Technology,Diversified Commercial Services
+ALF,ALFI Inc. Common Stock,$3.70,40937351.0,2021.0,Technology,EDP Services
+ALGM,Allegro MicroSystems Inc. Common Stock,$24.79,4696062514.0,2020.0,Technology,Semiconductors
+ALKT,Alkami Technology Inc. Common Stock,$38.65,3247969949.0,2021.0,Technology,EDP Services
+ALOT,AstroNova Inc. Common Stock,$15.10,108915953.0,1983.0,Technology,Computer peripheral equipment
+ALRM,Alarm.com Holdings Inc. Common Stock,$85.07,4232932541.0,2015.0,Technology,Computer Software: Prepackaged Software
+ALTR,Altair Engineering Inc. Class A Common Stock,$65.85,4940236366.0,2017.0,Technology,Computer Software: Prepackaged Software
+AMBA,Ambarella Inc. Ordinary Shares,$92.66,3360139217.0,2012.0,Technology,Semiconductors
+AMD,Advanced Micro Devices Inc. Common Stock,$78.81,95755803119.0,,Technology,Semiconductors
+AMKR,Amkor Technology Inc. Common Stock,$20.23,4939837202.0,1998.0,Technology,Semiconductors
+AMST,Amesite Inc. Common Stock,$2.70,55446617.0,2020.0,Technology,Computer Software: Prepackaged Software
+AMSWA,American Software Inc. Class A Common Stock,$20.29,663643798.0,,Technology,Computer Software: Prepackaged Software
+AMWL,American Well Corporation Class A Common Stock,$13.93,3349194427.0,2020.0,Technology,Retail: Computer Software & Peripheral Equipment
+ANGI,Angi Inc. Class A Common Stock,$13.58,6846991743.0,,Technology,EDP Services
+ANSS,ANSYS Inc. Common Stock,$332.38,28967439834.0,1996.0,Technology,Computer Software: Prepackaged Software
+APP,Applovin Corporation Class A Common Stock,$57.26,20496520993.0,2021.0,Technology,EDP Services
+APPF,AppFolio Inc. Class A Common Stock,$130.24,4487203392.0,2015.0,Technology,EDP Services
+APPN,Appian Corporation Class A Common Stock,$88.27,6252481254.0,2017.0,Technology,EDP Services
+APPS,Digital Turbine Inc. Common Stock,$65.10,5820825751.0,,Technology,Computer Software: Prepackaged Software
+ARRY,Array Technologies Inc. Common Stock,$25.36,3220579683.0,2020.0,Technology,Semiconductors
+ARW,Arrow Electronics Inc. Common Stock,$117.50,8704085923.0,,Technology,Electronic Components
+ASGN,ASGN Incorporated Common Stock,$107.04,5694305464.0,1992.0,Technology,Diversified Commercial Services
+ASUR,Asure Software Inc Common Stock,$8.27,157332789.0,,Technology,EDP Services
+ASYS,Amtech Systems Inc. Common Stock,$9.84,139148640.0,,Technology,Semiconductors
+ATKR,Atkore Inc. Common Stock,$89.11,4186770706.0,2016.0,Technology,Electrical Products
+ATOM,Atomera Incorporated Common Stock,$15.70,361523900.0,2016.0,Technology,Semiconductors
+ATVI,Activision Blizzard Inc. Common Stock,$94.80,73661188753.0,,Technology,Computer Software: Prepackaged Software
+AUUD,Auddia Inc. Common Stock,$2.67,30149183.0,2021.0,Technology,Computer Software: Prepackaged Software
+AUUDW,Auddia Inc. Warrants,$0.5488,0.0,2021.0,Technology,Computer Software: Prepackaged Software
+AVCT,American Virtual Cloud Technologies Inc. Common Stock ,$6.52,128025612.0,2017.0,Technology,EDP Services
+AVGO,Broadcom Inc. Common Stock,$452.58,184789466701.0,2009.0,Technology,Semiconductors
+AVGOP,Broadcom Inc. 8.00% Mandatory Convertible Preferred Stock Series A,$1444.4254,0.0,,Technology,Semiconductors
+AVID,Avid Technology Inc. Common Stock,$29.94,1347347874.0,1993.0,Technology,Computer Software: Prepackaged Software
+AVLR,Avalara Inc. Common Stock,$125.63,10804648223.0,2018.0,Technology,EDP Services
+AVT,Avnet Inc. Common Stock,$44.75,4452716693.0,,Technology,Electronic Components
+AWRE,Aware Inc. Common Stock,$3.52,75659711.0,1996.0,Technology,EDP Services
+AXTI,AXT Inc Common Stock,$9.66,407520073.0,1998.0,Technology,Semiconductors
+AYX,Alteryx Inc. Class A Common Stock,$77.96,5233404750.0,2017.0,Technology,Computer Software: Prepackaged Software
+AZPN,Aspen Technology Inc. Common Stock,$127.07,8642656393.0,1994.0,Technology,EDP Services
+BAND,Bandwidth Inc. Class A Common Stock,$125.66,3151310276.0,2017.0,Technology,Computer Software: Prepackaged Software
+BBSI,Barrett Business Services Inc. Common Stock,$78.40,592245360.0,1993.0,Technology,Professional Services
+BCOV,Brightcove Inc. Common Stock,$14.09,568515874.0,2012.0,Technology,EDP Services
+BEEM,Beam Global Common Stock,$31.12,275911787.0,,Technology,Semiconductors
+BGSF,BGSF Inc. Common Stock,$13.12,135607940.0,,Technology,Diversified Commercial Services
+BHE,Benchmark Electronics Inc. Common Stock,$30.82,1116586132.0,,Technology,Electrical Products
+BIGC,BigCommerce Holdings Inc. Series 1 Common Stock,$48.43,3543631382.0,2020.0,Technology,Computer Software: Prepackaged Software
+BKTI,BK Technologies Corporation Common Stock,$4.61,57793131.0,,Technology,Radio And Television Broadcasting And Communications Equipment
+BL,BlackLine Inc. Common Stock,$107.47,6237366751.0,2016.0,Technology,Computer Software: Prepackaged Software
+BLIN,Bridgeline Digital Inc. Common Stock,$2.39,12769617.0,,Technology,EDP Services
+BLKB,Blackbaud Inc. Common Stock,$67.03,3272336967.0,2004.0,Technology,Computer Software: Prepackaged Software
+BMBL,Bumble Inc. Class A Common Stock,$57.99,6688771073.0,2021.0,Technology,Computer Software: Prepackaged Software
+BNFT,Benefitfocus Inc. Common Stock,$13.71,450155552.0,2013.0,Technology,Computer Software: Prepackaged Software
+BOMN,Boston Omaha Corporation Class A Common Stock,$27.96,826948175.0,,Technology,Advertising
+BOX,Box Inc. Class A Common Stock,$21.16,3442113747.0,2015.0,Technology,Computer Software: Prepackaged Software
+BRKS,Brooks Automation Inc.,$99.17,7360409400.0,1995.0,Technology,Industrial Machinery/Components
+BSQR,BSQUARE Corporation Common Stock,$2.50,33517573.0,1999.0,Technology,Computer Software: Prepackaged Software
+BSY,Bentley Systems Incorporated Class B Common Stock,$48.47,13358323518.0,2020.0,Technology,Retail: Computer Software & Peripheral Equipment
+BTRS,BTRS Holdings Inc. Class 1 Common Stock,$14.70,2299519530.0,2019.0,Technology,EDP Services
+CACI,CACI International Inc. Class A Common Stock,$264.31,6224692389.0,,Technology,EDP Services
+CAI,CAI International Inc. Common Stock,$44.35,767437323.0,,Technology,Diversified Commercial Services
+CALX,Calix Inc Common Stock,$48.00,3016968912.0,2010.0,Technology,Computer Software: Prepackaged Software
+CASA,Casa Systems Inc. Common Stock,$8.47,717977888.0,2017.0,Technology,Radio And Television Broadcasting And Communications Equipment
+CCMP,CMC Materials Inc. Common Stock,$166.49,4855970043.0,2000.0,Technology,Semiconductors
+CCO,Clear Channel Outdoor Holdings Inc. Common Stock,$2.56,1197719204.0,2005.0,Technology,Advertising
+CCRN,Cross Country Healthcare Inc. Common Stock $0.0001 Par Value,$16.90,633961977.0,2001.0,Technology,Professional Services
+CDAY,Ceridian HCM Holding Inc. Common Stock,$87.40,12828202385.0,2018.0,Technology,EDP Services
+CDK,CDK Global Inc. Common Stock,$53.43,6505413623.0,,Technology,Retail: Computer Software & Peripheral Equipment
+CDLX,Cardlytics Inc. Common Stock,$100.69,3310292193.0,2018.0,Technology,EDP Services
+CDNS,Cadence Design Systems Inc. Common Stock,$129.05,35910098250.0,,Technology,Computer Software: Prepackaged Software
+CDW,CDW Corporation Common Stock,$174.87,24573413169.0,2013.0,Technology,EDP Services
+CETX,Cemtrex Inc. Common Stock,$1.39,24975766.0,,Technology,EDP Services
+CETXP,Cemtrex Inc. Series 1 Preferred Stock,$2.4168,0.0,,Technology,EDP Services
+CEVA,CEVA Inc. Common Stock,$52.16,1189826454.0,,Technology,Semiconductors
+CLGX,CoreLogic Inc. Common Stock,$79.50,5852669319.0,,Technology,EDP Services
+CLIR,ClearSign Technologies Corporation Common Stock,$4.42,136580802.0,2012.0,Technology,Industrial Machinery/Components
+CLRO,ClearOne Inc. (DE) Common Stock,$2.37,44498582.0,,Technology,Radio And Television Broadcasting And Communications Equipment
+CLSK,CleanSpark Inc. Common Stock,$19.30,462506995.0,,Technology,Computer Software: Prepackaged Software
+CMTL,Comtech Telecommunications Corp. Common Stock,$23.84,621119827.0,,Technology,Radio And Television Broadcasting And Communications Equipment
+CNDT,Conduent Incorporated Common Stock ,$7.52,1597162422.0,,Technology,Retail: Computer Software & Peripheral Equipment
+CNXC,Concentrix Corporation Common Stock,$157.99,8223834511.0,,Technology,Computer Software: Prepackaged Software
+CNXN,PC Connection Inc. Common Stock,$47.02,1230741165.0,,Technology,Retail: Computer Software & Peripheral Equipment
+COIN,Coinbase Global Inc. Class A Common Stock,$263.70,52529040000.0,,Technology,EDP Services
+COMM,CommScope Holding Company Inc. Common Stock,$18.38,3738450094.0,2013.0,Technology,Radio And Television Broadcasting And Communications Equipment
+COUP,Coupa Software Incorporated Common Stock,$237.84,17457677905.0,2016.0,Technology,Computer Software: Prepackaged Software
+CPSI,Computer Programs and Systems Inc. Common Stock,$31.21,457443940.0,2002.0,Technology,EDP Services
+CREE,Cree Inc. Common Stock,$95.68,11048243369.0,1993.0,Technology,Semiconductors
+CREX,Creative Realities Inc. Common Stock,$1.23,14444710.0,,Technology,EDP Services
+CRM,Salesforce.com Inc Common Stock,$216.50,199663388860.0,2004.0,Technology,Computer Software: Prepackaged Software
+CRNC,Cerence Inc. Common Stock,$89.42,3372270349.0,,Technology,EDP Services
+CRSR,Corsair Gaming Inc. Common Stock,$33.69,3105794955.0,2020.0,Technology,Computer Manufacturing
+CRUS,Cirrus Logic Inc. Common Stock,$76.60,4446250294.0,1989.0,Technology,Semiconductors
+CRWD,CrowdStrike Holdings Inc. Class A Common Stock,$189.18,42352905002.0,2019.0,Technology,EDP Services
+CSCO,Cisco Systems Inc. Common Stock (DE),$53.43,225570001776.0,1990.0,Technology,Computer peripheral equipment
+CSGS,CSG Systems International Inc. Common Stock,$45.49,1499648814.0,1996.0,Technology,EDP Services
+CSOD,Cornerstone OnDemand Inc. Common Stock,$42.25,2796071242.0,2011.0,Technology,Computer Software: Prepackaged Software
+CSPI,CSP Inc. Common Stock,$8.65,37834806.0,1982.0,Technology,EDP Services
+CTEK,CynergisTek Inc. Common Stock,$1.82,22059670.0,2017.0,Technology,Retail: Computer Software & Peripheral Equipment
+CTG,Computer Task Group Inc. Common Stock,$10.11,153599663.0,,Technology,EDP Services
+CTSH,Cognizant Technology Solutions Corporation Class A Common Stock,$74.815,39542138563.0,1998.0,Technology,EDP Services
+CTXS,Citrix Systems Inc. Common Stock,$121.03,15027582838.0,1995.0,Technology,Computer Software: Prepackaged Software
+CUEN,Cuentas Inc. Common Stock,$2.8438,39300181.0,,Technology,Computer Software: Prepackaged Software
+CVLT,Commvault Systems Inc. Common Stock,$68.15,3202887530.0,2006.0,Technology,Computer Software: Prepackaged Software
+CVV,CVD Equipment Corporation Common Stock,$5.11,34143901.0,,Technology,Industrial Machinery/Components
+CXDO,Crexendo Inc. Common Stock,$5.375,99032284.0,,Technology,EDP Services
+CYRN,CYREN Ltd. Ordinary Shares,$0.6079,45556351.0,,Technology,Computer Software: Prepackaged Software
+DBD,Diebold Nixdorf Incorporated Common Stock,$13.69,1070262159.0,,Technology,EDP Services
+DBX,Dropbox Inc. Class A Common Stock,$24.70,9950612854.0,2018.0,Technology,Computer Software: Prepackaged Software
+DCT,Duck Creek Technologies Inc. Common Stock,$38.57,5075385493.0,2020.0,Technology,Retail: Computer Software & Peripheral Equipment
+DDD,3D Systems Corporation Common Stock,$19.21,2399267951.0,,Technology,Computer peripheral equipment
+DDOG,Datadog Inc. Class A Common Stock,$77.29,23831923914.0,2019.0,Technology,EDP Services
+DGII,Digi International Inc. Common Stock,$17.87,593450298.0,1989.0,Technology,Computer peripheral equipment
+DHX,DHI Group Inc. Common Stock,$3.10,162245760.0,2007.0,Technology,Diversified Commercial Services
+DIOD,Diodes Incorporated Common Stock,$74.56,3325375404.0,,Technology,Semiconductors
+DLB,Dolby Laboratories Common Stock,$96.64,9819876744.0,2005.0,Technology,EDP Services
+DLX,Deluxe Corporation Common Stock,$46.64,1963556826.0,,Technology,Advertising
+DMRC,Digimarc Corporation Common Stock,$30.61,517762977.0,,Technology,EDP Services
+DMS,Digital Media Solutions Inc. Class A Ordinary Shares,$11.42,699830881.0,2018.0,Technology,Advertising
+DNB,Dun & Bradstreet Holdings Inc. Common Stock,$22.58,9741881940.0,2020.0,Technology,EDP Services
+DOCU,DocuSign Inc. Common Stock,$195.28,37992918332.0,2018.0,Technology,EDP Services
+DOMO,Domo Inc. Class B Common Stock,$60.45,1914379927.0,2018.0,Technology,Computer Software: Prepackaged Software
+DSP,Viant Technology Inc. Class A Common Stock,$32.91,1939569247.0,2021.0,Technology,EDP Services
+DSPG,DSP Group Inc. Common Stock,$14.46,350319268.0,1994.0,Technology,Semiconductors
+DSS,Document Security Systems Inc. Common Stock,$2.83,78306454.0,,Technology,EDP Services
+DT,Dynatrace Inc. Common Stock,$46.78,13219738104.0,2019.0,Technology,EDP Services
+DUOT,Duos Technologies Group Inc. Common Stock,$10.13,35799572.0,,Technology,Computer Software: Prepackaged Software
+EA,Electronic Arts Inc. Common Stock,$142.42,40963698765.0,,Technology,Computer Software: Prepackaged Software
+EB,Eventbrite Inc. Class A Common Stock,$22.07,2065421480.0,2018.0,Technology,EDP Services
+EBIX,Ebix Inc. Common Stock,$30.43,941591565.0,,Technology,EDP Services
+ECOM          ,ChannelAdvisor Corporation Common Stock,$23.16,688213342.0,2013.0,Technology,Computer Software: Prepackaged Software
+EEFT,Euronet Worldwide Inc. Common Stock,$141.75,7482387575.0,1997.0,Technology,EDP Services
+EEX,Emerald Holding Inc. Common Stock,$5.05,364981549.0,2017.0,Technology,Advertising
+EFX,Equifax Inc. Common Stock,$239.56,29155057129.0,,Technology,Advertising
+EGAN,eGain Corporation Common Stock,$9.34,290053849.0,1999.0,Technology,Computer Software: Prepackaged Software
+EGHT,8x8 Inc Common Stock,$28.96,3112805391.0,,Technology,EDP Services
+EMKR,EMCORE Corporation Common Stock,$7.28,268181215.0,1997.0,Technology,Semiconductors
+ENTG,Entegris Inc. Common Stock,$114.71,15543318792.0,2000.0,Technology,Semiconductors
+ENV,Envestnet Inc Common Stock,$68.59,3732043974.0,2010.0,Technology,EDP Services
+EOSE,Eos Energy Enterprises Inc. Class A Common Stock,$11.46,593642428.0,,Technology,Electronic Components
+EOSEW,Eos Energy Enterprises Inc. Warrant,$3.86,0.0,,Technology,Electronic Components
+EPAM,EPAM Systems Inc. Common Stock,$460.20,25952299745.0,2012.0,Technology,EDP Services
+EPAY,Bottomline Technologies Inc. Common Stock,$38.68,1741366289.0,1999.0,Technology,EDP Services
+ERII,Energy Recovery Inc. Common Stock,$20.65,1185774315.0,2008.0,Technology,Industrial Machinery/Components
+ESTC,Elastic N.V. Ordinary Shares,$108.18,9710755631.0,2018.0,Technology,Computer Software: Prepackaged Software
+EVBG,Everbridge Inc. Common Stock,$114.34,4299999587.0,2016.0,Technology,Retail: Computer Software & Peripheral Equipment
+EVER,EverQuote Inc. Class A Common Stock,$31.90,917894173.0,2018.0,Technology,EDP Services
+EVOL,Evolving Systems Inc. Common Stock,$2.08,25497023.0,1998.0,Technology,EDP Services
+EVOP,EVO Payments Inc. Class A Common Stock,$28.62,1186993693.0,2018.0,Technology,EDP Services
+EXLS,ExlService Holdings Inc. Common Stock,$97.93,3276508252.0,2006.0,Technology,Retail: Computer Software & Peripheral Equipment
+EXTN,Exterran Corporation Common Stock,$3.76,124590751.0,2015.0,Technology,Diversified Commercial Services
+FB,Facebook Inc. Class A Common Stock,$319.08,904740119233.0,2012.0,Technology,Internet and Information Services
+FDS,FactSet Research Systems Inc. Common Stock,$337.05,12758074573.0,1996.0,Technology,Advertising
+FEYE,FireEye Inc. Common Stock,$19.31,4604380211.0,2013.0,Technology,Computer Software: Prepackaged Software
+FFIV,F5 Networks Inc. Common Stock,$184.28,11066382560.0,1999.0,Technology,EDP Services
+FICO,Fair Isaac Corproation Common Stock,$496.17,14278218099.0,,Technology,Computer Software: Prepackaged Software
+FISV,Fiserv Inc. Common Stock,$117.65,77857167792.0,1986.0,Technology,EDP Services
+FIVN,Five9 Inc. Common Stock,$170.14,11406701635.0,2014.0,Technology,EDP Services
+FLT,FleetCor Technologies Inc. Common Stock,$285.66,23809635310.0,2010.0,Technology,EDP Services
+FORA,Forian Inc. Common Stock,$11.00,357973088.0,,Technology,Computer Software: Prepackaged Software
+FORM,FormFactor Inc. FormFactor Inc. Common Stock,$38.69,3003222921.0,2003.0,Technology,Semiconductors
+FOUR,Shift4 Payments Inc. Class A Common Stock,$87.36,7069545887.0,2020.0,Technology,EDP Services
+FROG,JFrog Ltd. Ordinary Shares,$35.91,3356430170.0,2020.0,Technology,Computer Software: Prepackaged Software
+FSLR,First Solar Inc. Common Stock,$74.62,7932988680.0,2006.0,Technology,Semiconductors
+FSRVW,FinServ Acquisition Corp. Warrant,$3.22,0.0,2019.0,Technology,Diversified Commercial Services
+FSS,Federal Signal Corporation Common Stock,$43.07,2627589278.0,,Technology,Industrial Machinery/Components
+FTAI,Fortress Transportation and Infrastructure Investors LLC Common Shares,$28.42,2433626000.0,2015.0,Technology,Diversified Commercial Services
+FTCI,FTC Solar Inc. Common Stock,$12.40,1054747906.0,2021.0,Technology,Semiconductors
+GBOX,Greenbox POS Common Stock,$9.80,403614284.0,,Technology,EDP Services
+GDDY,GoDaddy Inc. Class A Common Stock,$81.06,13646929011.0,2015.0,Technology,EDP Services
+GDOT,Green Dot Corporation Class A Common Stock $0.001 par value,$44.79,2436083220.0,2010.0,Technology,Advertising
+GDRX,GoodRx Holdings Inc. Class A Common Stock,$34.74,13640952990.0,2020.0,Technology,Retail: Computer Software & Peripheral Equipment
+GDYN,Grid Dynamics Holdings Inc. Class A Common Stock,$15.39,782444175.0,2018.0,Technology,EDP Services
+GFN,General Finance Corporation General Finance Corporation Common Stock,$18.96,573368431.0,,Technology,Diversified Commercial Services
+GFNCP,General Finance Corporation Cumulative Redeemable Perpetual Preferred Series C,$101.684,0.0,,Technology,Diversified Commercial Services
+GFNSZ,General Finance Corporation 7.875% Senior Notes due 2025,$27.833,0.0,,Technology,Diversified Commercial Services
+GOOG,Alphabet Inc. Class C Capital Stock,$2398.69,1607515188631.0,2004.0,Technology,Internet and Information Services
+GOOGL,Alphabet Inc. Class A Common Stock,$2351.93,1576178329670.0,,Technology,Internet and Information Services
+GRPN,Groupon Inc. Common Stock,$49.76,1447087827.0,2011.0,Technology,Advertising
+GSIT,GSI Technology Common Stock,$5.88,139932022.0,2007.0,Technology,Semiconductors
+GSKY,GreenSky Inc. Class A Common Stock,$6.54,1206377844.0,2018.0,Technology,EDP Services
+GTLS,Chart Industries Inc. Common Stock,$160.14,5820854235.0,2006.0,Technology,Electrical Products
+GTYH,GTY Technology Holdings Inc. Common Stock,$5.16,296672884.0,2016.0,Technology,Computer Software: Prepackaged Software
+GVP,GSE Systems Inc. Common Stock,$1.30,26828681.0,,Technology,Computer Software: Prepackaged Software
+GWRE,Guidewire Software Inc. Common Stock,$98.70,8265062100.0,2012.0,Technology,Computer Software: Prepackaged Software
+HCKT,Hackett Group Inc (The). Common Stock,$16.79,507669022.0,,Technology,Retail: Computer Software & Peripheral Equipment
+HEES,H&E Equipment Services Inc. Common Stock,$39.97,1443918608.0,2006.0,Technology,Engineering & Construction
+HLIT,Harmonic Inc. Common Stock,$7.25,732883527.0,1995.0,Technology,Radio And Television Broadcasting And Communications Equipment
+HPQ,HP Inc. Common Stock,$35.57,44341505728.0,,Technology,Computer Manufacturing
+HQI,HireQuest Inc. Common Stock (DE),$19.60,267406054.0,,Technology,Diversified Commercial Services
+HSII,Heidrick & Struggles International Inc. Common Stock,$42.23,823431537.0,1999.0,Technology,Diversified Commercial Services
+HSON,Hudson Global Inc. Common Stock,$18.52,49773741.0,,Technology,Professional Services
+HUBS,HubSpot Inc. Common Stock,$509.66,23814258996.0,2014.0,Technology,Computer Software: Prepackaged Software
+IBM,International Business Machines Corporation Common Stock,$145.46,129971830561.0,,Technology,EDP Services
+ICHR,Ichor Holdings Ordinary Shares,$55.24,1550629556.0,2016.0,Technology,Semiconductors
+IDEX,Ideanomics Inc. Common Stock,$2.64,1106991072.0,,Technology,EDP Services
+IDN,Intellicheck Inc. Common Stock,$8.10,150609432.0,1999.0,Technology,Retail: Computer Software & Peripheral Equipment
+IEC,IEC Electronics Corp. Common Stock,$11.59,122527255.0,,Technology,Electrical Products
+IGC,India Globalization Capital Inc. Common Stock,$1.53,69410474.0,,Technology,Engineering & Construction
+III,Information Services Group Inc. Information Services Group Inc. Common Stock,$4.88,236195128.0,,Technology,Retail: Computer Software & Peripheral Equipment
+IIIV,i3 Verticals Inc. Class A Common Stock,$31.66,1016792687.0,2018.0,Technology,EDP Services
+IMMR,Immersion Corporation Common Stock,$7.90,243850698.0,1999.0,Technology,Computer peripheral equipment
+IMXI,International Money Express Inc. Common Stock,$14.50,554163262.0,2017.0,Technology,EDP Services
+INOD,Innodata Inc. Common Stock,$6.71,176451615.0,1993.0,Technology,EDP Services
+INOV,Inovalon Holdings Inc. Class A Common Stock,$30.91,4818660172.0,2015.0,Technology,EDP Services
+INPX,Inpixon Common Stock,$1.07,110136263.0,2014.0,Technology,Computer Software: Prepackaged Software
+INS,Intelligent Systems Corporation Common Stock,$37.25,330867538.0,1992.0,Technology,Retail: Computer Software & Peripheral Equipment
+INTC,Intel Corporation Common Stock,$57.67,232871460000.0,,Technology,Semiconductors
+INTT,inTest Corporation Common Stock,$12.80,136999117.0,1997.0,Technology,Semiconductors
+INTU,Intuit Inc. Common Stock,$401.04,109820745074.0,1993.0,Technology,Computer Software: Prepackaged Software
+INUV,Inuvo Inc.,$0.7173,85011673.0,,Technology,Advertising
+INVE,Identiv Inc. Common Stock,$15.63,335127378.0,,Technology,Computer peripheral equipment
+IPDN,Professional Diversity Network Inc. Common Stock,$1.60,21544035.0,2013.0,Technology,EDP Services
+IPG,Interpublic Group of Companies Inc. (The) Common Stock,$33.47,13166282939.0,,Technology,Advertising
+IPGP,IPG Photonics Corporation Common Stock,$197.30,10582873288.0,2006.0,Technology,Semiconductors
+ISDR,Issuer Direct Corporation Common Stock,$27.81,104731765.0,,Technology,EDP Services
+ISIG,Insignia Systems Inc. Common Stock,$5.37,9419141.0,1991.0,Technology,Advertising
+ISUN,iSun Inc. Common Stock,$9.56,86830220.0,2016.0,Technology,Semiconductors
+IZEA,IZEA Worldwide Inc. Common Stock,$3.55,209909335.0,,Technology,Advertising
+JAMF,Jamf Holding Corp. Common Stock,$32.99,3882607451.0,2020.0,Technology,Computer Software: Prepackaged Software
+JBL,Jabil Inc. Common Stock,$54.83,8158592311.0,1993.0,Technology,Electrical Products
+JCOM,j2 Global Inc. Common Stock,$122.10,5512749188.0,1999.0,Technology,Telecommunications Equipment
+JKHY,Jack Henry & Associates Inc. Common Stock,$156.13,11877944009.0,1985.0,Technology,Retail: Computer Software & Peripheral Equipment
+JNPR,Juniper Networks Inc. Common Stock,$27.20,8914531264.0,1999.0,Technology,Computer peripheral equipment
+JOB,GEE Group Inc. Common Stock,$0.5424,54782647.0,,Technology,Diversified Commercial Services
+KAI,Kadant Inc Common Stock,$185.56,2148372857.0,,Technology,Industrial Machinery/Components
+KBNT,Kubient Inc. Common Stock,$5.66,78524067.0,2020.0,Technology,EDP Services
+KBNTW,Kubient Inc. Warrant,$2.25,0.0,2020.0,Technology,EDP Services
+KELYA,Kelly Services Inc. Class A Common Stock,$26.51,1041514303.0,,Technology,Diversified Commercial Services
+KELYB,Kelly Services Inc. Class B Common Stock,$26.27,1032085278.0,,Technology,Diversified Commercial Services
+KFRC,Kforce Inc. Common Stock,$60.17,1328976535.0,1995.0,Technology,Diversified Commercial Services
+KFY,Korn Ferry Common Stock,$67.32,3635735689.0,1999.0,Technology,Diversified Commercial Services
+KLR,Kaleyra Inc. Common Stock,$12.28,371945076.0,2018.0,Technology,Internet and Information Services
+KNBE,KnowBe4 Inc. Class A Common Stock,$19.29,3203575215.0,2021.0,Technology,Computer Software: Prepackaged Software
+KTCC,Key Tronic Corporation Common Stock,$7.05,75855744.0,1983.0,Technology,Computer peripheral equipment
+KVHI,KVH Industries Inc. Common Stock,$14.00,258796020.0,1996.0,Technology,Radio And Television Broadcasting And Communications Equipment
+LASR,nLIGHT Inc. Common Stock,$27.02,1156046323.0,2018.0,Technology,Semiconductors
+LAZR,Luminar Technologies Inc.  Class A Common Stock,$20.84,7079224940.0,2019.0,Technology,EDP Services
+LDL,Lydall Inc. Common Stock,$39.21,706524794.0,,Technology,Industrial Machinery/Components
+LDOS,Leidos Holdings Inc. Common Stock,$104.03,14711939141.0,,Technology,EDP Services
+LEAF,Leaf Group Ltd. Common Stock,$8.50,305998181.0,,Technology,EDP Services
+LFUS,Littelfuse Inc. Common Stock,$264.32,6490438129.0,,Technology,Electronic Components
+LITE,Lumentum Holdings Inc. Common Stock,$82.93,6277801000.0,,Technology,Computer peripheral equipment
+LOGI,Logitech International S.A. Ordinary Shares,$114.56,19281249920.0,1997.0,Technology,Computer peripheral equipment
+LPSN,LivePerson Inc. Common Stock,$51.74,3563130100.0,2000.0,Technology,EDP Services
+LRCX,Lam Research Corporation Common Stock,$630.54,89927202427.0,1984.0,Technology,Industrial Machinery/Components
+LSCC,Lattice Semiconductor Corporation Common Stock,$50.55,6892428049.0,,Technology,Semiconductors
+LYFT,Lyft Inc. Class A Common Stock,$50.07,16490460969.0,2019.0,Technology,EDP Services
+MAN,ManpowerGroup Common Stock,$122.72,6742995578.0,,Technology,Professional Services
+MANH,Manhattan Associates Inc. Common Stock,$132.86,8452202582.0,1998.0,Technology,Computer Software: Prepackaged Software
+MANT,ManTech International Corporation Common Stock $0.01 Par Value,$83.61,3394192096.0,2002.0,Technology,EDP Services
+MCFE,McAfee Corp. Class A Common Stock,$22.91,9838861268.0,2020.0,Technology,Computer Software: Prepackaged Software
+MCHP,Microchip Technology Incorporated Common Stock,$149.75,40321986447.0,1993.0,Technology,Semiconductors
+MCO,Moody's Corporation Common Stock,$334.50,62618400000.0,,Technology,Advertising
+MDB,MongoDB Inc. Class A Common Stock,$260.32,15928051718.0,2017.0,Technology,Retail: Computer Software & Peripheral Equipment
+MDLA,Medallia Inc. Common Stock,$26.49,4161820244.0,2019.0,Technology,EDP Services
+MDRX,Allscripts Healthcare Solutions Inc. Common Stock,$16.23,2291110644.0,,Technology,EDP Services
+MGNI,Magnite Inc. Common Stock,$35.84,4585527834.0,,Technology,Advertising
+MGRC,McGrath RentCorp Common Stock,$82.96,2009151827.0,1984.0,Technology,Diversified Commercial Services
+MICT,MICT Inc. Common Stock,$1.59,181542944.0,,Technology,EDP Peripherals
+MITK,Mitek Systems Inc. Common Stock,$16.00,688839648.0,,Technology,Computer Software: Prepackaged Software
+MODN,Model N Inc. Common Stock,$38.09,1335029361.0,2013.0,Technology,EDP Services
+MORN,Morningstar Inc. Common Stock,$262.10,11256142406.0,2005.0,Technology,Advertising
+MOSY,MoSys Inc. Common Stock,$3.28,20118598.0,2001.0,Technology,Semiconductors
+MPWR,Monolithic Power Systems Inc. Common Stock,$342.79,15678186230.0,2004.0,Technology,Semiconductors
+MRAM,Everspin Technologies Inc. Common Stock,$5.22,100320340.0,2016.0,Technology,Electronic Components
+MRIN,Marin Software Incorporated Common Stock,$1.59,17438052.0,,Technology,Computer Software: Prepackaged Software
+MSCI,MSCI Inc Common Stock,$482.31,39753266875.0,,Technology,Advertising
+MSFT,Microsoft Corporation Common Stock,$252.46,1901421311145.0,1986.0,Technology,Computer Software: Prepackaged Software
+MSI,Motorola Solutions Inc. Common Stock,$199.07,33713560367.0,,Technology,Radio And Television Broadcasting And Communications Equipment
+MSP,Datto Holding Corp. Common Stock,$25.29,4073653541.0,2020.0,Technology,Computer Software: Prepackaged Software
+MSTR,MicroStrategy Incorporated Common Stock Class A,$620.46,6046750633.0,1998.0,Technology,Computer Software: Prepackaged Software
+MTSI,MACOM Technology Solutions Holdings Inc. Common Stock,$56.14,3855098769.0,2012.0,Technology,Semiconductors
+MU,Micron Technology Inc. Common Stock,$85.98,96419309935.0,,Technology,Semiconductors
+MXIM,Maxim Integrated Products Inc. Common Stock,$96.58,25918561703.0,1988.0,Technology,Semiconductors
+MXL,MaxLinear Inc. Common Stock,$36.32,2737729396.0,2010.0,Technology,Semiconductors
+NATI,National Instruments Corporation Common Stock,$40.45,5323504606.0,1995.0,Technology,Computer Software: Prepackaged Software
+NCMI,National CineMedia Inc. Common Stock,$4.38,347549299.0,2007.0,Technology,Advertising
+NCNO,nCino Inc. Common Stock,$56.55,5336481107.0,2020.0,Technology,Computer Software: Prepackaged Software
+NET,Cloudflare Inc. Class A Common Stock,$71.62,22243819743.0,2019.0,Technology,EDP Services
+NETE,Net Element Inc. Common Stock,$9.79,50988630.0,,Technology,EDP Services
+NEWR,New Relic Inc. Common Stock,$59.17,3731623563.0,2014.0,Technology,Computer Software: Prepackaged Software
+NLOK,NortonLifeLock Inc. Common Stock,$21.095,12275194170.0,,Technology,Computer Software: Prepackaged Software
+NOW,ServiceNow Inc. Common Stock,$483.51,95468076194.0,2012.0,Technology,Computer Software: Prepackaged Software
+NPTN,NeoPhotonics Corporation Common Stock,$9.26,475313291.0,2011.0,Technology,Semiconductors
+NSIT,Insight Enterprises Inc. Common Stock,$100.07,3534430471.0,1995.0,Technology,EDP Services
+NSP,Insperity Inc. Common Stock,$88.84,3435886200.0,,Technology,Professional Services
+NTAP,NetApp Inc. Common Stock,$79.52,17701243209.0,1995.0,Technology,Electronic Components
+NTCT,NetScout Systems Inc. Common Stock,$26.79,1967424461.0,1999.0,Technology,EDP Services
+NTNX,Nutanix Inc. Class A Common Stock,$28.62,5846537303.0,2016.0,Technology,EDP Services
+NTWK,NetSol Technologies Inc. Common  Stock,$4.25,48053390.0,,Technology,Computer Software: Prepackaged Software
+NUAN,Nuance Communications Inc. Common Stock,$52.81,15077571596.0,,Technology,Computer Software: Prepackaged Software
+NVDA,NVIDIA Corporation Common Stock,$592.49,368756068051.0,1999.0,Technology,Semiconductors
+NVEC,NVE Corporation Common Stock,$78.32,378538730.0,,Technology,Semiconductors
+OBLG,Oblong Inc. Common Stock,$4.55,121112118.0,,Technology,Computer Software: Prepackaged Software
+OKTA,Okta Inc. Class A Common Stock,$237.27,35973090994.0,2017.0,Technology,EDP Services
+OLB,The OLB Group Inc. Common Stock,$4.70,33453538.0,,Technology,EDP Services
+OLED,Universal Display Corporation Common Stock,$221.29,10428736928.0,,Technology,Semiconductors
+OMC,Omnicom Group Inc. Common Stock,$84.96,18273262304.0,,Technology,Advertising
+ON,ON Semiconductor Corporation Common Stock,$38.63,16495322903.0,,Technology,Semiconductors
+ONEM,1Life Healthcare Inc. Common Stock,$41.39,5682421138.0,2020.0,Technology,Computer Software: Prepackaged Software
+ONTO,Onto Innovation Inc. Common Stock,$66.41,3256723356.0,,Technology,Semiconductors
+ORCL,Oracle Corporation Common Stock,$80.40,231836214000.0,1986.0,Technology,Computer Software: Prepackaged Software
+OSPN,OneSpan Inc. Common Stock,$25.68,1034006895.0,,Technology,EDP Services
+OSS,One Stop Systems Inc. Common Stock,$5.24,96955206.0,2018.0,Technology,Computer Manufacturing
+PANW,Palo Alto Networks Inc. Common Stock,$342.34,33290032711.0,2012.0,Technology,EDP Services
+PAR,PAR Technology Corporation Common Stock,$78.21,1968061033.0,,Technology,Computer Software: Prepackaged Software
+PAYA,Paya Holdings Inc. Class A Common Stock,$10.13,1283445594.0,,Technology,Computer Software: Prepackaged Software
+PAYAW,Paya Holdings Inc. Warrant,$2.546,0.0,,Technology,Computer Software: Prepackaged Software
+PCTI,PCTEL Inc. Common Stock,$6.77,125370347.0,1999.0,Technology,Radio And Television Broadcasting And Communications Equipment
+PCTY,Paylocity Holding Corporation Common Stock,$168.44,9158652801.0,2014.0,Technology,Computer Software: Prepackaged Software
+PCYG,Park City Group Inc. Common Stock,$4.95,96324713.0,,Technology,EDP Services
+PDFS,PDF Solutions Inc. Common Stock,$19.09,704989424.0,2001.0,Technology,EDP Services
+PEGA,Pegasystems Inc. Common Stock,$120.22,9769940740.0,1996.0,Technology,EDP Services
+PFPT,Proofpoint Inc. Common Stock,$172.35,9882553481.0,2012.0,Technology,EDP Services
+PING,Ping Identity Holding Corp. Common Stock,$24.16,1967672544.0,2019.0,Technology,EDP Services
+PIXY,ShiftPixy Inc. Common Stock,$2.54,53123201.0,2017.0,Technology,Diversified Commercial Services
+PLAB,Photronics Inc. Common Stock,$13.20,836678885.0,1987.0,Technology,Semiconductors
+PLAN,Anaplan Inc. Common Stock,$54.61,7895706573.0,2018.0,Technology,Computer Software: Prepackaged Software
+PLUS,ePlus inc. Common Stock,$102.31,1381527943.0,1996.0,Technology,Retail: Computer Software & Peripheral Equipment
+PLXS,Plexus Corp. Common Stock,$95.16,2727190440.0,,Technology,Electrical Products
+POWI,Power Integrations Inc. Common Stock,$82.48,5002839824.0,1997.0,Technology,Semiconductors
+PRAA,PRA Group Inc. Common Stock,$39.27,1798534780.0,2002.0,Technology,Advertising
+PRCH,Porch Group Inc. Common Stock,$12.63,1213922359.0,2020.0,Technology,Computer Software: Prepackaged Software
+PRFT,Perficient Inc. Common Stock,$68.62,2267671896.0,1999.0,Technology,EDP Services
+PRG,PROG Holdings Inc. Common Stock,$55.81,3758786534.0,,Technology,Diversified Commercial Services
+PRGS,Progress Software Corporation Common Stock (DE),$44.17,1943614939.0,1991.0,Technology,Computer Software: Prepackaged Software
+PRO,PROS Holdings Inc. Common Stock,$39.41,1743318178.0,2007.0,Technology,EDP Services
+PRTH,Priority Technology Holdings Inc. Common Stock,$6.55,443966480.0,2016.0,Technology,EDP Services
+PRVA,Privia Health Group Inc. Common Stock,$32.47,3432430228.0,2021.0,Technology,Retail: Computer Software & Peripheral Equipment
+PTC,PTC Inc. Common Stock,$131.16,15320854425.0,,Technology,Computer Software: Prepackaged Software
+PUBM,PubMatic Inc. Class A Common Stock,$44.62,2134018608.0,2020.0,Technology,Computer Software: Prepackaged Software
+PXLW,Pixelworks Inc.  Common Stock,$3.35,174911610.0,2000.0,Technology,Semiconductors
+QADA,QAD Inc. Class A Common Stock,$69.92,1448128153.0,,Technology,Computer Software: Prepackaged Software
+QADB,QAD Inc. Class B Common Stock,$49.10,1016920657.0,,Technology,Computer Software: Prepackaged Software
+QCOM,QUALCOMM Incorporated Common Stock,$137.85,155494800000.0,1991.0,Technology,Computer peripheral equipment
+QLYS,Qualys Inc. Common Stock,$97.93,3838058752.0,2012.0,Technology,EDP Services
+QMCO,Quantum Corporation Common Stock,$9.30,526967825.0,,Technology,Electronic Components
+QNST,QuinStreet Inc. Common Stock,$18.66,994512709.0,2010.0,Technology,Advertising
+QUIK,QuickLogic Corporation Common Stock,$6.22,70101204.0,1999.0,Technology,Semiconductors
+QUMU,Qumu Corporation Common Stock,$5.40,94987318.0,,Technology,Retail: Computer Software & Peripheral Equipment
+RAMP,LiveRamp Holdings Inc. Common Stock,$49.55,3315856815.0,2018.0,Technology,EDP Services
+RBBN,Ribbon Communications Inc. Common Stock,$6.90,1016835536.0,,Technology,EDP Services
+RBCN,Rubicon Technology Inc. Common Stock,$10.695,25906017.0,2007.0,Technology,Semiconductors
+RCAT,Red Cat Holdings Inc. Common Stock,$3.84,105449956.0,,Technology,Retail: Computer Software & Peripheral Equipment
+RCII,Rent-A-Center Inc. Common Stock,$59.38,3937386082.0,1995.0,Technology,Diversified Commercial Services
+RDVT,Red Violet Inc. Common Stock ,$19.30,235615886.0,,Technology,Computer Software: Prepackaged Software
+REKR,Rekor Systems Inc. Common Stock,$18.91,771607781.0,,Technology,EDP Services
+RELL,Richardson Electronics Ltd. Common Stock,$7.47,98661175.0,1983.0,Technology,Electronic Components
+RESN,Resonant Inc. Common Stock,$2.93,176562160.0,2014.0,Technology,Semiconductors
+RHI,Robert Half International Inc. Common Stock,$90.32,10186343069.0,,Technology,Diversified Commercial Services
+RIOT,Riot Blockchain Inc.  Common Stock ,$33.39,2809592601.0,,Technology,Retail: Computer Software & Peripheral Equipment
+RMBS,Rambus Inc. Common Stock,$19.36,2177896540.0,1997.0,Technology,Semiconductors
+RMNI,Rimini Street Inc. (DE) Common Stock,$7.83,665200320.0,2015.0,Technology,EDP Services
+RNWK,RealNetworks Inc. Common Stock,$2.50,117131125.0,1997.0,Technology,EDP Services
+ROL,Rollins Inc. Common Stock,$37.12,18267624914.0,,Technology,Industrial Specialties
+RPAY,Repay Holdings Corporation Class A Common Stock,$21.49,1728919626.0,2018.0,Technology,EDP Services
+RPD,Rapid7 Inc. Common Stock,$75.21,4143453827.0,2015.0,Technology,Computer Software: Prepackaged Software
+RSSS,Research Solutions Inc Common Stock,$2.25,59124778.0,,Technology,Retail: Computer Software & Peripheral Equipment
+RXN,Rexnord Corporation Common Stock,$52.46,6280566808.0,2012.0,Technology,Industrial Machinery/Components
+RXT,Rackspace Technology Inc. Common Stock,$23.72,4890522876.0,2020.0,Technology,EDP Services
+SABR,Sabre Corporation Common Stock,$12.97,4143441582.0,2014.0,Technology,EDP Services
+SABRP,Sabre Corporation 6.50% Series A Mandatory Convertible Preferred Stock,$166.42,,,Technology,EDP Services
+SAIL,SailPoint Technologies Holdings Inc. Common Stock,$46.30,4257780873.0,2017.0,Technology,Computer Software: Prepackaged Software
+SANM,Sanmina Corporation Common Stock,$42.00,2726915898.0,1993.0,Technology,Electrical Products
+SATS,EchoStar  Corporation Common Stock,$26.71,2482572168.0,,Technology,Radio And Television Broadcasting And Communications Equipment
+SCKT,Socket Mobile Inc. Common Stock,$5.42,37622301.0,,Technology,Computer Manufacturing
+SCPL,SciPlay Corporation Class A Common Stock,$18.16,442803888.0,2019.0,Technology,Computer Software: Prepackaged Software
+SCSC,ScanSource Inc. Common Stock,$32.31,822346559.0,,Technology,Retail: Computer Software & Peripheral Equipment
+SCWX,SecureWorks Corp. Class A Common Stock,$13.22,1097646804.0,2016.0,Technology,EDP Services
+SDGR,Schrodinger Inc. Common Stock,$68.37,4819436032.0,2020.0,Technology,Computer Software: Prepackaged Software
+SE,Sea Limited American Depositary Shares each representing one Class A Ordinary Share,$240.28,124846739918.0,2017.0,Technology,Computer Software: Prepackaged Software
+SEAC,SeaChange International Inc. Common Stock,$1.08,51992155.0,1996.0,Technology,Radio And Television Broadcasting And Communications Equipment
+SGH,SMART Global Holdings Inc. Ordinary Shares,$47.67,1136942562.0,2017.0,Technology,Semiconductors
+SGLB,Sigma Labs Inc. Common Stock,$3.50,20405000.0,,Technology,EDP Services
+SGMA,SigmaTron International Inc. Common Stock,$5.07,21585566.0,1994.0,Technology,Electrical Products
+SHLS,Shoals Technologies Group Inc. Class A Common Stock,$28.78,4795098281.0,2021.0,Technology,Semiconductors
+SHSP,SharpSpring Inc. Common Stock,$15.78,202524497.0,,Technology,Retail: Computer Software & Peripheral Equipment
+SITM,SiTime Corporation Common Stock,$90.63,1707445455.0,2019.0,Technology,Semiconductors
+SKYT,SkyWater Technology Inc. Common Stock,$20.25,790959796.0,2021.0,Technology,Semiconductors
+SLAB,Silicon Laboratories Inc. Common Stock,$135.22,6050952478.0,2000.0,Technology,Semiconductors
+SLP,Simulations Plus Inc. Common Stock,$57.09,1147959726.0,,Technology,Computer Software: Prepackaged Software
+SMAR,Smartsheet Inc. Class A Common Stock,$55.95,6648730185.0,2018.0,Technology,EDP Services
+SMCI,Super Micro Computer Inc. Common Stock,$36.39,1813181532.0,2020.0,Technology,Computer Manufacturing
+SMSI,Smith Micro Software Inc. Common Stock,$5.09,270776359.0,1995.0,Technology,Computer Software: Prepackaged Software
+SMTC,Semtech Corporation Common Stock,$64.01,4157423768.0,,Technology,Semiconductors
+SNAP,Snap Inc. Class A Common Stock,$54.70,83334947143.0,2017.0,Technology,Internet and Information Services
+SNCR,Synchronoss Technologies Inc. Common Stock,$3.13,138266908.0,2018.0,Technology,EDP Services
+SNOW,Snowflake Inc. Class A Common Stock,$206.04,59483748000.0,2020.0,Technology,Computer Software: Prepackaged Software
+SNPS,Synopsys Inc. Common Stock,$241.84,36849925498.0,1992.0,Technology,EDP Services
+SNX,Synnex Corporation Common Stock,$123.50,6403745836.0,2003.0,Technology,EDP Services
+SOGO,Sogou Inc. American Depositary Shares each representing one Class A Ordinary Share,$8.46,3279019149.0,2017.0,Technology,EDP Services
+SPGI,S&P Global Inc. Common Stock,$390.71,94122039000.0,,Technology,Advertising
+SPLK,Splunk Inc. Common Stock,$117.82,19311012344.0,2012.0,Technology,Computer Software: Prepackaged Software
+SPRT,Support.com Inc. Common Stock,$3.08,74194462.0,2000.0,Technology,EDP Services
+SPSC,SPS Commerce Inc. Common Stock,$98.36,3527505336.0,2010.0,Technology,EDP Services
+SPT,Sprout Social Inc Class A Common Stock,$63.82,3417158615.0,2019.0,Technology,EDP Services
+SPWR,SunPower Corporation Common Stock,$23.37,4025799537.0,2005.0,Technology,Semiconductors
+SQ,Square Inc. Class A Common Stock,$233.35,106259107027.0,2015.0,Technology,Computer Software: Prepackaged Software
+SRAX,SRAX Inc. Class A Common Stock,$4.16,96452782.0,,Technology,Advertising
+SREV,ServiceSource International Inc. Common Stock,$1.44,140181876.0,2011.0,Technology,Retail: Computer Software & Peripheral Equipment
+SRNGW,Soaring Eagle Acquisition Corp. Warrant,$2.35,0.0,2021.0,Technology,Computer Communications Equipment
+SSNC,SS&C Technologies Holdings Inc. Common Stock,$73.35,18754084357.0,2010.0,Technology,EDP Services
+SSNT,SilverSun Technologies Inc. Common Stock,$7.39,33264393.0,,Technology,Computer Software: Prepackaged Software
+SSPK,Silver Spike Acquisition Corp. Class A Ordinary Shares,$15.92,497477314.0,2019.0,Technology,Computer Software: Prepackaged Software
+SSPKU,Silver Spike Acquisition Corp. Units,$18.70,0.0,2019.0,Technology,Computer Software: Prepackaged Software
+SSTI,ShotSpotter Inc. Common Stock,$31.39,366500882.0,2017.0,Technology,Computer Software: Prepackaged Software
+SSYS,Stratasys Ltd. Ordinary Shares (Israel),$20.05,1274224978.0,1994.0,Technology,Computer peripheral equipment
+STAF,Staffing 360 Solutions Inc. Common Stock (DE),$0.5946,23288418.0,,Technology,Diversified Commercial Services
+STMP,Stamps.com Inc.  Common Stock ($0.001 Par Value),$185.90,3413039973.0,1999.0,Technology,EDP Services
+STRM,Streamline Health Solutions Inc. Common Stock,$2.06,87173928.0,,Technology,EDP Services
+SUMO,Sumo Logic Inc. Common Stock,$17.50,1797314435.0,2020.0,Technology,Retail: Computer Software & Peripheral Equipment
+SUNW,Sunworks Inc. Common Stock,$9.32,154982205.0,,Technology,Semiconductors
+SVMK,SVMK Inc. Common Stock,$18.49,2692842460.0,2018.0,Technology,EDP Services
+SWI,SolarWinds Corporation Common Stock,$16.82,5310166090.0,2018.0,Technology,Computer Software: Prepackaged Software
+SWKS,Skyworks Solutions Inc. Common Stock,$175.12,28911004204.0,,Technology,Semiconductors
+SYKE,Sykes Enterprises Incorporated Common Stock,$43.30,1721993846.0,1996.0,Technology,EDP Services
+SYNA,Synaptics Incorporated Common Stock $0.001 Par Value,$130.83,4572817390.0,2002.0,Technology,Computer peripheral equipment
+SYX,Systemax Inc. Common Stock,$34.78,1311870263.0,,Technology,Industrial Machinery/Components
+TACT,TransAct Technologies Incorporated Common Stock,$12.69,113772715.0,1996.0,Technology,Computer peripheral equipment
+TAIT,Taitron Components Incorporated Class A Common Stock,$4.49,26153563.0,1995.0,Technology,Electronic Components
+TBI,TrueBlue Inc. Common Stock,$28.22,1001001187.0,,Technology,Professional Services
+TDC,Teradata Corporation Common Stock,$40.54,4440082406.0,,Technology,EDP Services
+TENB,Tenable Holdings Inc. Common Stock,$37.10,3917429736.0,2018.0,Technology,EDP Services
+TLS,Telos Corporation Common Stock,$31.08,2072261207.0,2020.0,Technology,EDP Services
+TPIC,TPI Composites Inc. Common Stock,$48.12,1806104128.0,2016.0,Technology,Industrial Machinery/Components
+TRKA,Troika Media Group Inc. Common Stock,$2.17,84247388.0,2021.0,Technology,Advertising
+TRKAW,Troika Media Group Inc. Warrant,$0.42,0.0,2021.0,Technology,Advertising
+TRNS,Transcat Inc. Common Stock,$49.06,365290801.0,,Technology,Industrial Machinery/Components
+TRS,TriMas Corporation Common Stock,$33.56,1448571087.0,2007.0,Technology,Industrial Machinery/Components
+TRT,Trio-Tech International Common Stock,$5.16,19146464.0,,Technology,Industrial Machinery/Components
+TRU,TransUnion Common Stock,$106.21,20315065714.0,2015.0,Technology,Advertising
+TSQ,Townsquare Media Inc. Class A Common Stock,$10.35,166824198.0,2014.0,Technology,Advertising
+TSRI,TSR Inc. Common Stock,$8.9999,17658362.0,,Technology,EDP Services
+TTD,The Trade Desk Inc. Class A Common Stock,$661.43,31438119119.0,2016.0,Technology,EDP Services
+TTEC,TTEC Holdings Inc. Common Stock,$101.53,4753580586.0,1996.0,Technology,Retail: Computer Software & Peripheral Equipment
+TTMI,TTM Technologies Inc. Common Stock,$15.09,1613214965.0,2000.0,Technology,Electrical Products
+TTWO,Take-Two Interactive Software Inc. Common Stock,$170.07,19588262936.0,1997.0,Technology,Computer Software: Prepackaged Software
+TXN,Texas Instruments Incorporated Common Stock,$187.76,173400776678.0,,Technology,Semiconductors
+TYL,Tyler Technologies Inc. Common Stock,$399.87,16280802219.0,,Technology,Computer Software: Prepackaged Software
+TZOO,Travelzoo Common Stock,$17.45,200146352.0,,Technology,EDP Services
+U,Unity Software Inc. Common Stock,$89.42,24977535424.0,2020.0,Technology,Retail: Computer Software & Peripheral Equipment
+UCTT,Ultra Clean Holdings Inc. Common Stock,$50.14,2222154409.0,2004.0,Technology,Semiconductors
+UI,Ubiquiti Inc. Common Stock,$280.39,17611066541.0,,Technology,Radio And Television Broadcasting And Communications Equipment
+UIS,Unisys Corporation New Common Stock,$23.87,1598760611.0,,Technology,EDP Services
+ULBI,Ultralife Corporation Common Stock,$7.83,125254725.0,1992.0,Technology,Electronic Components
+UPLD,Upland Software Inc. Common Stock,$44.20,1330407491.0,2014.0,Technology,EDP Services
+URI,United Rentals Inc. Common Stock,$347.33,25139100061.0,1997.0,Technology,Diversified Commercial Services
+USIO,Usio Inc. Common Stock,$6.03,150934928.0,,Technology,EDP Services
+VALU,Value Line Inc. Common Stock,$28.74,275162134.0,1983.0,Technology,Advertising
+VECO,Veeco Instruments Inc. Common Stock,$22.67,1137639746.0,1994.0,Technology,Semiconductors
+VERB,Verb Technology Company Inc. Common Stock,$1.10,68697013.0,,Technology,EDP Services
+VERI,Veritone Inc. Common Stock,$19.96,652363039.0,2017.0,Technology,EDP Services
+VERX,Vertex Inc. Class A Common Stock,$17.39,2567502571.0,2020.0,Technology,EDP Services
+VIAV,Viavi Solutions Inc. Common Stock,$16.36,3742022424.0,,Technology,Radio And Television Broadcasting And Communications Equipment
+VMW,Vmware Inc. Common stock Class A,$163.41,68468192410.0,2007.0,Technology,Computer Software: Prepackaged Software
+VOLT,Volt Information Sciences Inc. Common Stock,$3.89,84555277.0,,Technology,Diversified Commercial Services
+VRNS,Varonis Systems Inc. Common Stock,$47.69,5062397035.0,2014.0,Technology,Computer Software: Prepackaged Software
+VRNT,Verint Systems Inc. Common Stock,$46.67,3070256375.0,2002.0,Technology,EDP Services
+VRSN,VeriSign Inc. Common Stock,$222.89,25101605224.0,1998.0,Technology,EDP Services
+VSAT,ViaSat Inc. Common Stock,$49.58,3397646005.0,1996.0,Technology,Radio And Television Broadcasting And Communications Equipment
+WDAY,Workday Inc. Class A Common Stock,$236.71,57743142263.0,,Technology,Computer Software: Prepackaged Software
+WDC,Western Digital Corporation Common Stock,$71.65,21931862875.0,,Technology,Electronic Components
+WEX,WEX Inc. common stock,$196.40,8756024604.0,,Technology,EDP Services
+WFCF,Where Food Comes From Inc. Common Stock,$13.8559,84921356.0,,Technology,Computer Software: Prepackaged Software
+WISA,Summit Wireless Technologies Inc. Common Stock,$2.98,33175008.0,2018.0,Technology,Electronic Components
+WK,Workiva Inc. Class A Common Stock,$90.33,4515949439.0,2014.0,Technology,Computer Software: Prepackaged Software
+WSC,WillScot Mobile Mini Holdings Corp. Class A Common Stock,$29.37,6656620099.0,2015.0,Technology,Diversified Commercial Services
+WSTG,Wayside Technology Group Inc. Common Stock,$24.40,107604854.0,,Technology,Retail: Computer Software & Peripheral Equipment
+WTRH,Waitr Holdings Inc. Common Stock,$2.13,245782308.0,2016.0,Technology,Computer Software: Prepackaged Software
+WYY,WidePoint Corporation Common Stock,$7.85,71210105.0,,Technology,EDP Services
+XELA,Exela Technologies Inc. Common Stock,$1.67,98850660.0,2015.0,Technology,Retail: Computer Software & Peripheral Equipment
+XLNX,Xilinx Inc. Common Stock,$124.43,30579806431.0,1990.0,Technology,Semiconductors
+XM,Qualtrics International Inc. Class A Common Stock,$35.61,18248435875.0,2021.0,Technology,Computer Software: Prepackaged Software
+XPER,Xperi Holding Corporation Common Stock,$20.89,2197924011.0,,Technology,Semiconductors
+XRX,Xerox Holdings Corporation Common Stock,$24.47,4696951483.0,,Technology,EDP Services
+YELP,Yelp Inc. Common Stock,$39.46,2960906670.0,2012.0,Technology,Internet and Information Services
+YEXT,Yext Inc. Common Stock,$13.20,1664605945.0,2017.0,Technology,EDP Services
+ZBRA,Zebra Technologies Corporation Class A Common Stock,$488.58,26138668939.0,1991.0,Technology,Computer peripheral equipment
+ZI,ZoomInfo Technologies Inc. Class A Common Stock,$42.98,16820641281.0,2020.0,Technology,Computer Software: Prepackaged Software
+ZIXI,Zix Corporation Common Stock,$7.10,405111857.0,,Technology,Retail: Computer Software & Peripheral Equipment
+ZNGA,Zynga Inc. Class A Common Stock,$10.99,11924345699.0,2011.0,Technology,EDP Services
+ZS,Zscaler Inc. Common Stock,$169.32,23017400252.0,2018.0,Technology,EDP Services
