@@ -1,6 +1,6 @@
-﻿Ticker,MSCI ESG '17,MSCI ESG '18,MSCI ESG '19,MSCI ESG '20,MSCI ESG  '21,Sustainalytics,Sustainalytics Exposure,Sustainalytics Management
-AAPL,A,A,A,BBB,BBB,16.9,Low,Strong
-GOOG,A,A,AA,AA,BBB,22.3,Medium,Average
-FB,BBB,BB,BBB,BBB,B,24.8,Medium,Average
-MSFT,AAA,AAA,AAA,AAA,AAA,14.6,Low,Strong
-AMZN,BB,BB,BBB,BBB,BBB,27.3,Medium,Average
+﻿Ticker,MSCI ESG 2017,MSCI ESG 2018,MSCI ESG 2019,MSCI ESG 2020,MSCI ESG 2021,Sustainalytics,Sustainalytics Exposure,Sustainalytics Management,2019-2021 Return
+AAPL,A,A,A,BBB,BBB,16.9,Low,Strong,3.383485395
+GOOG,A,A,AA,AA,BBB,22.3,Medium,Average,2.27557486
+FB,BBB,BB,BBB,BBB,B,24.8,Medium,Average,2.263414082
+MSFT,AAA,AAA,AAA,AAA,AAA,14.6,Low,Strong,2.517404971
+AMZN,BB,BB,BBB,BBB,BBB,27.3,Medium,Average,2.24704865
