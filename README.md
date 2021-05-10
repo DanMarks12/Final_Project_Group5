@@ -8,7 +8,7 @@ The uncertainty that COVID has brought to various industries around the world ha
 
 Communication Protocals
 Roles
-WEEK 1:
+WEEK 1
 Github: Dan Marks
 
 MI : Lauren Valencia
@@ -34,8 +34,8 @@ Hypothesis: Blue chip companies will have safer more controlled growth whereas s
 The Rise of SPACs: Which has been more succesful SPACs or IPO during covid
 Hypothesis:
 
-How did tech compnies manage during covid, some flourished, while others fell. Were different subsectors of tech hit differently?
-Hypothesis: Tech stocks have surged during covid and helped the stock market rise. The pandemic has fueled the tech stocks while hurting other industries like the airline industry.
+How did tech companies manage during covid, some flourished, while others fell? Were different subsectors of tech hit differently?
+Hypothesis: Tech stocks have surged during covid and helped the stock market rise. The pandemic has fueled the tech stocks while hurting other industries like the airline industry. Overall analysis of tech stock booming and airline stocks trending downwards. The surge in demand was from cloud software and the at homework environment. While the airline industry was hurt while from people staying home and not traveling. 
 
 Is there a positive correlation between a companys ethical practices and profitability?
 Hypothesis:
