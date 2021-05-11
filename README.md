@@ -24,6 +24,10 @@ Kept Github up to date, created DBD to be used in other questions as well as val
 ## Stocks for my question
 
 Our top 5 bluechip/recent ipo/SPAC companies were chosen because of two metrics: Tech sector and highest market cap as of 5/1/2021
+As seen below how I came to chose the top 5 stocks in Tech sector
 
-![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/Tickers.JPG)
+![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/IPO_marketcap.png)
+
+![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/Bluechip_marketcap.png)
+
 
