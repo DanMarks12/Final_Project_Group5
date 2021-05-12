@@ -59,3 +59,7 @@ Our top 5 bluechip/recent ipo/SPAC companies were chosen because of two metrics:
 
 ## Database Design
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/DBD_outline.JPG)
+
+
+## Presentation
+https://docs.google.com/presentation/d/1lW8-Si68omeYsMeeIKVGWdINQx402azv0Sgm5ooQO6I/edit?usp=sharing
