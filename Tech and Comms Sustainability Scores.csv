@@ -1,0 +1,99 @@
+﻿Name,Ticker,Sustainalytics Score,Sector
+Apple Inc.,AAPL,16.9,Tech
+Microsoft Corporation,MSFT,14.6,Tech
+Visa Inc. Class A,V,17.4,Tech
+NVIDIA Corporation,NVDA,13.3,Tech
+Mastercard Incorporated Class A,MA,16.3,Tech
+PayPal Holdings Inc,PYPL,17.7,Tech
+Intel Corporation,INTC,16.9,Tech
+Adobe Inc.,ADBE,10.9,Tech
+Cisco Systems Inc.,CSCO,12.5,Tech
+salesforce.com inc.,CRM,11.3,Tech
+Broadcom Inc.,AVGO,25.5,Tech
+Accenture Plc Class A,ACN,11.3,Tech
+Texas Instruments Incorporated,TXN,19.9,Tech
+Qualcomm Inc,QCOM,19.1,Tech
+Oracle Corporation,ORCL,18.2,Tech
+International Business Machines Corporation,IBM,18,Tech
+Applied Materials Inc.,AMAT,12.3,Tech
+Intuit Inc.,INTU,16.6,Tech
+ServiceNow Inc.,NOW,17.1,Tech
+Micron Technology Inc.,MU,17.9,Tech
+Advanced Micro Devices Inc.,AMD,18.4,Tech
+Fidelity National Information Services Inc.,FIS,18.6,Tech
+Lam Research Corporation,LRCX,14.7,Tech
+Automatic Data Processing Inc.,ADP,12.6,Tech
+Fiserv Inc.,FISV,19.8,Tech
+Autodesk Inc.,ADSK,15.3,Tech
+Global Payments Inc.,GPN,18.5,Tech
+Analog Devices Inc.,ADI,25.5,Tech
+NXP Semiconductors NV,NXPI,19.9,Tech
+KLA Corporation,KLAC,19.5,Tech
+TE Connectivity Ltd.,TEL,16.1,Tech
+Cognizant Technology Solutions Corporation Class A,CTSH,17.5,Tech
+HP Inc.,HPQ,10.2,Tech
+Microchip Technology Incorporated,MCHP,31.5,Tech
+Amphenol Corporation Class A,APH,23.8,Tech
+Cadence Design Systems Inc.,CDNS,12.9,Tech
+Synopsys Inc.,SNPS,14.4,Tech
+Corning Inc,GLW,20,Tech
+ANSYS Inc.,ANSS,14.9,Tech
+Motorola Solutions Inc.,MSI,14.4,Tech
+Paychex Inc.,PAYX,15.9,Tech
+Xilinx Inc.,XLNX,18.8,Tech
+Skyworks Solutions Inc.,SWKS,32.8,Tech
+Fortinet Inc.,FTNT,19.5,Tech
+Zebra Technologies Corporation Class A,ZBRA,12.9,Tech
+Keysight Technologies Inc,KEYS,9.3,Tech
+CDW Corp.,CDW,10.8,Tech
+Maxim Integrated Products Inc.,MXIM,21.9,Tech
+FLEETCOR Technologies Inc.,FLT,18.5,Tech
+VeriSign Inc.,VRSN,22.2,Tech
+Qorvo Inc.,QRVO,32.2,Tech
+Western Digital Corporation,WDC,12.1,Tech
+Teradyne Inc.,TER,18.7,Tech
+Hewlett Packard Enterprise Co.,HPE,11.7,Tech
+Trimble Inc.,TRMB,12.9,Tech
+Enphase Energy Inc.,ENPH,29.7,Tech
+Paycom Software Inc.,PAYC,19.3,Tech
+Broadridge Financial Solutions Inc.,BR,15,Tech
+Tyler Technologies Inc.,TYL,19.8,Tech
+Akamai Technologies Inc.,AKAM,21.3,Tech
+Arista Networks Inc.,ANET,17.6,Tech
+Citrix Systems Inc.,CTXS,14.2,Tech
+Gartner Inc.,IT,23.5,Tech
+NetApp Inc.,NTAP,16.4,Tech
+Seagate Technology PLC,STX,10.7,Tech
+Monolithic Power Systems Inc.,MPWR,21.1,Tech
+PTC Inc.,PTC,19.6,Tech
+F5 Networks Inc.,FFIV,19.1,Tech
+NortonLifeLock Inc.,NLOK,17.1,Tech
+Jack Henry & Associates Inc.,JKHY,16.3,Tech
+Western Union Company,WU,16.4,Tech
+Juniper Networks Inc.,JNPR,16,Tech
+DXC Technology Co.,DXC,13.9,Tech
+IPG Photonics Corporation,IPGP,12.2,Tech
+FLIR Systems Inc.,FLIR,14.3,Tech
+Activision Blizzard,ATVI,16.1,Communication Services
+Charter Communicatio,CHTR,20.5,Communication Services
+Comcast Corp A,CMCSA,19.4,Communication Services
+Walt Disney Company,DIS,16.3,Communication Services
+Discovery Comm A,DISCA,17,Communication Services
+Discovery Comm Inc,DISCK,14.2,Communication Services
+Dish Network Corp,DISH,22.5,Communication Services
+Electronic Arts Inc,EA,12.7,Communication Services
+Facebook Inc,FB,24.8,Communication Services
+Fox Corp Cl A,FOXA,17,Communication Services
+Alphabet Cl A,GOOGL,22.3,Communication Services
+Interpublic Group of Companies,IPG,15.5,Communication Services
+Centurylink,LUMN,25.8,Communication Services
+Live Nation Entertainment,LYV,15.4,Communication Services
+Netflix Inc,NFLX,17.4,Communication Services
+News Cp Cl A,NWSA,13.4,Communication Services
+Omnicom Group Inc,OMC,18.5,Communication Services
+AT&T Inc,T,19.1,Communication Services
+T-Mobile US,TMUS,26.7,Communication Services
+Take-Two Interacti,TTWO,17.3,Communication Services
+Twitter Inc,TWTR,24.9,Communication Services
+Viacom CBS Cl B,VIAC,16.1,Communication Services
+Verizon Communications Inc,VZ,18.1,Communication Services
