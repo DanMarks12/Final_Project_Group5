@@ -62,7 +62,7 @@ Our top 5 bluechip/recent ipo/SPAC companies were chosen because of two metrics:
 
 ## Analysis 
 
-# IPO vs SPACs 
+### IPO vs SPACs 
 
 There are plenty of reasons why a company would want to go public, a couple being: liquidity and raise funds and open channels for higher revenues in the future. An IPO stands for “Initial Public Offering” and it involves a journey of working with investors, risk assessors, underwriters, etc. to invest money into the company so it can be taken public. A SPAC stands for “Special Purpose Acquisition Company” which is a shell company that saves its money until it figures out what it wants to spend its money on. SPACs have becoming popular in more recent times as it costs less time and money for companies to go public. However, a SPAC has a time limit of one to two years to acquire a target company before it delists off the market and is forced to give back all the investor money. 
 
