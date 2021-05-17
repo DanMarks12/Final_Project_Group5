@@ -42,10 +42,103 @@ Hypothesis: SPACs (Special Purpose Acquisition Corporations) are essentially she
 
 Hypothesis: certain sub-sectors of the tech industry have generated smaller returns to shareholders because of greater exposure to the economic risks associated with Covid-19. Semiconductor manufacturers suffered lower returns because of greater supply chain disruption. Meanwhile, social media companies have reaped the rewards of a world that is now fully reliant on the Internet for social interaction.
 
+## Questions:
+
+#### Have tech stocks outperformed other sectors since the beginning of the Covid-19 pandemic?
+
+Hypothesis: the large cap stocks in the tech sector have outperformed stocks in other industries during the Covid-19 pandemic as a combination of less reliance on brick-and-mortar retail and more need for electronic communication have inoculated them against the economic fallout of the pandemic.
+
+#### Have established tech companies outperformed their younger rivals during the Covid-19 pandemic?
+
+Hypothesis: there is traditionally a premium associated with smaller and newer companies as they have more room to grow. However, they are also riskier investments. During the Covid-19 pandemic, blue chip stocks outperformed their less-established counterparts because they had more cash on-hand to survive the economic disruption of the pandemic. 
+
+#### Have SPACs overtaken IPOs for investor returns in the tech sector?
+
+Hypothesis: SPACs (Special Purpose Acquisition Corporations) are essentially shell corporations that form with the intention of purchasing a private corporation. It is an alternate method of taking a corporation public with less red tape than an IPO. The SPAC has existed for several decades, but has gained a great deal of attention lately. Despite the buzz around SPACs, they have generated less return for investors than IPOs because this alternate method of going public signals to markets some underlying issue in the company’s fiscal health.
+
+#### How have different sub-sectors of the tech industry performed during the Covid-19 pandemic? 
+
+Hypothesis: certain sub-sectors of the tech industry have generated smaller returns to shareholders because of greater exposure to the economic risks associated with Covid-19. Semiconductor manufacturers suffered lower returns because of greater supply chain disruption. Meanwhile, social media companies have reaped the rewards of a world that is now fully reliant on the Internet for social interaction.
+
 #### Have tech stocks with higher ESG scores generated higher returns during the Covid-19 pandemic?
 
 Hypothesis: companies with better ESG scores (environmental, social, governance) have performed better during the Covid-19 pandemic. In a chaotic world, consumers are more likely to support charitable corporations. Furthermore, companies that have better accommodated employees during the pandemic by providing more sick leave, greater remote work opportunities, and bonuses have reaped the rewards of greater employee morale and productivity.
 
+Data: The data for this analysis came from three sources. I used Pandas Data Reader to pull basic stock info (open, close, high, low, volume, adjusted close) from Yahoo Finance’s API. I used data from two of the main ESG rating agencies, MSCI and Morningstar’s Sustainalytics to get data on ESG scores. They are the only two major rating agencies that have their ESG rankings available for free. I decided to use both because they offer different advantages. The benefit of Sustainalytics is that it offers a simple number from 0 to 100 as its ESG rating, with 0 being the best and 100 being the worst. The benefit of Sustainalytics comes from the continuous nature of its rankings. However, MSCI’s ESG ratings offered advantages too. While its ratings are categorical, it provides historical ratings going back to 2017. This chronological information allowed me to see if, for example, an increase in ESG score corresponded with an uptick in stock price in a given year.
+
+Scope of the analysis: Initially, I began my data exploration using just the five largest tech companies by market cap. However, it became apparent that I would need more data points to make stronger conclusions. So, I pulled stock data for all companies in the S&P500 that are either classified as “technology” or “communications services” by the index. It is important to note that in 2018, the S&P500 made an effort to “de-FAANG” its tech sector; because of the massive market caps of Facebook, Amazon, Apple, Netflix, Microsoft, and Alphabet, the tech sector of the index was massively overweight compared to other sectors. Those companies that focused more on social media, streaming, or digital content creation were spun off into “communication services,” while “technology” became the domain of companies specializing in hardware production. I included both sectors in my analysis of the tech sector, because in colloquial speech “tech” is synonymous with Facebook, Microsoft, Google, and Netflix, but all are considered “communication services” under the new classification. So, I pulled stock and ESG data for the 98 companies that met one of these criteria.
+
+Data collection, cleaning, and preparation: Please note that for the sake of brevity I have omitted some of the more basic and mundane steps of data cleaning, such as renaming columns. Those intermediary steps can all be viewed in the accompanying notebook. 
+
+First, I created a .csv file (Tech and Comms Sustainability Scores 2.csv) with the ticker, Sustainalytics score, sector (tech or communication services), MSCI 2017 ESG rating, MSCI 2018 ESG rating, MSCI 2019 ESG rating, MSCI 2020 ESG rating, and MSCI 2021 ESG rating. I collected this data manually; there were few enough stocks and the websites were navigable enough that it would have taken more time to build a scraper.
+
+Then, I built a for loop to collect the stock data for all tickers in my list using Yahoo Finance’s API for our period of analysis, 2019 to now: 
+
+```
+tickers_list = tickers_df['Ticker'].tolist()
+full_df = pd.DataFrame()
+for item in tqdm(tickers_list):
+    try:
+        temp_df = web.DataReader(item, data_source='yahoo', start='2019-01-01', end='2021-04-28')
+        temp_df.columns = [item + '_' + e for e in temp_df.columns.tolist()]
+        full_df = pd.concat([full_df, temp_df], axis=1)
+    except:
+        continue
+```
+
+I then calculated the percentage returns for that time period using the for loop below and appended them as a new column to the data frame. Essentially, it loops through all the tickers and divides the closing price on April 28, 2021 by the closing price on January 1, 2019: 
+
+```
+cols_to_keep = [e for e in full_df.columns.tolist() if 'Close' in e]
+first = full_df[cols_to_keep].iloc[0,:]
+last = full_df[cols_to_keep].iloc[584,:]
+return_19_21_df = pd.DataFrame(last/first, columns = ['return']) 
+return_19_21_df.index = [e.replace('_Close', '') for e in return_19_21_df.index.tolist()]
+return_19_21_df.reset_index(inplace=True)
+return_19_21_df
+```
+
+Next, I coded the MSCI ESG ratings to be integers rather than categorical variables. In my initial data exploration, I had dummified the ratings, that proved to be too cumbersome. Instead, I  assigned numerical values to the classifications, with the worst (CCC) becoming 0 and the best (AAA) becoming 6. The code below converted the MSCI ratings to numbers: 
+
+```
+dict  = {'CCC':0, 'B':1, 'BB':2, 'BBB':3, 'A':4, 'AA':5, 'AAA':6}
+years = ['MSCI ESG 2017', 'MSCI ESG 2018', 'MSCI ESG 2019', 'MSCI ESG 2020', 'MSCI ESG 2021']
+for y in years:
+    tech_comms_df_final[y] = tech_comms_df_final[y].map(dict)
+tech_comms_df_final
+```
+
+At this point, I had collected to core data I needed for my analysis. However, I wanted to further expand my analysis by calculating the returns of stocks for each year individually in 2017, 2018, 2019, 2020, and 2021. Because I had historical MSCI ESG ratings going back to 2017, I wanted to see if there was relationship between ESG scores and prices in a given year, i.e., would a drop in ESG score in 2019 correspond with a drop in stock price? 
+
+I will show my code for collecting the 2017 data as an example; I used the same method for all the other years, too.  
+
+
+First, I used a for loop and a similar method my method for collecting 2019-2021 data. It calculates return over the period by dividing the last day’s closing price by the first day’s closing price.  It then puts the tickers and calculated returns in a new, temporary data frame: 
+
+```
+#create for loop to pull stock data for 2017 and add as column
+from tqdm import tqdm_notebook as tqdm
+full_2017_df = pd.DataFrame()
+for item in tqdm(tickers_list):
+    try:
+        temp_df = web.DataReader(item, data_source='yahoo', start='2017-01-01', end='2017-12-31')
+        temp_df.columns = [item + '_' + e for e in temp_df.columns.tolist()]
+        full_2017_df = pd.concat([full_2017_df, temp_df], axis=1)
+    except:
+        continue
+```
+Finally, this new data frame is merged with the master data frame. 
+
+```
+returns_2017_final_df = tech_comms_df_final.merge(return_2017_df, left_on='Ticker', right_on='index')
+```
+
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/72145578/118509444-e2467880-b6e4-11eb-8156-c5dff1602b35.png)
 
 
 
