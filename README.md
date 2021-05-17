@@ -187,8 +187,16 @@ print(item[0][-4:], 'correlation :', returns_2021_final_df[item[0]].corr(returns
 
 None of these results indicate a meaningful relationship.
 
+There are two primary factors to consider when investing: returns and risk (which is related, but not identical to volatility). They typically have an inverse relationship. Perhaps higher ESG scores do not drive higher returns but instead inspire confidence in company ownership and therefore result in lower volatility. Standard deviation is the most common proxy for volatility in the investing world. So, I calculated the standard deviation of each stock’s price over 2019-2021 using the code below: 
 
-![image](https://user-images.githubusercontent.com/72145578/118516402-22105e80-b6eb-11eb-94fc-57c45316609c.png)
+```
+cols_to_keep = [e for e in full_df.columns.tolist() if 'Close' in e]
+std_2019_2021 = full_df[cols_to_keep].std()
+std_2019_2021.index = [e.replace('_Close', '') for e in std_2019_2021.index.tolist()]
+std_2019_2021
+```
+![image](https://user-images.githubusercontent.com/72145578/118520577-0909ac80-b6ef-11eb-8947-2d4c2d252828.png)
+
 
 
 
