@@ -132,13 +132,63 @@ Finally, this new data frame is merged with the master data frame.
 ```
 returns_2017_final_df = tech_comms_df_final.merge(return_2017_df, left_on='Ticker', right_on='index')
 ```
+#### Analysis
+
+Using Matplotlib, I plotted the Sustainalytics ESG score on the X-axis of a scatter plot and returns on the Y. 
+
+```
+tech_comms_df_final.plot.scatter(x = 'Sustainalytics Score', y = 'return')
+```
 
 
+![sustainalytics_esg_scatter](Resources/sustainalytics_esg_scatter.PNG)
+
+Visually, there does not appear to be a relationship between Sustainalytics ESG score and returns.
 
 
+I then made the same plot using the most recent ESG scores from MSCI in place of the Sustainalytics scores. 
+
+```
+tech_comms_df_final.plot.scatter(x = 'MSCI ESG 2021', y = 'return')
+```
+
+![msci_esg_scatter](Resources/msci_esg_scatter.PNG)
+
+Again, there appears to be no relationship. I confirmed this lack of relationship by calculating the correlation between returns over the time period studied and Sustainalytics score: 
+```
+tech_comms_df_final['Sustainalytics Score'].corr(tech_comms_df_final['return'])
+```
+The R of 0.252 did not indicate a significant relationship.
+
+There was also no relationship between returns and the latest MSCI scores: 
+```
+tech_comms_df_final['MSCI ESG 2021'].corr(tech_comms_df_final['return'])
+
+```
+The R of -0.078 again indicated no relationship between the variables. 
+
+I then ran correlations for the MSCI ESG scores of each year against returns for that year. For example, I obtained the R for the relationship between MSCI scores in 2017 and the stock returns over the course of 2017. Here too, there was no significant relationship for any year. 
+
+```
+corr_cols = [['MSCI ESG 2017', 'MSCI ESG 2018', 'MSCI ESG 2019', 'MSCI ESG 2020', 'MSCI ESG 2021'],
+             ['2017 standard deviation', '2018 standard deviation', '2019 standard deviation', '2020 standard deviation', '2021 standard deviation']]
+corr_cols = list(zip(*corr_cols))
+for item in corr_cols:
+print(item[0][-4:], 'correlation :', returns_2021_final_df[item[0]].corr(returns_2021_final_df[item[1]]))
+```
+
+| Year  | Correlation |
+| ------------- | ------------- |
+| 2017  | 0.132  |
+| 2018  | 0.040  |
+| 2019  | 0.056  |
+| 2020  | 0.234  |
+| 2021  | -0.004  |
+
+None of these results indicate a meaningful relationship.
 
 
-![image](https://user-images.githubusercontent.com/72145578/118509444-e2467880-b6e4-11eb-8156-c5dff1602b35.png)
+![image](https://user-images.githubusercontent.com/72145578/118516402-22105e80-b6eb-11eb-94fc-57c45316609c.png)
 
 
 
