@@ -16,17 +16,17 @@ In this analysis, the machine learning model required five blue-chip stocks that
 
 * Cleaning the data in Pandas.
 
-  ** 1. Remove all the columns that are not needed. 
+ 1. Remove all the columns that are not needed. 
   
   
   <img width="1012" alt="Image1" src="https://user-images.githubusercontent.com/74740339/118556950-80acfb00-b732-11eb-9538-a1bad72dfe3b.png">
 
-  2. Remove any rows with null values 
+ 2. Remove any rows with null values 
   
   
   <img width="1038" alt="Image2" src="https://user-images.githubusercontent.com/74740339/118557607-6aec0580-b733-11eb-99c2-c77fd9f5f1e1.png">
 
 
-  3. Convert the column with a numerical value to integer data type. 
+ 3. Convert the column with a numerical value to integer data type. 
   
   <img width="1011" alt="Image3" src="https://user-images.githubusercontent.com/74740339/118557702-8eaf4b80-b733-11eb-855c-bfe73c81e8dd.png">
