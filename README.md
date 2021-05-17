@@ -16,7 +16,7 @@ In this analysis, the machine learning model required five blue-chip stocks that
 
 * Cleaning the data in Pandas.
 
-  **1. Remove all the columns that are not needed. 
+  ** 1. Remove all the columns that are not needed. 
   
   
   <img width="1012" alt="Image1" src="https://user-images.githubusercontent.com/74740339/118556950-80acfb00-b732-11eb-9538-a1bad72dfe3b.png">
