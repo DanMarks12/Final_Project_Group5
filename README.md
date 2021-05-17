@@ -77,16 +77,16 @@ In these graphs, we are comparing the Market Capitalization of these companies. 
 The question we sought to answer with machine learning was comparing Bluechip stock to newly IPO'd stocks. I started experimenting with various ML methods but found most were not applicable to time series modeling. I ended up with ARIMA and ARMA as they are perfect at predicting future values in a given time series.
 
 #### What is ARIMA? 
-'Auto Regressive Integrated Moving Average' or ARIMA for short can be used in analysis of time series models to better understand the data or predict future points based on its own past values. They are categorized with 3 terms: pdq
+'Auto Regressive Integrated Moving Average' or ARIMA for short can be used in analysis of time series models to better understand the data or predict future points based on its own past values. They are categorized with 3 terms: pdq An ARMA model (Autoregressive Moving Average) is very similar to an ARIMA model, but it without differencing your model. 
 
-###### p value:
+##### p value:
 p value is the order of the Auto Regressive (AR) term. This refers to the number of lags needed in the model to be used as predictors. We can find different p values to test by creating a partial autocorrelation plot (PACF)
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/Partial_autocorrelation.JPG)
 
 By default 1 should be tested in your model, but we can also see 3 and 14 are above the standard deviation and should be considered as a p value. 
 
-###### d value:
+##### d value:
 d value is the number of differencing required to make the time series stationary we first perform an ADF test. If the p-value is >.05 we cannot reject the null hypothesis and will need to find the order of the differencing. 
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/ADF_test.JPG)
@@ -97,7 +97,7 @@ After we conclude the model is not stationary there are 2 methods in finding the
 
 First we can plot the auto correlation with different differencing number and see if the auto correlation drastically changes. Above, I tested with differencing of 1, 2 and 3 and concluded that differencing the model 1 time was enough. To double check my results I imported ndiffs module from pdarima.arima-utils package and concluded 1 difference was adequate for the model. 
 
-###### q value:
+##### q value:
 q value is the order of the Moving Average (MA) term. This explains the number of lagged forecast errors in our ARIMA model. We can chose our q values by creating an ACF plot: 
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/Autocorrelation.JPG)
