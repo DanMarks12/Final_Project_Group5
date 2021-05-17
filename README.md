@@ -100,7 +100,7 @@ First we can plot the auto correlation with different differencing number and se
 ###### q value:
 q value is the order of the Moving Average (MA) term. This explains the number of lagged forecast errors in our ARIMA model. We can chose our q values by creating an ACF plot: 
 
-![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/Autocorrelation.JPG}
+![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/Autocorrelation.JPG)
 
 From here we can see 1 and 3 should be tested as our q terms. 
 
