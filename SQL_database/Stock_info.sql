@@ -83,3 +83,33 @@ CREATE TABLE newipos(
 
 -- Display new IPO table
 SELECT * FROM newipos;
+
+-- Retrieve the columns needed from the table to join.
+SELECT new_ipos.ticker,
+		newipos.company_name,
+		new_ipos.market_cap,
+		new_ipos.ipo_year
+-- Create a new table using the INTO clause.
+-- Table 9
+INTO new_ipos_list
+-- Join both tables on the primary key.
+FROM new_ipos
+INNER JOIN newipos ON new_ipos.ticker = newipos.ticker;
+
+-- Display new joined tabel. 
+SELECT * FROM new_ipos_list;
+
+-- Retrieve the columns needed from the table to join.
+SELECT blue_chip.ticker,
+		bluechip.company_name,
+		blue_chip.market_cap,
+		blue_chip.ipo_year
+-- Create a new table using the INTO clause.
+-- Table 10
+INTO blue_chip_list
+-- Join both tables on the primary key.
+FROM blue_chip
+INNER JOIN bluechip ON blue_chip.ticker = bluechip.ticker;
+
+-- Display new joined tabel.
+SELECT * FROM blue_chip_list;
