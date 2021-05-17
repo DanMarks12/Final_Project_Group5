@@ -52,6 +52,7 @@ We will be pulling data from finance.yahoo.com, finance.google.com, Bloomberg an
 
 ## Companys we are looking into:
 Our top 5 bluechip/recent ipo/SPAC companies were chosen because of two metrics: Tech sector and highest market cap as of 5/1/2021
+
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/Tickers.JPG)
 
 
