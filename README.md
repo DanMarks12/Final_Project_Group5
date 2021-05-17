@@ -12,3 +12,8 @@ In this analysis, the machine learning model required five blue-chip stocks that
   * Sector (Technology) 
   * Country (United States) 
 
+## Process 
+
+* Cleaning the data in Pandas.
+
+  1. Remove all the columns that are not needed. 
