@@ -69,7 +69,13 @@ After running the ARIMA and ARMA models I noticed an issue in comparing the resu
 
 #### Exploring the results
 
-WAITING ON TABLEU VISUALIZATIONS TO ILLUSTRATE SOME FINDINGS
+![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/MPE%20Score%20Distribution.png)
+
+As we can see here a distribution of the MPE scores for all stocks. We see blue chip stocks trend towards 0 (which indicates a more accurate forecast) across both ARIMA and ARMA models. If we look at the results plotted against the market cap we see similar results:
+
+![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/MPE%20vs%20Marketcap.png}
+
+Here we can see market cap vs our MPE scores. We can also see for the most part the ARIMA model provided more accurate predictions than ARMA. 
 
 
 
