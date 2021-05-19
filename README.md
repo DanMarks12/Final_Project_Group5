@@ -1,61 +1,3 @@
-# Final_Project_Group5: An Analysis into the Tech Sector before and after Covid:
-The uncertainty that COVID has brought to various industries around the world has seemingly overlooked or enriched certain sectors. Tech in particular has been able to flourish during pandemic,in part due to many business moving from office workplace to employees working from home; schools moving to remote learning and public transportation shifting to private rides and other forms of transportation. Our goal in our final project is to take a look at the impact covid has had on the Tech industry, and where we expect it to go moving forward. 
-
-
-## Communication Protocals 
-### Roles
-#### WEEK 1:
-
-Github: Dan Marks
-
-MI : Lauren Valencia
-
-Dashboard : Perry Abdulkadir
-
-Database : Wengi 
-
-#### WEEK 2:TBD
-
-### Protocols
-- Colaboration through Slack group
-- Lay out 5 questions we will be answering, distributed questions
-- Meetings throughout the week outside of class
-- Shared Google doc: https://docs.google.com/document/d/1SY56LAwAWJcryRgtg58EKAuqdpSpt0IqHUjSmKUIQa4/edit
-- Zoom meetings
-
-
-## Questions:
-
-#### Have tech stocks outperformed other sectors since the beginning of the Covid-19 pandemic?
-
-Hypothesis: the large cap stocks in the tech sector have outperformed stocks in other industries during the Covid-19 pandemic as a combination of less reliance on brick-and-mortar retail and more need for electronic communication have inoculated them against the economic fallout of the pandemic.
-
-#### Have established tech companies outperformed their younger rivals during the Covid-19 pandemic?
-
-Hypothesis: there is traditionally a premium associated with smaller and newer companies as they have more room to grow. However, they are also riskier investments. During the Covid-19 pandemic, blue chip stocks outperformed their less-established counterparts because they had more cash on-hand to survive the economic disruption of the pandemic. 
-
-#### Have SPACs overtaken IPOs for investor returns in the tech sector?
-
-Hypothesis: SPACs (Special Purpose Acquisition Corporations) are essentially shell corporations that form with the intention of purchasing a private corporation. It is an alternate method of taking a corporation public with less red tape than an IPO. The SPAC has existed for several decades, but has gained a great deal of attention lately. Despite the buzz around SPACs, they have generated less return for investors than IPOs because this alternate method of going public signals to markets some underlying issue in the company’s fiscal health.
-
-#### How have different sub-sectors of the tech industry performed during the Covid-19 pandemic? 
-
-Hypothesis: certain sub-sectors of the tech industry have generated smaller returns to shareholders because of greater exposure to the economic risks associated with Covid-19. Semiconductor manufacturers suffered lower returns because of greater supply chain disruption. Meanwhile, social media companies have reaped the rewards of a world that is now fully reliant on the Internet for social interaction.
-
-## Questions:
-
-#### Have tech stocks outperformed other sectors since the beginning of the Covid-19 pandemic?
-
-Hypothesis: the large cap stocks in the tech sector have outperformed stocks in other industries during the Covid-19 pandemic as a combination of less reliance on brick-and-mortar retail and more need for electronic communication have inoculated them against the economic fallout of the pandemic.
-
-#### Have established tech companies outperformed their younger rivals during the Covid-19 pandemic?
-
-Hypothesis: there is traditionally a premium associated with smaller and newer companies as they have more room to grow. However, they are also riskier investments. During the Covid-19 pandemic, blue chip stocks outperformed their less-established counterparts because they had more cash on-hand to survive the economic disruption of the pandemic. 
-
-#### Have SPACs overtaken IPOs for investor returns in the tech sector?
-
-Hypothesis: SPACs (Special Purpose Acquisition Corporations) are essentially shell corporations that form with the intention of purchasing a private corporation. It is an alternate method of taking a corporation public with less red tape than an IPO. The SPAC has existed for several decades, but has gained a great deal of attention lately. Despite the buzz around SPACs, they have generated less return for investors than IPOs because this alternate method of going public signals to markets some underlying issue in the company’s fiscal health.
-
 #### How have different sub-sectors of the tech industry performed during the Covid-19 pandemic? 
 
 Hypothesis: certain sub-sectors of the tech industry have generated smaller returns to shareholders because of greater exposure to the economic risks associated with Covid-19. Semiconductor manufacturers suffered lower returns because of greater supply chain disruption. Meanwhile, social media companies have reaped the rewards of a world that is now fully reliant on the Internet for social interaction.
@@ -197,28 +139,12 @@ std_2019_2021 = full_df[cols_to_keep].std()
 std_2019_2021.index = [e.replace('_Close', '') for e in std_2019_2021.index.tolist()]
 std_2019_2021
 ```
-![image](https://user-images.githubusercontent.com/72145578/118520577-0909ac80-b6ef-11eb-8947-2d4c2d252828.png)
 
-
-More code
+**More code**
 
 #### Conclusion
-There is yet to be an academic consensus on how ESG factors into a stock’s pricing. Over the past few years, the conventional thinking was high ESG scores at the very least led to lower risk (volatility), if not higher returns. (See, for example, [Umeå School of Business, Economics, and Statistics, Jakobsson, R., & Lundberg, L. (2018). The Effect of ESG Performance on Share Price Volatility.)](https://umu.diva-portal.org/smash/get/diva2:1229342/FULLTEXT01.pdf)) 
+There is yet to be an academic consensus on how ESG factors into a stock’s pricing. Over the past few years, the conventional thinking was high ESG scores at the very least led to lower risk (volatility), if not higher returns. (See, for example, [Umeå School of Business, Economics, and Statistics, Jakobsson, R., & Lundberg, L. (2018). *The Effect of ESG Performance on Share Price Volatility.*)](https://umu.diva-portal.org/smash/get/diva2:1229342/FULLTEXT01.pdf)) 
 
-However, more recent analysis has challenged this notion that ESG positively impacts investment performance. Writing in the journal Sustainability, authors from the University of Rome found no relationship between volatility or returns and ESG ([La Torre M, Mango F, Cafaro A, Leo S. Does the ESG Index Affect Stock Return? Evidence from the Eurostoxx50. Sustainability. 2020; 12(16):6387.)](https://doi.org/10.3390/su12166387). 
+However, more recent analysis has challenged this notion that ESG positively impacts investment performance. Writing in the journal *Sustainability* in 2020, authors from the University of Rome found no relationship between volatility or returns and ESG ([La Torre M, Mango F, Cafaro A, Leo S. *Does the ESG Index Affect Stock Return? Evidence from the Eurostoxx50.* Sustainability. 2020; 12(16):6387.)](https://doi.org/10.3390/su12166387). 
 
 This analysis fits in with more recent analysis showing that ESG does not significantly impact investment performance. Of course, this analysis was limited to US tech stocks in the past few years. Further analysis needs to be done to see if this pattern holds in other contexts. The upshot for investors is this: if you are looking for reduced volatility or greater returns after the market jitters caused by Covid, don’t necessarily look to tech stocks with high ESG. High ESG tech stocks are just as likely as low ESG tech stocks to have low volatility and high returns. That being said, there is still of course moral value in ESG investing, even if that does not allow you to have your cake and eat it too. 
-![image](https://user-images.githubusercontent.com/72145578/118870594-554e1b80-b8ac-11eb-9728-88a919f7aa43.png)
-
-
-
-## Source Data: 
-We will be pulling data from finance.yahoo.com, finance.google.com, FactSet data sets, Sustainalytics, and MSCI.
-
-
-![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/Tickers.JPG)
-
-
-
-## Presentation
-https://docs.google.com/presentation/d/1lW8-Si68omeYsMeeIKVGWdINQx402azv0Sgm5ooQO6I/edit?usp=sharing
