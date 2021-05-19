@@ -126,7 +126,7 @@ In these graphs, we are comparing the Market Capitalization of these companies. 
 
 WAITING ON TABLEU VISUALIZATIONS TO ILLUSTRATE SOME FINDINGS
 
-## #### How have different sub-sectors of the tech industry performed during the Covid-19 pandemic? 
+#### How have different sub-sectors of the tech industry performed during the Covid-19 pandemic? 
 
 Hypothesis: certain sub-sectors of the tech industry have generated smaller returns to shareholders because of greater exposure to the economic risks associated with Covid-19. Semiconductor manufacturers suffered lower returns because of greater supply chain disruption. Meanwhile, social media companies have reaped the rewards of a world that is now fully reliant on the Internet for social interaction.
 
