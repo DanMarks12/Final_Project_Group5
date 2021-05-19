@@ -203,7 +203,7 @@ std_2019_2021
 More code
 
 #### Conclusion
-There is yet to be an academic consensus on how ESG factors into a stock’s pricing. Over the past few years, the conventional thinking was high ESG scores at the very least led to lower risk (volatility), if not higher returns (See, for example, [Umeå School of Business, Economics, and Statistics, Jakobsson, R., & Lundberg, L. (2018). The Effect of ESG Performance on Share Price Volatility.] (https://umu.diva-portal.org/smash/get/diva2:1229342/FULLTEXT01.pdf)). 
+There is yet to be an academic consensus on how ESG factors into a stock’s pricing. Over the past few years, the conventional thinking was high ESG scores at the very least led to lower risk (volatility), if not higher returns (See, for example, [Umeå School of Business, Economics, and Statistics, Jakobsson, R., & Lundberg, L. (2018). The Effect of ESG Performance on Share Price Volatility.](https://umu.diva-portal.org/smash/get/diva2:1229342/FULLTEXT01.pdf)). 
 
 However, more recent analysis has challenged this notion that ESG positively impacts investment performance. Writing in the journal Sustainability, authors from the University of Rome found no relationship between volatility or returns and ESG (La Torre M, Mango F, Cafaro A, Leo S. Does the ESG Index Affect Stock Return? Evidence from the Eurostoxx50. Sustainability. 2020; 12(16):6387. https://doi.org/10.3390/su12166387). 
 
