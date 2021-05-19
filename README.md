@@ -276,6 +276,19 @@ returns_2021_final_df.plot.scatter(x = 'Sustainalytics Score', y = '2019-2021 st
 
 ![sustainalytics_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/sustainalytics_std_scatter.png)
 
+There is also no relationship between MSCI score in 2021 and standard deviation of 2019-2021 returns. 
+
+![msci_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/msci_esg_scatter.png)
+
+Finally, there is no correlation between annual standard deviation and annual MSCI scores.
+
+```
+corr_cols = [['MSCI ESG 2017', 'MSCI ESG 2018', 'MSCI ESG 2019', 'MSCI ESG 2020', 'MSCI ESG 2021'],
+             ['2017 standard deviation', '2018 standard deviation', '2019 standard deviation', '2020 standard deviation', '2021 standard deviation']]
+corr_cols = list(zip(*corr_cols))
+for item in corr_cols:
+    print(item[0][-4:], 'correlation :', returns_2021_final_df[item[0]].corr(returns_2021_final_df[item[1]]))
+```
 
 #### Conclusion
 There is yet to be an academic consensus on how ESG factors into a stock’s pricing. Over the past few years, the conventional thinking was high ESG scores at the very least led to lower risk (volatility), if not higher returns. (See, for example, [Umeå School of Business, Economics, and Statistics, Jakobsson, R., & Lundberg, L. (2018). *The Effect of ESG Performance on Share Price Volatility.*)](https://umu.diva-portal.org/smash/get/diva2:1229342/FULLTEXT01.pdf)) 
