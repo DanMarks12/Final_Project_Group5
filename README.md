@@ -24,9 +24,6 @@ Database : Wengi
 
 ## Questions:
 
-#### Are tech companies' worthwhile investment with long-term growth potential?
-
-Hypothesis: 
 
 #### ML Question: Do bluechip stocks have any advantage in forecasting stock prices compared to newer companies? (IPO after 2018)
 
