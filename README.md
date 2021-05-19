@@ -39,10 +39,6 @@ Hypothesis: SPACs (Special Purpose Acquisition Corporations) are essentially she
 
 Hypothesis: Tech stocks have surged during covid and helped the stock market rise. The pandemic has fueled the tech stocks while hurting other industries like the airline industry. With more people working from home and the need for cloud software helped the tech stock rise. While the airline industry was hurt because people were not traveling like they used to. The below charts show the upward trend of tech and downward of airline.
 
-![image](https://user-images.githubusercontent.com/74515412/118892350-c7cff300-b8ce-11eb-8d07-7b7d4742c2cc.png)
-![image](https://user-images.githubusercontent.com/74515412/118892885-986db600-b8cf-11eb-8c7d-6aa53290fdd9.png)
-
-
 
 
 
@@ -308,3 +304,18 @@ This analysis fits in with more recent analysis showing that ESG does not signif
 
 ## Presentation
 https://docs.google.com/presentation/d/1lW8-Si68omeYsMeeIKVGWdINQx402azv0Sgm5ooQO6I/edit?usp=sharing
+
+
+
+
+
+
+
+
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/74515412/118892350-c7cff300-b8ce-11eb-8d07-7b7d4742c2cc.png)
+![image](https://user-images.githubusercontent.com/74515412/118892885-986db600-b8cf-11eb-8c7d-6aa53290fdd9.png)
