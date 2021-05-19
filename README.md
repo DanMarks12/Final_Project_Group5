@@ -24,6 +24,8 @@ Database : Wengi
 
 ## Questions:
 
+### Big Picture Question: How have American tech stocks performed during the Covid-19 pandemic? 
+
 
 #### ML Question: Do bluechip stocks have any advantage in forecasting stock prices compared to newer companies? (IPO after 2018)
 
