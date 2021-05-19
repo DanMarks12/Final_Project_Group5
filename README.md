@@ -266,7 +266,9 @@ std_2019_2021.index = [e.replace('_Close', '') for e in std_2019_2021.index.toli
 std_2019_2021
 ```
 
-**More code**
+Creating a scatter plot using this data reveals that there is no relationship between standard deviation of Sustainalytics ESG scores and standard deviation of stock returns. 
+![sustainalytics_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/sustainalytics_std_scatter.png)
+
 
 #### Conclusion
 There is yet to be an academic consensus on how ESG factors into a stock’s pricing. Over the past few years, the conventional thinking was high ESG scores at the very least led to lower risk (volatility), if not higher returns. (See, for example, [Umeå School of Business, Economics, and Statistics, Jakobsson, R., & Lundberg, L. (2018). *The Effect of ESG Performance on Share Price Volatility.*)](https://umu.diva-portal.org/smash/get/diva2:1229342/FULLTEXT01.pdf)) 
