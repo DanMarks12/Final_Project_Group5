@@ -60,4 +60,10 @@ In this analysis, the machine learning model required five blue-chip stocks that
 
 ## Results
 
+* Five blue-chip stocks that IPO'd before 2013 with the highest market cap.
+
+
+* five stocks that IPO'd after 2018 with the highest market cap.
+
+
 
