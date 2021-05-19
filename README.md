@@ -58,4 +58,6 @@ In this analysis, the machine learning model required five blue-chip stocks that
  
  <img width="762" alt="Image8" src="https://user-images.githubusercontent.com/74740339/118561130-96bdba00-b738-11eb-9c23-169a366d0ab7.png">
 
+## Results
+
 
