@@ -126,10 +126,15 @@ SPACs
 
 In these graphs, we are comparing the Market Capitalization of these companies. Market Capitalization is the market value of a publicly traded company’s outstanding shares. Market cap is calculated by the share price multiplied by the number of shares outstanding. As you can see from both graphs, all ten companies have not had much growth in these past four months. However, the companies that IPO’ed have a higher Market Capitalization to begin with and have been quite steady throughout these months since the vaccine got released. SPACs have started with a lower Market Cap and have continued to stay in that low range. One of the SPACs even had a large fall in Market Cap in March. Although SPACs look to be profitable, IPOs have proven to be the safer and more profitable option in the long run. 
 
-
 #### Exploring the results
 
-WAITING ON TABLEU VISUALIZATIONS TO ILLUSTRATE SOME FINDINGS
+![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/MPE%20Score%20Distribution.png)
+
+As we can see here a distribution of the MPE scores for all stocks. We see blue chip stocks trend towards 0 (which indicates a more accurate forecast) across both ARIMA and ARMA models. If we look at the results plotted against the market cap we see similar results:
+
+![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/MPE%20vs%20Marketcap.png}
+
+Here we can see market cap vs our MPE scores. We can also see for the most part the ARIMA model provided more accurate predictions than ARMA. 
 
 #### How have different sub-sectors of the tech industry performed during the Covid-19 pandemic? 
 
