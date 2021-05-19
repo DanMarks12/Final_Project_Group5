@@ -62,6 +62,8 @@ Hypothesis: certain sub-sectors of the tech industry have generated smaller retu
 
 #### Have tech stocks with higher ESG scores generated higher returns during the Covid-19 pandemic?
 
+#### Have tech stocks with higher ESG scores generated higher returns during the Covid-19 pandemic?
+
 Hypothesis: companies with better ESG scores (environmental, social, governance) have performed better during the Covid-19 pandemic. In a chaotic world, consumers are more likely to support charitable corporations. Furthermore, companies that have better accommodated employees during the pandemic by providing more sick leave, greater remote work opportunities, and bonuses have reaped the rewards of greater employee morale and productivity.
 
 Data: The data for this analysis came from three sources. I used Pandas Data Reader to pull basic stock info (open, close, high, low, volume, adjusted close) from Yahoo Finance’s API. I used data from two of the main ESG rating agencies, MSCI and Morningstar’s Sustainalytics to get data on ESG scores. They are the only two major rating agencies that have their ESG rankings available for free. I decided to use both because they offer different advantages. The benefit of Sustainalytics is that it offers a simple number from 0 to 100 as its ESG rating, with 0 being the best and 100 being the worst. The benefit of Sustainalytics comes from the continuous nature of its rankings. However, MSCI’s ESG ratings offered advantages too. While its ratings are categorical, it provides historical ratings going back to 2017. This chronological information allowed me to see if, for example, an increase in ESG score corresponded with an uptick in stock price in a given year.
@@ -198,6 +200,15 @@ std_2019_2021
 ![image](https://user-images.githubusercontent.com/72145578/118520577-0909ac80-b6ef-11eb-8947-2d4c2d252828.png)
 
 
+More code
+
+#### Conclusion
+There is yet to be an academic consensus on how ESG factors into a stock’s pricing. Over the past few years, the conventional thinking was high ESG scores at the very least led to lower risk (volatility), if not higher returns (See, for example, [Umeå School of Business, Economics, and Statistics, Jakobsson, R., & Lundberg, L. (2018). The Effect of ESG Performance on Share Price Volatility.] (https://umu.diva-portal.org/smash/get/diva2:1229342/FULLTEXT01.pdf)). 
+
+However, more recent analysis has challenged this notion that ESG positively impacts investment performance. Writing in the journal Sustainability, authors from the University of Rome found no relationship between volatility or returns and ESG (La Torre M, Mango F, Cafaro A, Leo S. Does the ESG Index Affect Stock Return? Evidence from the Eurostoxx50. Sustainability. 2020; 12(16):6387. https://doi.org/10.3390/su12166387). 
+
+This analysis fits in with more recent analysis showing that ESG does not significantly impact investment performance. Of course, this analysis was limited to US tech stocks in the past few years. Further analysis needs to be done to see if this pattern holds in other contexts. The upshot for investors is this: if you are looking for reduced volatility or greater returns after the market jitters caused by Covid, don’t necessarily look to tech stocks with high ESG. High ESG tech stocks are just as likely as low ESG tech stocks to have low volatility and high returns. That being said, there is still of course moral value in ESG investing, even if that does not allow you to have your cake and eat it too. 
+![image](https://user-images.githubusercontent.com/72145578/118870594-554e1b80-b8ac-11eb-9728-88a919f7aa43.png)
 
 
 
