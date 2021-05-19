@@ -112,6 +112,16 @@ After running the ARIMA and ARMA models I noticed an issue in comparing the resu
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/MPE_calculation.JPG)
 
+#### Exploring the results
+
+![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/MPE%20Score%20Distribution.png)
+
+As we can see here a distribution of the MPE scores for all stocks. We see blue chip stocks trend towards 0 (which indicates a more accurate forecast) across both ARIMA and ARMA models. If we look at the results plotted against the market cap we see similar results:
+
+![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/MPE%20vs%20Marketcap.png)
+
+Here we can see market cap vs our MPE scores. We can also see for the most part the ARIMA model provided more accurate predictions than ARMA. 
+
 ### IPO vs SPACs 
 
 There are plenty of reasons why a company would want to go public, a couple being: liquidity and raise funds and open channels for higher revenues in the future. An IPO stands for “Initial Public Offering” and it involves a journey of working with investors, risk assessors, underwriters, etc. to invest money into the company so it can be taken public. A SPAC stands for “Special Purpose Acquisition Company” which is a shell company that saves its money until it figures out what it wants to spend its money on. SPACs have becoming popular in more recent times as it costs less time and money for companies to go public. However, a SPAC has a time limit of one to two years to acquire a target company before it delists off the market and is forced to give back all the investor money. 
@@ -126,15 +136,6 @@ SPACs
 
 In these graphs, we are comparing the Market Capitalization of these companies. Market Capitalization is the market value of a publicly traded company’s outstanding shares. Market cap is calculated by the share price multiplied by the number of shares outstanding. As you can see from both graphs, all ten companies have not had much growth in these past four months. However, the companies that IPO’ed have a higher Market Capitalization to begin with and have been quite steady throughout these months since the vaccine got released. SPACs have started with a lower Market Cap and have continued to stay in that low range. One of the SPACs even had a large fall in Market Cap in March. Although SPACs look to be profitable, IPOs have proven to be the safer and more profitable option in the long run. 
 
-#### Exploring the results
-
-![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/MPE%20Score%20Distribution.png)
-
-As we can see here a distribution of the MPE scores for all stocks. We see blue chip stocks trend towards 0 (which indicates a more accurate forecast) across both ARIMA and ARMA models. If we look at the results plotted against the market cap we see similar results:
-
-![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/MPE%20vs%20Marketcap.png)
-
-Here we can see market cap vs our MPE scores. We can also see for the most part the ARIMA model provided more accurate predictions than ARMA. 
 
 #### How have different sub-sectors of the tech industry performed during the Covid-19 pandemic? 
 
