@@ -211,7 +211,7 @@ tech_comms_df_final.plot.scatter(x = 'Sustainalytics Score', y = 'return')
 ```
 
 
-![sustainalytics_esg_scatter.PNG](ESG_Resources/sustainalytics_esg_scatter.PNG)
+![sustainalytics_esg_scatter.PNG](Final_Project_Group5/ESG_Resources/sustainalytics_esg_scatter.PNG)
 
 Visually, there does not appear to be a relationship between Sustainalytics ESG score and returns.
 
@@ -222,7 +222,7 @@ I then made the same plot using the most recent ESG scores from MSCI in place of
 tech_comms_df_final.plot.scatter(x = 'MSCI ESG 2021', y = 'return')
 ```
 
-![msci_esg_scatter.PNG](ESG_Resources/msci_esg_scatter.PNG)
+![msci_esg_scatter.PNG](Final_Project_Group5/ESG_Resources/msci_esg_scatter.PNG)
 
 Again, there appears to be no relationship. I confirmed this lack of relationship by calculating the correlation between returns over the time period studied and Sustainalytics score: 
 ```
