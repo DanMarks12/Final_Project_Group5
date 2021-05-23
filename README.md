@@ -323,8 +323,8 @@ https://docs.google.com/presentation/d/1lW8-Si68omeYsMeeIKVGWdINQx402azv0Sgm5ooQ
 
 
 
-![image](https://user-images.githubusercontent.com/74515412/118892350-c7cff300-b8ce-11eb-8d07-7b7d4742c2cc.png)
-![image](https://user-images.githubusercontent.com/74515412/118892885-986db600-b8cf-11eb-8c7d-6aa53290fdd9.png)
+
+
 ![image](https://user-images.githubusercontent.com/74515412/119244788-015c6480-bb42-11eb-93da-d8c1ea6c4e85.png)
 ![image](https://user-images.githubusercontent.com/74515412/119244793-09b49f80-bb42-11eb-9fd5-de7e2a25c9ff.png)
 
