@@ -1,157 +1,262 @@
+- [Final_Project_Group5: An Analysis into the Tech Sector before and after Covid:](#final-project-group5--an-analysis-into-the-tech-sector-before-and-after-covid-)
+- [Presentation](#presentation)
+- [Tableau Dashboard](#tableau-dashboard)
+  * [Communication Protocols](#communication-protocols)
+    + [Roles](#roles)
+    + [Communication methods](#communication-methods)
+- [Questions](#questions)
+  * [Big Picture Question: How have American tech stocks performed during the Covid-19 pandemic?](#big-picture-question--how-have-american-tech-stocks-performed-during-the-covid-19-pandemic-)
+    + [ML Question: Do blue chip stocks have any advantage in forecasting stock prices compared to newer companies? (Those that have IPO’d after 2018)](#ml-question--do-blue-chip-stocks-have-any-advantage-in-forecasting-stock-prices-compared-to-newer-companies---those-that-have-ipo-d-after-2018-)
+    + [The Rise of SPACs: During Covid, SPACs have become more popular. Since the vaccine released, which have been proven to be better investments — IPOs or SPACs?](#the-rise-of-spacs--during-covid--spacs-have-become-more-popular-since-the-vaccine-released--which-have-been-proven-to-be-better-investments---ipos-or-spacs-)
+    + [How did tech perform compared to other sectors?](#how-did-tech-perform-compared-to-other-sectors-)
+    + [Have tech stocks with higher ESG scores generated higher returns during the Covid-19 pandemic?](#have-tech-stocks-with-higher-esg-scores-generated-higher-returns-during-the-covid-19-pandemic-)
+  * [Source Data:](#source-data-)
+  * [Company selection criteria](#company-selection-criteria)
+- [Database](#database)
+  * [Database Design](#database-design)
+  * [Purpose](#purpose)
+  * [Data source](#data-source)
+  * [Process](#process)
+  * [Results](#results)
+- [Analysis](#analysis)
+  * [Machine Learning and Blue Chip vs. Newcomer Predictions](#machine-learning-and-blue-chip-vs-newcomer-predictions)
+    + [What is ARIMA?](#what-is-arima-)
+      - [p value:](#p-value-)
+      - [d value:](#d-value-)
+      - [q value:](#q-value-)
+    + [Moving on to modeling](#moving-on-to-modeling)
+    + [Exploring the results](#exploring-the-results)
+  * [IPO vs. SPACs](#ipo-vs-spacs)
+  * [ESG and investor returns](#esg-and-investor-returns)
+    + [Hypothesis:](#hypothesis-)
+    + [Data:](#data-)
+    + [Scope of the analysis:](#scope-of-the-analysis-)
+    + [Data collection, cleaning, and preparation:](#data-collection--cleaning--and-preparation-)
+    + [Analysis](#analysis-1)
+    + [ESG Analysis Conclusion](#esg-analysis-conclusion)
+
+
+
 # Final_Project_Group5: An Analysis into the Tech Sector before and after Covid:
-The uncertainty that COVID has brought to various industries around the world has seemingly overlooked or enriched certain sectors. Tech in particular has been able to flourish during pandemic,in part due to many business moving from office workplace to employees working from home; schools moving to remote learning and public transportation shifting to private rides and other forms of transportation. Our goal in our final project is to take a look at the impact covid has had on the Tech industry, and where we expect it to go moving forward. 
+While the Covid-19 pandemic has generally wreaked havoc on the global economy, it has served as a financial boon to some. Tech, in particular, has been able to flourish during pandemic: many businesses have transitioned to a work-from-home model, necessitating technological facilitation, schools have moved to remote learning, and public transportation has been eclipsed by rideshare apps. Our goal in our final project is to investigate the impact covid has had on the tech industry, an industry uniquely suited to surviving in a world where brick and mortar stores have gone all but the way of the Dodo. 
 
+# Presentation
+Available [here.](https://docs.google.com/presentation/d/1lW8-Si68omeYsMeeIKVGWdINQx402azv0Sgm5ooQO6I/edit?usp=sharing)
 
-## Communication Protocals 
+# Tableau Dashboard
+Available [here.](https://public.tableau.com/profile/perry2045#!/vizhome/Group5ColumbiaDataAnalyticsFinalProject-TechStocksDuringCovidVersion2/TOC-7)
+
+## Communication Protocols 
 ### Roles
 
 Github: Collaborative
 
-MI : Dan Marks
+Machine Learning: Dan Marks
 
-Dashboard : Perry Abdulkadir
+Dashboard: Perry Abdulkadir
 
-Database : Wengi 
+Database: Wengi Dedebar
 
+### Communication methods
+* Collaboration through Slack group
+* Lay out 5 questions we will be answering, distributed questions
+* Meetings throughout the week outside of class
+* Shared [Google doc](https://docs.google.com/document/d/1SY56LAwAWJcryRgtg58EKAuqdpSpt0IqHUjSmKUIQa4/edit)
+* Zoom meetings
 
-### Protocals
-- Colaboration through Slack group
-- Lay out 5 questions we will be answering, distributed questions
-- Meetings throughout the week outside of class
-- Shared Google doc: https://docs.google.com/document/d/1SY56LAwAWJcryRgtg58EKAuqdpSpt0IqHUjSmKUIQa4/edit
-- Zoom meetings
+# Questions
 
-
-## Questions:
-
-### Big Picture Question: How have American tech stocks performed during the Covid-19 pandemic? 
+## Big Picture Question: How have American tech stocks performed during the Covid-19 pandemic? 
 
 
-#### ML Question: Do bluechip stocks have any advantage in forecasting stock prices compared to newer companies? (IPO after 2018)
+### ML Question: Do blue chip stocks have any advantage in forecasting stock prices compared to newer companies? (Those that have IPO’d after 2018)
 
-Hypothesis: Blue chip companies will have safer more controlled growth whereas startups with have more volitality, higher risk but also higher gains in positive cases and losses in negative cases 
+Hypothesis: Blue chip companies will have safer more controlled growth whereas startups with have more volatility, higher risk but also higher gains in positive cases and losses in negative cases 
 
-#### The Rise of SPACs: During Covid, SPACs have become more popular. Since the vaccine released, which have been proven to be more successful (performing better in the market) -- IPOs or SPACs?
+### The Rise of SPACs: During Covid, SPACs have become more popular. Since the vaccine released, which have been proven to be better investments — IPOs or SPACs?
 
-Hypothesis: SPACs (Special Purpose Acquisition Corporations) are essentially shell corporations that form with the intention of purchasing a private corporation. It is an alternate method of taking a corporation public with less red tape than an IPO. The SPAC has existed for several decades, but has gained a great deal of attention lately. Despite the buzz around SPACs, they have generated less return for investors than IPOs because this alternate method of going public signals to markets some underlying issue in the company’s fiscal health.
+Hypothesis: SPACs (Special Purpose Acquisition Corporations) are essentially shell corporations that form with the intention of purchasing a private corporation. It is an alternate method of taking a corporation public with less red tape than an IPO. The SPAC has existed for several decades but has gained a great deal of attention lately. Despite the buzz around SPACs, they have generated less return for investors than IPOs because this alternate method of going public signals to markets some underlying issue in the company’s fiscal health.
 
-#### How did tech compnies manage during covid, some flourished, while others fell. Were different subsectors of tech hit differently?
+### How did tech perform compared to other sectors?
 
-Hypothesis: Tech stocks have surged during covid and helped the stock market rise. The pandemic has fueled the tech stocks while hurting other industries like the airline industry. With more people working from home and the need for cloud software helped the tech stock rise. While the airline industry was hurt because people were not traveling like they used to. The below charts show the upward trend of tech and downward of airline.
+Hypothesis: Tech stocks have surged during Covid and helped the stock market rise. The pandemic has fueled the tech stocks while hurting other industries like the airline industry. With more people working from home, the need for cloud software helped the tech sector rise. 
 
+### Have tech stocks with higher ESG scores generated higher returns during the Covid-19 pandemic?
+Hypothesis: companies with better ESG scores (environmental, social, governance) have performed better during the Covid-19 pandemic. In a chaotic world, consumers are more likely to support charitable corporations. Furthermore, companies that have better accommodated employees during the pandemic by providing more sick leave, greater remote work opportunities, and bonuses have reaped the rewards of greater employee morale and productivity.
 
-
-
-
-#### Is there a positive correlation between a companys ethical practices and profitability?
-
-Hypothesis: 
 
 
 
 
 ## Source Data: 
-We will be pulling data from finance.yahoo.com, finance.google.com, Bloomberg and FactSet data sets
+We will be pulling data from finance.yahoo.com, Bloomberg, and FactSet data sets.
 
-## Companys we are looking into:
-Our top 5 bluechip/recent ipo/SPAC companies were chosen because of two metrics: Tech sector and highest market cap as of 5/1/2021
+## Company selection criteria
+For our primary analysis, we have selected 15 stocks. Five are blue chip stocks, defined as the largest U.S. tech stocks by market cap as of May 1st, 2021. Five are newcomers, defined as stocks that have IPO’d since 2019, but had more than six months of stock data by May 1st, 2019. Finally, five are SPACs, which we have selected as the five largest SPACs by market cap (a time limit is unnecessary for SPACs, as they are automatically delisted if they do not make an acquisition within 1-2 years.)
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/Tickers.JPG)
 
+# Database
 
 ## Database Design
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/DBD_outline.JPG)
 
-## Analysis 
+## Purpose 
+In this analysis, the machine learning model required five blue-chip stocks that IPO'd before 2013 and five stocks that IPO'd after 2018 to answer whether blue chip stock prices can be forecasted better than newer companies using machine learning. To remove bias in the stock-picking process, SQL was used to filter out the stocks needed based on the IPO year and market cap. 
 
-### Machine Learning: 
-The question we sought to answer with machine learning was comparing Bluechip stock to newly IPO'd stocks. I started experimenting with various ML methods but found most were not applicable to time series modeling. I ended up with ARIMA and ARMA as they are perfect at predicting future values in a given time series.
+## Data source
 
-#### What is ARIMA? 
-'Auto Regressive Integrated Moving Average' or ARIMA for short can be used in analysis of time series models to better understand the data or predict future points based on its own past values. They are categorized with 3 terms: pdq An ARMA model (Autoregressive Moving Average) is very similar to an ARIMA model, but it without differencing your model. 
+* [Nasdaq](https://www.nasdaq.com/market-activity/stocks/screener)
+* Filters  
+  * Sector (Technology) 
+  * Country (United States) 
 
-##### p value:
-p value is the order of the Auto Regressive (AR) term. This refers to the number of lags needed in the model to be used as predictors. We can find different p values to test by creating a partial autocorrelation plot (PACF)
+## Process 
+
+* Cleaning the data in Pandas.
+
+ 1. Remove all the columns that are not needed. 
+  
+  
+  <img width="1012" alt="Image1" src="https://user-images.githubusercontent.com/74740339/118556950-80acfb00-b732-11eb-9538-a1bad72dfe3b.png">
+
+ 2. Remove any rows with null values. 
+  
+  
+  <img width="1038" alt="Image2" src="https://user-images.githubusercontent.com/74740339/118557607-6aec0580-b733-11eb-99c2-c77fd9f5f1e1.png">
+
+
+ 3. Convert the column with a numerical value to integer data type. 
+  
+  <img width="1011" alt="Image3" src="https://user-images.githubusercontent.com/74740339/118557702-8eaf4b80-b733-11eb-855c-bfe73c81e8dd.png">
+ 
+ 4. Save the cleaned data into a new CSV.
+ 
+<img width="1007" alt="Image9" src="https://user-images.githubusercontent.com/74740339/118561252-bfde4a80-b738-11eb-8564-472584c81c21.png">
+
+* Creating the tables and importing the data into PgAdmin.
+
+ 1. Create the table to import the original data set into. 
+ 
+
+<img width="760" alt="Image4" src="https://user-images.githubusercontent.com/74740339/118560606-c1f3d980-b737-11eb-9269-3995578fca8b.png">
+
+ 2. Create a new table named market_cap that will capture stocks that IPO'd between 1972 to 2013 organized in descending order of market cap value. 
+ 
+<img width="757" alt="Image5" src="https://user-images.githubusercontent.com/74740339/118560671-dcc64e00-b737-11eb-862e-eb4867b3c19d.png">
+
+ 3. Using the markert_cap table, create a new table that captures the top five stocks with the highest market cap from 1972 to 2013.
+ 
+<img width="760" alt="Image6" src="https://user-images.githubusercontent.com/74740339/118560835-1d25cc00-b738-11eb-9206-032e17550c00.png">
+
+ 4. Create a new table named new_market_cap that will capture stocks that IPO'd between 2018 to 2019 organized in descending order of market cap value. 
+ 
+<img width="762" alt="Image7" src="https://user-images.githubusercontent.com/74740339/118560949-4c3c3d80-b738-11eb-91cb-312792a1aeca.png">
+
+ 5. Using the new_markert_cap table, create a new table that captures the top five stocks with the highest market cap from 2018 to 2019. 
+ 
+ <img width="762" alt="Image8" src="https://user-images.githubusercontent.com/74740339/118561130-96bdba00-b738-11eb-9c23-169a366d0ab7.png">
+
+## Results
+
+* The five blue chip stocks that IPO'd before 2013 with the highest market cap
+
+<img width="592" alt="Image10" src="https://user-images.githubusercontent.com/74740339/118888776-162ec300-b8ca-11eb-99ee-7a53fe10e988.png">
+
+* The five stocks that IPO'd after 2018 with the highest market cap
+
+<img width="591" alt="Screen Shot 2021-05-19 at 5 39 32 PM" src="https://user-images.githubusercontent.com/74740339/118888802-2050c180-b8ca-11eb-8046-de3821fddd10.png">
+
+
+# Analysis 
+
+## Machine Learning and Blue Chip vs. Newcomer Predictions
+The question we sought to answer with machine learning was comparing blue chip stocks to newly IPO'd stocks. I started experimenting with various ML methods but found most were not applicable to time series modeling. I ended up with ARIMA and ARMA as they are perfect at predicting future values in a given time series.
+
+### What is ARIMA? 
+'Auto Regressive Integrated Moving Average' or ARIMA for short can be used in the analysis of time series models to better understand the data and/or predict future points based on its own past values. The ARIMA model uses 3 characteristics: p the number of autoregressive terms, d the number of differencing needed to create stationarity, and q the number of lagged forecast errors. ARMA model (Autoregressive Moving Average) is very similar to an ARIMA model, but it without differencing your model (so your d value is 0).
+
+#### p value:
+p value is the order of the Auto Regressive (AR) term. This refers to the number of lags needed in the model to be used as predictors. We can find different p-values to test by creating a partial autocorrelation plot (PACF)
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/Partial_autocorrelation.JPG)
 
-By default 1 should be tested in your model, but we can also see 3 and 14 are above the standard deviation and should be considered as a p value. 
+By default, 1 should be tested in your model, but we can also see 3 and 14 are above the standard deviation and should be considered as a p-value. 
 
-##### d value:
+#### d value:
 d value is the number of differencing required to make the time series stationary we first perform an ADF test. If the p-value is >.05 we cannot reject the null hypothesis and will need to find the order of the differencing. 
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/ADF_test.JPG)
 
-After we conclude the model is not stationary there are 2 methods in finding the number of differencin required: 
+After we conclude the model is not stationary there are 2 methods in finding the number of differencing required: 
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/Differencing.JPG)
 
-First we can plot the auto correlation with different differencing number and see if the auto correlation drastically changes. Above, I tested with differencing of 1, 2 and 3 and concluded that differencing the model 1 time was enough. To double check my results I imported ndiffs module from pdarima.arima-utils package and concluded 1 difference was adequate for the model. 
+First, we can plot the autocorrelation with different differencing numbers and see if the autocorrelation drastically changes. Above, I tested with differencing of 1, 2 and 3 and concluded that differencing the model 1 time was enough. To double check my results, I imported the ndiffs module from pdarima.arima-utils package and concluded 1 difference was adequate for the model. 
 
-##### q value:
-q value is the order of the Moving Average (MA) term. This explains the number of lagged forecast errors in our ARIMA model. We can chose our q values by creating an ACF plot: 
+#### q value:
+q value is the order of the Moving Average (MA) term. This explains the number of lagged forecast errors in our ARIMA model. We can choose our q values by creating an ACF plot: 
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/Autocorrelation.JPG)
 
 From here we can see 1 and 3 should be tested as our q terms. 
 
-#### Moving on to modeling
-Now that we have decided on our p d and q terms we must split our data into training and testing data. 
+### Moving on to modeling
+Now that we have decided on our p, d, and q terms we must split our data into training and testing data. 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/split_data.JPG)
 
-By splitting with this method we do not need to manually calulate 80% and 20% of our data and the code is more fluid for shorter or longer time series. Below we can see the data we are working on and visualize our train vs test data:
+By splitting with this method, we do not need to manually calculate 80% and 20% of our data and the code is more fluid for shorter or longer time series. Below we can see the data we are working on and visualize our train vs. test data:
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/trainvstest.JPG}
 
-The ARMA and ARIMA models I built came up with varying results. The majority of the time ARIMA seemed to better forecast stock prices where ARMA did have an advantage across a few stocks. Below are 2 example models: 
+The ARMA and ARIMA models I built came up with varying results. Most of the time, ARIMA seemed to better forecast stock prices where ARMA did have an advantage across a few stocks. Below are 2 example models: 
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/Arima_example.JPG)
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/Arma_example.JPG)
 
-After running the ARIMA and ARMA models I noticed an issue in comparing the results of the tests. Initially I believed mean squared average (MSE) score would be the best indication if the model was succesful or not, but since we are looking at 10 different stocks an MSE score would be more applicable to each individual stocks price (be it open, close, high, low). Because of this I decided to compare the stocks by their Mean Percent Error (MPE) scores. The MPE is the computed average by which forecasts of a model differ from actual values of the forecast. Below is the code run after each model illustrating the calculation used to find MPE scores
+After running the ARIMA and ARMA models I noticed an issue in comparing the results of the tests. Initially I believed mean squared average (MSE) score would be the best indication if the model was successful or not, but since we are looking at 10 different stocks, an MSE score would be more applicable to each individual stock’s price (be it open, close, high, low). Because of this I decided to compare the stocks by their Mean Percent Error (MPE) scores. The MPE is the computed average by which forecasts of a model differ from actual values of the forecast. Below is the code run after each model illustrating the calculation used to find MPE scores:
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/MPE_calculation.JPG)
 
-#### Exploring the results
+### Exploring the results
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/MPE%20Score%20Distribution.png)
 
-As we can see here a distribution of the MPE scores for all stocks. We see blue chip stocks trend towards 0 (which indicates a more accurate forecast) across both ARIMA and ARMA models. If we look at the results plotted against the market cap we see similar results:
+Above is a distribution of the MPE scores for all stocks. We see blue chip stocks trend towards 0 (which indicates a more accurate forecast) across both ARIMA and ARMA models. If we look at the results plotted against the market cap, we see similar results:
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/MPE%20vs%20Marketcap.png)
 
-Here we can see market cap vs our MPE scores. We can also see for the most part the ARIMA model provided more accurate predictions than ARMA. 
+Here we can see market cap vs. our MPE scores. We can also see for the most part the ARIMA model provided more accurate predictions than ARMA. 
 
-### IPO vs SPACs 
+## IPO vs. SPACs 
 
-There are plenty of reasons why a company would want to go public, a couple being: liquidity and raise funds and open channels for higher revenues in the future. An IPO stands for “Initial Public Offering” and it involves a journey of working with investors, risk assessors, underwriters, etc. to invest money into the company so it can be taken public. A SPAC stands for “Special Purpose Acquisition Company” which is a shell company that saves its money until it figures out what it wants to spend its money on. SPACs have becoming popular in more recent times as it costs less time and money for companies to go public. However, a SPAC has a time limit of one to two years to acquire a target company before it delists off the market and is forced to give back all the investor money. 
+There are plenty of reasons why a company would want to go public, a couple being: increasing liquidity and raising funds to open channels for higher revenues in the future. An IPO stands for “Initial Public Offering” and it involves a journey of working with investors, risk assessors, underwriters, etc. to invest money into the company so it can be taken public. A SPAC stands for “Special Purpose Acquisition Company” which is a shell company that saves its money until it figures out what company it wants to acquire. SPACs have become popular in more recent times as it costs less time and money for companies to go public. However, a SPAC has a time limit of one to two years to acquire a target company before it delists off the market and is forced to give back all the investor money. 
 
-During Covid, SPACs have gained a lot of traction in terms of popularity.  To best address my hypothesis that states IPOs are more profitable compared to SPACs, I have chosen five companies that have IPO’ed and five SPACs, specifically in the Technology sector. The IPO companies I have chosen are Zoom, Moderna, CrowdStrike, DocuSign and Peloton. The SPACs I have chosen are Reinvent Technology Partners, Mason Industrial Technology, E.Merge Technology Acquisition Corp, ScION Tech Growth, and TPG Pace Tech Opportunities Corp. Below, you will find the their growth since over time since the vaccine got released to the general public in early 2021. 
+During Covid, SPACs have gained a lot of traction in terms of popularity.  To best address my hypothesis that  IPOs are more profitable compared to SPACs, I have chosen five companies that have IPO’ed and five SPACs, specifically in the Technology sector. The IPO companies I have chosen are Zoom, Moderna, CrowdStrike, DocuSign and Peloton. The SPACs I have chosen are Reinvent Technology Partners, Mason Industrial Technology, E.Merge Technology Acquisition Corp, ScION Tech Growth, and TPG Pace Tech Opportunities Corp. Below, you will find the their growth since the vaccine was released to the general public in early 2021. 
 
 <img width="456" alt="ipos" src="https://user-images.githubusercontent.com/74915619/118407128-40278180-b64d-11eb-9538-e11d172af886.png"> 
-IPOs
+**IPOs**
 
 <img width="484" alt="spacs" src="https://user-images.githubusercontent.com/74915619/118407148-5b928c80-b64d-11eb-9c5a-48e36207fe65.png"> 
-SPACs
+**SPACs**
 
-In these graphs, we are comparing the Market Capitalization of these companies. Market Capitalization is the market value of a publicly traded company’s outstanding shares. Market cap is calculated by the share price multiplied by the number of shares outstanding. As you can see from both graphs, all ten companies have not had much growth in these past four months. However, the companies that IPO’ed have a higher Market Capitalization to begin with and have been quite steady throughout these months since the vaccine got released. SPACs have started with a lower Market Cap and have continued to stay in that low range. One of the SPACs even had a large fall in Market Cap in March. Although SPACs look to be profitable, IPOs have proven to be the safer and more profitable option in the long run. 
+In these graphs, we are comparing the market capitalization of these companies. Market capitalization is the market value of a publicly traded company’s outstanding shares. Market cap is calculated by the share price multiplied by the number of shares outstanding. As you can see from both graphs, all ten companies have not had much growth in these past four months. However, the companies that IPO’d have a higher market capitalization to begin with and have been quite steady throughout these months since the vaccine got released. SPACs have started with a lower market cap and have continued to stay in that low range. One of the SPACs even had a large fall in market cap in March. Although SPACs look to be profitable, IPOs have proven to be the safer and more profitable option in the long run. 
 
+## ESG and investor returns
 
-#### How have different sub-sectors of the tech industry performed during the Covid-19 pandemic? 
+### Hypothesis: 
+Companies with better ESG scores (environmental, social, governance) have performed better during the Covid-19 pandemic. In a chaotic world, consumers are more likely to support charitable corporations. Furthermore, companies that have better accommodated employees during the pandemic by providing more sick leave, greater remote work opportunities, and bonuses have reaped the rewards of greater employee morale and productivity.
 
-Hypothesis: certain sub-sectors of the tech industry have generated smaller returns to shareholders because of greater exposure to the economic risks associated with Covid-19. Semiconductor manufacturers suffered lower returns because of greater supply chain disruption. Meanwhile, social media companies have reaped the rewards of a world that is now fully reliant on the Internet for social interaction.
+### Data: 
+The data for this analysis came from three sources. I used Pandas Data Reader to pull basic stock info (open, close, high, low, volume, adjusted close) from Yahoo Finance’s API. I used data from two of the main ESG rating agencies, MSCI and Morningstar’s Sustainalytics to get data on ESG scores. They are the only two major rating agencies that have their ESG rankings available for free. I decided to use both because they offer different advantages. The benefit of Sustainalytics is that it offers a simple number from 0 to 100 as its ESG rating, with 0 being the best and 100 being the worst. The benefit of Sustainalytics comes from the continuous nature of its rankings. However, MSCI’s ESG ratings offered advantages too. While its ratings are categorical, it provides historical ratings going back to 2017. This chronological information allowed me to see if, for example, an increase in ESG score corresponded with an uptick in stock price in a given year.
 
-#### Have tech stocks with higher ESG scores generated higher returns during the Covid-19 pandemic?
+### Scope of the analysis: 
+Initially, I began my data exploration using just the five largest tech companies by market cap. However, it became apparent that I would need more data points to make stronger conclusions. So, I pulled stock data for all companies in the S&P500 that are either classified as “technology” or “communications services” by the index. It is important to note that in 2018, the S&P500 made an effort to “de-FAANG” its tech sector; because of the massive market caps of Facebook, Amazon, Apple, Netflix, Microsoft, and Alphabet, the tech sector of the index was massively overweight compared to other sectors. Those companies that focused more on social media, streaming, or digital content creation were spun off into “communication services,” while “technology” became the domain of companies specializing in hardware production. I included both sectors in my analysis of the tech sector, because in colloquial speech “tech” is synonymous with Facebook, Microsoft, Google, and Netflix, but all are considered “communication services” under the new classification. So, I pulled stock and ESG data for the 98 companies that met one of these criteria.
 
-Hypothesis: companies with better ESG scores (environmental, social, governance) have performed better during the Covid-19 pandemic. In a chaotic world, consumers are more likely to support charitable corporations. Furthermore, companies that have better accommodated employees during the pandemic by providing more sick leave, greater remote work opportunities, and bonuses have reaped the rewards of greater employee morale and productivity.
+### Data collection, cleaning, and preparation: 
+Please note that for the sake of brevity I have omitted some of the more basic and mundane steps of data cleaning, such as renaming columns. Those intermediary steps can all be viewed in the accompanying notebook. 
 
-Data: The data for this analysis came from three sources. I used Pandas Data Reader to pull basic stock info (open, close, high, low, volume, adjusted close) from Yahoo Finance’s API. I used data from two of the main ESG rating agencies, MSCI and Morningstar’s Sustainalytics to get data on ESG scores. They are the only two major rating agencies that have their ESG rankings available for free. I decided to use both because they offer different advantages. The benefit of Sustainalytics is that it offers a simple number from 0 to 100 as its ESG rating, with 0 being the best and 100 being the worst. The benefit of Sustainalytics comes from the continuous nature of its rankings. However, MSCI’s ESG ratings offered advantages too. While its ratings are categorical, it provides historical ratings going back to 2017. This chronological information allowed me to see if, for example, an increase in ESG score corresponded with an uptick in stock price in a given year.
-
-Scope of the analysis: Initially, I began my data exploration using just the five largest tech companies by market cap. However, it became apparent that I would need more data points to make stronger conclusions. So, I pulled stock data for all companies in the S&P500 that are either classified as “technology” or “communications services” by the index. It is important to note that in 2018, the S&P500 made an effort to “de-FAANG” its tech sector; because of the massive market caps of Facebook, Amazon, Apple, Netflix, Microsoft, and Alphabet, the tech sector of the index was massively overweight compared to other sectors. Those companies that focused more on social media, streaming, or digital content creation were spun off into “communication services,” while “technology” became the domain of companies specializing in hardware production. I included both sectors in my analysis of the tech sector, because in colloquial speech “tech” is synonymous with Facebook, Microsoft, Google, and Netflix, but all are considered “communication services” under the new classification. So, I pulled stock and ESG data for the 98 companies that met one of these criteria.
-
-Data collection, cleaning, and preparation: Please note that for the sake of brevity I have omitted some of the more basic and mundane steps of data cleaning, such as renaming columns. Those intermediary steps can all be viewed in the accompanying notebook. 
-
-First, I created a .csv file (Tech and Comms Sustainability Scores 2.csv) with the ticker, Sustainalytics score, sector (tech or communication services), MSCI 2017 ESG rating, MSCI 2018 ESG rating, MSCI 2019 ESG rating, MSCI 2020 ESG rating, and MSCI 2021 ESG rating. I collected this data manually; there were few enough stocks and the websites were navigable enough that it would have taken more time to build a scraper.
+First, I created a .csv file (Tech and Comms Sustainability Scores 2.csv) with the ticker, Sustainalytics score, sector (tech or communication services), MSCI 2017 ESG rating, MSCI 2018 ESG rating, MSCI 2019 ESG rating, MSCI 2020 ESG rating, and MSCI 2021 ESG rating. I collected this data manually; there were few enough stocks, and the websites were navigable enough that it would have taken more time to build a scraper.
 
 Then, I built a for loop to collect the stock data for all tickers in my list using Yahoo Finance’s API for our period of analysis, 2019 to now: 
 
@@ -213,7 +318,7 @@ Finally, this new data frame is merged with the master data frame.
 ```
 returns_2017_final_df = tech_comms_df_final.merge(return_2017_df, left_on='Ticker', right_on='index')
 ```
-#### Analysis
+### Analysis
 
 Using Matplotlib, I plotted the Sustainalytics ESG score on the X-axis of a scatter plot and returns on the Y. 
 
@@ -299,32 +404,9 @@ for item in corr_cols:
     print(item[0][-4:], 'correlation :', returns_2021_final_df[item[0]].corr(returns_2021_final_df[item[1]]))
 ```
 
-#### Conclusion
+### ESG Analysis Conclusion
 There is yet to be an academic consensus on how ESG factors into a stock’s pricing. Over the past few years, the conventional thinking was high ESG scores at the very least led to lower risk (volatility), if not higher returns. (See, for example, [Umeå School of Business, Economics, and Statistics, Jakobsson, R., & Lundberg, L. (2018). *The Effect of ESG Performance on Share Price Volatility.*)](https://umu.diva-portal.org/smash/get/diva2:1229342/FULLTEXT01.pdf)) 
 
 However, more recent analysis has challenged this notion that ESG positively impacts investment performance. Writing in the journal *Sustainability* in 2020, authors from the University of Rome found no relationship between volatility or returns and ESG ([La Torre M, Mango F, Cafaro A, Leo S. *Does the ESG Index Affect Stock Return? Evidence from the Eurostoxx50.* Sustainability. 2020; 12(16):6387.)](https://doi.org/10.3390/su12166387). 
 
 This analysis fits in with more recent analysis showing that ESG does not significantly impact investment performance. Of course, this analysis was limited to US tech stocks in the past few years. Further analysis needs to be done to see if this pattern holds in other contexts. The upshot for investors is this: if you are looking for reduced volatility or greater returns after the market jitters caused by Covid, don’t necessarily look to tech stocks with high ESG. High ESG tech stocks are just as likely as low ESG tech stocks to have low volatility and high returns. That being said, there is still of course moral value in ESG investing, even if that does not allow you to have your cake and eat it too. 
-
-
-
-## Presentation
-https://docs.google.com/presentation/d/1lW8-Si68omeYsMeeIKVGWdINQx402azv0Sgm5ooQO6I/edit?usp=sharing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![image](https://user-images.githubusercontent.com/74515412/119244788-015c6480-bb42-11eb-93da-d8c1ea6c4e85.png)
-![image](https://user-images.githubusercontent.com/74515412/119244793-09b49f80-bb42-11eb-9fd5-de7e2a25c9ff.png)
-
