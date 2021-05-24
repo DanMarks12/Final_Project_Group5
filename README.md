@@ -59,7 +59,6 @@ Database: Wengi Dedebar
 
 ### Communication methods
 * Collaboration through Slack group
-* Lay out 5 questions we will be answering, distributed questions
 * Meetings throughout the week outside of class
 * Shared [Google doc](https://docs.google.com/document/d/1SY56LAwAWJcryRgtg58EKAuqdpSpt0IqHUjSmKUIQa4/edit)
 * Zoom meetings
@@ -85,16 +84,20 @@ Hypothesis: Tech stocks have surged during Covid and helped the stock market ris
 Hypothesis: companies with better ESG scores (environmental, social, governance) have performed better during the Covid-19 pandemic. In a chaotic world, consumers are more likely to support charitable corporations. Furthermore, companies that have better accommodated employees during the pandemic by providing more sick leave, greater remote work opportunities, and bonuses have reaped the rewards of greater employee morale and productivity.
 
 
-
-
-
 ## Source Data: 
-We will be pulling data from finance.yahoo.com, Bloomberg, and FactSet data sets.
+We will be pulling data from finance.yahoo.com, Bloomberg, MSCI, Sustainalytics, and FactSet data sets. Yahoo Finance will provide the bulk of stock data (daily high, low, open, close, etc.) Bloomberg and FactSet will supply supplementary data, such as sector and market cap. Finally, MSCI and Sustainalytics will furnish ESG data.
 
 ## Company selection criteria
 For our primary analysis, we have selected 15 stocks. Five are blue chip stocks, defined as the largest U.S. tech stocks by market cap as of May 1st, 2021. Five are newcomers, defined as stocks that have IPO’d since 2019, but had more than six months of stock data by May 1st, 2019. Finally, five are SPACs, which we have selected as the five largest SPACs by market cap (a time limit is unnecessary for SPACs, as they are automatically delisted if they do not make an acquisition within 1-2 years.)
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/Tickers.JPG)
+
+# Tools 
+Data collection: pandas_datareader
+Data processing and analysis: numpy, pandas, sklearn, keras, time
+Machine learning models: linear regression, tree, ARIMA, ARMA
+Visualization/Presentation: Tableau Public, MatPlotLib, Google Slides, Github, Github Pages, markdown-toc (for creating table of contents in Github markdown) 
+
 
 # Database
 
@@ -167,8 +170,8 @@ In this analysis, the machine learning model required five blue-chip stocks that
 
 <img width="591" alt="Screen Shot 2021-05-19 at 5 39 32 PM" src="https://user-images.githubusercontent.com/74740339/118888802-2050c180-b8ca-11eb-8046-de3821fddd10.png">
 
+# Data Exploration 
 
-# Exploratory Data Analysis
 Initially in our attempts to build a stock-price-predicting model, we tried a linear regression machine learning model. Unfortunately, it failed to predict price accurately.
 
 ![linear_regression_model](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/linear_regression_model.PNG?raw=true)
