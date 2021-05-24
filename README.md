@@ -393,11 +393,11 @@ Creating a scatter plot using this data reveals that there is no relationship be
 returns_2021_final_df.plot.scatter(x = 'Sustainalytics Score', y = '2019-2021 standard deviation')
 ```
 
-![sustainalytics_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/sustainalytics_std_scatter.png)
+![sustainalytics_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/gh-pages/ESG_Resources/sustainalytics_std_scatter.png?raw=true)
 
 There is also no relationship between MSCI score in 2021 and standard deviation of 2019-2021 returns. 
 
-![msci_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/msci_esg_scatter.png)
+![msci_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/gh-pages/ESG_Resources/msci_std_scatter.png?raw=true)
 
 Finally, there is no correlation between annual standard deviation and annual MSCI scores.
 
