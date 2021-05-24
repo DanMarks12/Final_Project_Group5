@@ -101,7 +101,7 @@ In this analysis, the machine learning model required five blue-chip stocks that
  
 <img width="757" alt="Image5" src="https://user-images.githubusercontent.com/74740339/118560671-dcc64e00-b737-11eb-862e-eb4867b3c19d.png">
 
- 3. Using the markert_cap table, create a new table that captures the top five stocks with the highest market cap from 1972 to 2013
+ 3. Using the markert_cap table, create a new table that captures the top five stocks with the highest market cap from 1972 to 2013.
  
 <img width="760" alt="Image6" src="https://user-images.githubusercontent.com/74740339/118560835-1d25cc00-b738-11eb-9206-032e17550c00.png">
 
