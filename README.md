@@ -1,4 +1,6 @@
 - [Final_Project_Group5: An Analysis into the Tech Sector before and after Covid:](#final-project-group5--an-analysis-into-the-tech-sector-before-and-after-covid-)
+- [Presentation](#presentation)
+- [Tableau Dashboard](#tableau-dashboard)
   * [Communication Protocols](#communication-protocols)
     + [Roles](#roles)
     + [Communication methods](#communication-methods)
@@ -32,7 +34,9 @@
     + [Data collection, cleaning, and preparation:](#data-collection--cleaning--and-preparation-)
     + [Analysis](#analysis-1)
     + [ESG Analysis Conclusion](#esg-analysis-conclusion)
-- [Presentation](#presentation)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 # Final_Project_Group5: An Analysis into the Tech Sector before and after Covid:
