@@ -168,7 +168,7 @@ In this analysis, the machine learning model required five blue-chip stocks that
 <img width="591" alt="Screen Shot 2021-05-19 at 5 39 32 PM" src="https://user-images.githubusercontent.com/74740339/118888802-2050c180-b8ca-11eb-8046-de3821fddd10.png">
 
 
-# Analysis 
+# Exploratory Data Analysis
 Initially in our attempts to build a stock-price-predicting model, we tried a linear regression machine learning model. Unfortunately, it failed to predict price accurately.
 
 ![linear_regression_model](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/linear_regression_model.PNG?raw=true)
