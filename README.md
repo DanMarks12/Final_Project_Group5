@@ -23,40 +23,33 @@ Database: Wengi Dedebar
 
 
 ## Questions
-
 ### Big Picture Question: How have American tech stocks performed during the Covid-19 pandemic? 
 
 
-#### ML Question: Do bluechip stocks have any advantage in forecasting stock prices compared to newer companies? (IPO after 2018)
+#### ML Question: Do blue chip stocks have any advantage in forecasting stock prices compared to newer companies? (Those that have IPO’d after 2018)
 
-Hypothesis: Blue chip companies will have safer more controlled growth whereas startups with have more volitality, higher risk but also higher gains in positive cases and losses in negative cases 
+Hypothesis: Blue chip companies will have safer more controlled growth whereas startups with have more volatility, higher risk but also higher gains in positive cases and losses in negative cases 
 
-#### The Rise of SPACs: During Covid, SPACs have become more popular. Since the vaccine released, which have been proven to be more successful (performing better in the market) -- IPOs or SPACs?
+#### The Rise of SPACs: During Covid, SPACs have become more popular. Since the vaccine released, which have been proven to be better investments — IPOs or SPACs?
 
-Hypothesis: SPACs (Special Purpose Acquisition Corporations) are essentially shell corporations that form with the intention of purchasing a private corporation. It is an alternate method of taking a corporation public with less red tape than an IPO. The SPAC has existed for several decades, but has gained a great deal of attention lately. Despite the buzz around SPACs, they have generated less return for investors than IPOs because this alternate method of going public signals to markets some underlying issue in the company’s fiscal health.
+Hypothesis: SPACs (Special Purpose Acquisition Corporations) are essentially shell corporations that form with the intention of purchasing a private corporation. It is an alternate method of taking a corporation public with less red tape than an IPO. The SPAC has existed for several decades but has gained a great deal of attention lately. Despite the buzz around SPACs, they have generated less return for investors than IPOs because this alternate method of going public signals to markets some underlying issue in the company’s fiscal health.
 
-#### How did tech compnies manage during covid, some flourished, while others fell. Were different subsectors of tech hit differently?
+#### How did tech perform compared to other sectors?
 
-Hypothesis: Tech stocks have surged during covid and helped the stock market rise. The pandemic has fueled the tech stocks while hurting other industries like the airline industry. With more people working from home and the need for cloud software helped the tech stock rise. While the airline industry was hurt because people were not traveling like they used to. The below charts show the upward trend of tech and downward of airline.
+Hypothesis: Tech stocks have surged during Covid and helped the stock market rise. The pandemic has fueled the tech stocks while hurting other industries like the airline industry. With more people working from home, the need for cloud software helped the tech sector rise. 
 
-
-
-
-
-#### Is there a positive correlation between a companys ethical practices and profitability?
-
-Hypothesis: 
-
-
+#### Have tech stocks with higher ESG scores generated higher returns during the Covid-19 pandemic?
+Hypothesis: companies with better ESG scores (environmental, social, governance) have performed better during the Covid-19 pandemic. In a chaotic world, consumers are more likely to support charitable corporations. Furthermore, companies that have better accommodated employees during the pandemic by providing more sick leave, greater remote work opportunities, and bonuses have reaped the rewards of greater employee morale and productivity.
 
 
 ## Source Data: 
 We will be pulling data from finance.yahoo.com, finance.google.com, Bloomberg and FactSet data sets
 
-## Companys we are looking into:
-Our top 5 bluechip/recent ipo/SPAC companies were chosen because of two metrics: Tech sector and highest market cap as of 5/1/2021
+## Company selection criteria
+For our primary analysis, we have selected 15 stocks. Five are blue chip stocks, defined as the largest U.S. tech stocks by market cap as of May 1st, 2021. Five are newcomers, defined as stocks that have IPO’d since 2019, but had more than six months of stock data by May 1st, 2019. Finally, five are SPACs, which we have selected as the five largest SPACs by market cap (a time limit is unnecessary for SPACs, as they are automatically delisted if they do not make an acquisition within 1-2 years.)
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/Tickers.JPG)
+
 
 # Database
 
