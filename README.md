@@ -22,7 +22,8 @@ As seen below how I came to chose the top 5 stocks in Tech sector
 The question we sought to answer with machine learning was comparing Bluechip stock to newly IPO'd stocks. I started experimenting with various ML methods but found most were not applicable to time series modeling. I ended up with ARIMA and ARMA as they are perfect at predicting future values in a given time series.
 
 #### What is ARIMA? 
-'Auto Regressive Integrated Moving Average' or ARIMA for short can be used in analysis of time series models to better understand the data or predict future points based on its own past values. They are categorized with 3 terms: pdq
+'Auto Regressive Integrated Moving Average' or ARIMA for short can be used in the analysis of time series models to better understand the data and/or predict future points based on its own past values. The ARIMA model uses 3 characteristics: p the number of autoregressive terms, d the number of differencing needed to create stationarity, and q the number of lagged forecast errors. ARMA model (Autoregressive Moving Average) is very similar to an ARIMA model, but it without differencing your model (so your d value is 0). 
+
 
 ###### p value:
 p value is the order of the Auto Regressive (AR) term. This refers to the number of lags needed in the model to be used as predictors. We can find different p values to test by creating a partial autocorrelation plot (PACF)
