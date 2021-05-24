@@ -18,11 +18,11 @@ Database: Wengi Dedebar
 * Collaboration through Slack group
 * Lay out 5 questions we will be answering, distributed questions
 * Meetings throughout the week outside of class
-* Shared [Google doc:](https://docs.google.com/document/d/1SY56LAwAWJcryRgtg58EKAuqdpSpt0IqHUjSmKUIQa4/edit)
+* Shared [Google doc](https://docs.google.com/document/d/1SY56LAwAWJcryRgtg58EKAuqdpSpt0IqHUjSmKUIQa4/edit)
 * Zoom meetings
 
 
-## Questions:
+## Questions
 
 ### Big Picture Question: How have American tech stocks performed during the Covid-19 pandemic? 
 
@@ -380,21 +380,4 @@ This analysis fits in with more recent analysis showing that ESG does not signif
 
 ## Presentation
 https://docs.google.com/presentation/d/1lW8-Si68omeYsMeeIKVGWdINQx402azv0Sgm5ooQO6I/edit?usp=sharing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![image](https://user-images.githubusercontent.com/74515412/119244788-015c6480-bb42-11eb-93da-d8c1ea6c4e85.png)
-![image](https://user-images.githubusercontent.com/74515412/119244793-09b49f80-bb42-11eb-9fd5-de7e2a25c9ff.png)
 
