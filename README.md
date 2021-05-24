@@ -84,7 +84,7 @@ Hypothesis: Tech stocks have surged during Covid and helped the stock market ris
 Hypothesis: companies with better ESG scores (environmental, social, governance) have performed better during the Covid-19 pandemic. In a chaotic world, consumers are more likely to support charitable corporations. Furthermore, companies that have better accommodated employees during the pandemic by providing more sick leave, greater remote work opportunities, and bonuses have reaped the rewards of greater employee morale and productivity.
 
 
-## Source Data: 
+## Source Data
 We will be pulling data from finance.yahoo.com, Bloomberg, MSCI, Sustainalytics, and FactSet data sets. Yahoo Finance will provide the bulk of stock data (daily high, low, open, close, etc.) Bloomberg and FactSet will supply supplementary data, such as sector and market cap. Finally, MSCI and Sustainalytics will furnish ESG data.
 
 ## Company selection criteria
@@ -195,14 +195,14 @@ The question we sought to answer with machine learning was comparing blue chip s
 ### What is ARIMA? 
 'Auto Regressive Integrated Moving Average' or ARIMA for short can be used in the analysis of time series models to better understand the data and/or predict future points based on its own past values. The ARIMA model uses 3 characteristics: p the number of autoregressive terms, d the number of differencing needed to create stationarity, and q the number of lagged forecast errors. ARMA model (Autoregressive Moving Average) is very similar to an ARIMA model, but it without differencing your model (so your d value is 0).
 
-#### p value:
+#### p value
 p value is the order of the Auto Regressive (AR) term. This refers to the number of lags needed in the model to be used as predictors. We can find different p-values to test by creating a partial autocorrelation plot (PACF)
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/Partial_autocorrelation.JPG)
 
 By default, 1 should be tested in your model, but we can also see 3 and 14 are above the standard deviation and should be considered as a p-value. 
 
-#### d value:
+#### d value
 d value is the number of differencing required to make the time series stationary we first perform an ADF test. If the p-value is >.05 we cannot reject the null hypothesis and will need to find the order of the differencing. 
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/ADF_test.JPG)
@@ -213,7 +213,7 @@ After we conclude the model is not stationary there are 2 methods in finding the
 
 First, we can plot the autocorrelation with different differencing numbers and see if the autocorrelation drastically changes. Above, I tested with differencing of 1, 2 and 3 and concluded that differencing the model 1 time was enough. To double check my results, I imported the ndiffs module from pdarima.arima-utils package and concluded 1 difference was adequate for the model. 
 
-#### q value:
+#### q value
 q value is the order of the Moving Average (MA) term. This explains the number of lagged forecast errors in our ARIMA model. We can choose our q values by creating an ACF plot: 
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/Autocorrelation.JPG)
@@ -263,16 +263,16 @@ In these graphs, we are comparing the market capitalization of these companies. 
 
 ## ESG and investor returns
 
-### Hypothesis: 
+### Hypothesis
 Companies with better ESG scores (environmental, social, governance) have performed better during the Covid-19 pandemic. In a chaotic world, consumers are more likely to support charitable corporations. Furthermore, companies that have better accommodated employees during the pandemic by providing more sick leave, greater remote work opportunities, and bonuses have reaped the rewards of greater employee morale and productivity.
 
-### Data: 
+### Data
 The data for this analysis came from three sources. I used Pandas Data Reader to pull basic stock info (open, close, high, low, volume, adjusted close) from Yahoo Finance’s API. I used data from two of the main ESG rating agencies, MSCI and Morningstar’s Sustainalytics to get data on ESG scores. They are the only two major rating agencies that have their ESG rankings available for free. I decided to use both because they offer different advantages. The benefit of Sustainalytics is that it offers a simple number from 0 to 100 as its ESG rating, with 0 being the best and 100 being the worst. The benefit of Sustainalytics comes from the continuous nature of its rankings. However, MSCI’s ESG ratings offered advantages too. While its ratings are categorical, it provides historical ratings going back to 2017. This chronological information allowed me to see if, for example, an increase in ESG score corresponded with an uptick in stock price in a given year.
 
-### Scope of the analysis: 
+### Scope of the analysis 
 Initially, I began my data exploration using just the five largest tech companies by market cap. However, it became apparent that I would need more data points to make stronger conclusions. So, I pulled stock data for all companies in the S&P500 that are either classified as “technology” or “communications services” by the index. It is important to note that in 2018, the S&P500 made an effort to “de-FAANG” its tech sector; because of the massive market caps of Facebook, Amazon, Apple, Netflix, Microsoft, and Alphabet, the tech sector of the index was massively overweight compared to other sectors. Those companies that focused more on social media, streaming, or digital content creation were spun off into “communication services,” while “technology” became the domain of companies specializing in hardware production. I included both sectors in my analysis of the tech sector, because in colloquial speech “tech” is synonymous with Facebook, Microsoft, Google, and Netflix, but all are considered “communication services” under the new classification. So, I pulled stock and ESG data for the 98 companies that met one of these criteria.
 
-### Data collection, cleaning, and preparation: 
+### Data collection, cleaning, and preparation
 Please note that for the sake of brevity I have omitted some of the more basic and mundane steps of data cleaning, such as renaming columns. Those intermediary steps can all be viewed in the accompanying notebook. 
 
 First, I created a .csv file (Tech and Comms Sustainability Scores 2.csv) with the ticker, Sustainalytics score, sector (tech or communication services), MSCI 2017 ESG rating, MSCI 2018 ESG rating, MSCI 2019 ESG rating, MSCI 2020 ESG rating, and MSCI 2021 ESG rating. I collected this data manually; there were few enough stocks, and the websites were navigable enough that it would have taken more time to build a scraper.
