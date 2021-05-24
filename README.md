@@ -62,8 +62,7 @@ In this analysis, the machine learning model required five blue-chip stocks that
 
 ## Data source
 
-* Nasdaq Financial services company
-* https://www.nasdaq.com/market-activity/stocks/screener
+* [Nasdaq] (https://www.nasdaq.com/market-activity/stocks/screener)
 * Filters  
   * Sector (Technology) 
   * Country (United States) 
