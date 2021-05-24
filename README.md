@@ -162,7 +162,7 @@ Now that we have decided on our p, d, and q terms we must split our data into tr
 
 By splitting with this method, we do not need to manually calculate 80% and 20% of our data and the code is more fluid for shorter or longer time series. Below we can see the data we are working on and visualize our train vs. test data:
 
-![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/trainvstest.JPG}
+![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/trainvstest.JPG)
 
 The ARMA and ARIMA models I built came up with varying results. Most of the time, ARIMA seemed to better forecast stock prices where ARMA did have an advantage across a few stocks. Below are 2 example models: 
 
