@@ -35,8 +35,6 @@
     + [Analysis](#analysis-1)
     + [ESG Analysis Conclusion](#esg-analysis-conclusion)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 
 
 # Final_Project_Group5: An Analysis into the Tech Sector before and after Covid:
@@ -169,6 +167,22 @@ In this analysis, the machine learning model required five blue-chip stocks that
 
 <img width="591" alt="Screen Shot 2021-05-19 at 5 39 32 PM" src="https://user-images.githubusercontent.com/74740339/118888802-2050c180-b8ca-11eb-8046-de3821fddd10.png">
 
+
+# Analysis 
+Initially in our attempts to build a stock-price-predicting model, we tried a linear regression machine learning model. Unfortunately, it failed to predict price accurately.
+
+![linear_regression_model](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/linear_regression_model.PNG?raw=true)
+
+This caused us to re-evaluate our model and pushed us in the direction of machine learning models that are capable of handling less clearly linear data. Later in the write-up, we will discuss the ARMA and ARIMA machine learning models we settled on. 
+For the ESG analysis, we began by analyzing the same five blue chip stocks used in our ML model. Using the MSCI and Sustainalytics ESG scores for these stocks, we created this correlation matrix: 
+
+![esg_corr_matrix](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/esg_corr_matrix.PNG?raw=true)
+
+The initial data suggested that there could be a correlation between returns and the 2018 MSCI rating/2021 MSCI rating. However, it made little sense that MSCI ESG scores would correlate for only some years and not others. Furthermore, the scatter plot simply had too few data points to allow for any conclusions: 
+
+![esg_exploratory_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/esg_exploratory_scatter.PNG?raw=true)
+
+Because of these initial inconclusive results, we expanded our ESG analysis to include the 98 tech and communication services companies in the S&P500, hoping that a larger dataset would allow for more conclusive observations.
 
 # Analysis 
 
