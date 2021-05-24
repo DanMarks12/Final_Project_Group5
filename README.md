@@ -43,7 +43,7 @@ Hypothesis: companies with better ESG scores (environmental, social, governance)
 
 
 ## Source Data: 
-We will be pulling data from finance.yahoo.com, finance.google.com, Bloomberg and FactSet data sets
+We will be pulling data from finance.yahoo.com, Bloomberg, FactSet, MSCI, and Sustainalytics data sets.
 
 ## Company selection criteria
 For our primary analysis, we have selected 15 stocks. Five are blue chip stocks, defined as the largest U.S. tech stocks by market cap as of May 1st, 2021. Five are newcomers, defined as stocks that have IPO’d since 2019, but had more than six months of stock data by May 1st, 2019. Finally, five are SPACs, which we have selected as the five largest SPACs by market cap (a time limit is unnecessary for SPACs, as they are automatically delisted if they do not make an acquisition within 1-2 years.)
