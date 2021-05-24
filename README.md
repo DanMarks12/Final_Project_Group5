@@ -38,6 +38,11 @@
 # Final_Project_Group5: An Analysis into the Tech Sector before and after Covid:
 While the Covid-19 pandemic has generally wreaked havoc on the global economy, it has served as a financial boon to some. Tech, in particular, has been able to flourish during pandemic: many businesses have transitioned to a work-from-home model, necessitating technological facilitation, schools have moved to remote learning, and public transportation has been eclipsed by rideshare apps. Our goal in our final project is to investigate the impact covid has had on the tech industry, an industry uniquely suited to surviving in a world where brick and mortar stores have gone all but the way of the Dodo. 
 
+# Presentation
+Available [here.](https://docs.google.com/presentation/d/1lW8-Si68omeYsMeeIKVGWdINQx402azv0Sgm5ooQO6I/edit?usp=sharing)
+
+# Tableau Dashboard
+Available [here.](https://public.tableau.com/profile/perry2045#!/vizhome/Group5ColumbiaDataAnalyticsFinalProject-TechStocksDuringCovidVersion2/TOC-7)
 
 ## Communication Protocols 
 ### Roles
@@ -167,7 +172,7 @@ In this analysis, the machine learning model required five blue-chip stocks that
 The question we sought to answer with machine learning was comparing blue chip stocks to newly IPO'd stocks. I started experimenting with various ML methods but found most were not applicable to time series modeling. I ended up with ARIMA and ARMA as they are perfect at predicting future values in a given time series.
 
 ### What is ARIMA? 
-'Auto Regressive Integrated Moving Average' or ARIMA for short can be used in analysis of time series models to better understand the data or predict future points based on its own past values. They are categorized with 3 terms: pdq An ARMA model (Autoregressive Moving Average) is very similar to an ARIMA model, but it without differencing your model. 
+'Auto Regressive Integrated Moving Average' or ARIMA for short can be used in the analysis of time series models to better understand the data and/or predict future points based on its own past values. The ARIMA model uses 3 characteristics: p the number of autoregressive terms, d the number of differencing needed to create stationarity, and q the number of lagged forecast errors. ARMA model (Autoregressive Moving Average) is very similar to an ARIMA model, but it without differencing your model (so your d value is 0).
 
 #### p value:
 p value is the order of the Auto Regressive (AR) term. This refers to the number of lags needed in the model to be used as predictors. We can find different p-values to test by creating a partial autocorrelation plot (PACF)
@@ -405,6 +410,5 @@ However, more recent analysis has challenged this notion that ESG positively imp
 This analysis fits in with more recent analysis showing that ESG does not significantly impact investment performance. Of course, this analysis was limited to US tech stocks in the past few years. Further analysis needs to be done to see if this pattern holds in other contexts. The upshot for investors is this: if you are looking for reduced volatility or greater returns after the market jitters caused by Covid, don’t necessarily look to tech stocks with high ESG. High ESG tech stocks are just as likely as low ESG tech stocks to have low volatility and high returns. That being said, there is still of course moral value in ESG investing, even if that does not allow you to have your cake and eat it too. 
 
 
-# Presentation
-https://docs.google.com/presentation/d/1lW8-Si68omeYsMeeIKVGWdINQx402azv0Sgm5ooQO6I/edit?usp=sharing
+
 
