@@ -201,9 +201,6 @@ During Covid, SPACs have gained a lot of traction in terms of popularity.  To be
 In these graphs, we are comparing the market capitalization of these companies. Market capitalization is the market value of a publicly traded company’s outstanding shares. Market cap is calculated by the share price multiplied by the number of shares outstanding. As you can see from both graphs, all ten companies have not had much growth in these past four months. However, the companies that IPO’d have a higher market capitalization to begin with and have been quite steady throughout these months since the vaccine got released. SPACs have started with a lower market cap and have continued to stay in that low range. One of the SPACs even had a large fall in market cap in March. Although SPACs look to be profitable, IPOs have proven to be the safer and more profitable option in the long run. 
 
 
-#### How have different sub-sectors of the tech industry performed during the Covid-19 pandemic? 
-
-Hypothesis: certain sub-sectors of the tech industry have generated smaller returns to shareholders because of greater exposure to the economic risks associated with Covid-19. Semiconductor manufacturers suffered lower returns because of greater supply chain disruption. Meanwhile, social media companies have reaped the rewards of a world that is now fully reliant on the Internet for social interaction.
 
 #### Have tech stocks with higher ESG scores generated higher returns during the Covid-19 pandemic?
 
@@ -215,7 +212,7 @@ Scope of the analysis: Initially, I began my data exploration using just the fiv
 
 Data collection, cleaning, and preparation: Please note that for the sake of brevity I have omitted some of the more basic and mundane steps of data cleaning, such as renaming columns. Those intermediary steps can all be viewed in the accompanying notebook. 
 
-First, I created a .csv file (Tech and Comms Sustainability Scores 2.csv) with the ticker, Sustainalytics score, sector (tech or communication services), MSCI 2017 ESG rating, MSCI 2018 ESG rating, MSCI 2019 ESG rating, MSCI 2020 ESG rating, and MSCI 2021 ESG rating. I collected this data manually; there were few enough stocks and the websites were navigable enough that it would have taken more time to build a scraper.
+First, I created a .csv file (Tech and Comms Sustainability Scores 2.csv) with the ticker, Sustainalytics score, sector (tech or communication services), MSCI 2017 ESG rating, MSCI 2018 ESG rating, MSCI 2019 ESG rating, MSCI 2020 ESG rating, and MSCI 2021 ESG rating. I collected this data manually; there were few enough stocks, and the websites were navigable enough that it would have taken more time to build a scraper.
 
 Then, I built a for loop to collect the stock data for all tickers in my list using Yahoo Finance’s API for our period of analysis, 2019 to now: 
 
@@ -243,7 +240,7 @@ return_19_21_df.reset_index(inplace=True)
 return_19_21_df
 ```
 
-Next, I coded the MSCI ESG ratings to be integers rather than categorical variables. In my initial data exploration, I had dummified the ratings, that proved to be too cumbersome. Instead, I  assigned numerical values to the classifications, with the worst (CCC) becoming 0 and the best (AAA) becoming 6. The code below converted the MSCI ratings to numbers: 
+Next, I coded the MSCI ESG ratings to be integers rather than categorical variables. In my initial data exploration, I had dummified the ratings, that proved to be too cumbersome. Instead, I assigned numerical values to the classifications, with the worst (CCC) becoming 0 and the best (AAA) becoming 6. The code below converted the MSCI ratings to numbers: 
 
 ```
 dict  = {'CCC':0, 'B':1, 'BB':2, 'BBB':3, 'A':4, 'AA':5, 'AAA':6}
