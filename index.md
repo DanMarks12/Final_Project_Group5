@@ -46,6 +46,8 @@ Available [here.](https://docs.google.com/presentation/d/1lW8-Si68omeYsMeeIKVGWd
 # Tableau Dashboard
 Available [here.](https://public.tableau.com/profile/perry2045#!/vizhome/Group5ColumbiaDataAnalyticsFinalProject-TechStocksDuringCovidVersion2/TOC-7)
 
+<div class='tableauPlaceholder' id='viz1621819993702' style='position: relative'><noscript><a href='#'><img alt='TOC - 7 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Group5ColumbiaDataAnalyticsFinalProject-TechStocksDuringCovidVersion2&#47;TOC-7&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Group5ColumbiaDataAnalyticsFinalProject-TechStocksDuringCovidVersion2&#47;TOC-7' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Group5ColumbiaDataAnalyticsFinalProject-TechStocksDuringCovidVersion2&#47;TOC-7&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                
+
 ## Communication Protocols 
 ### Roles
 
@@ -327,7 +329,7 @@ tech_comms_df_final.plot.scatter(x = 'Sustainalytics Score', y = 'return')
 ```
 
 
-![sustainalytics_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/sustainalytics_esg_scatter.png)
+![sustainalytics_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/gh-pages/ESG_Resources/sustainalytics_esg_scatter.png?raw=true)
 
 Visually, there does not appear to be a relationship between Sustainalytics ESG score and returns.
 
@@ -338,7 +340,7 @@ I then made the same plot using the most recent ESG scores from MSCI in place of
 tech_comms_df_final.plot.scatter(x = 'MSCI ESG 2021', y = 'return')
 ```
 
-![msci_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/msci_esg_scatter.png)
+![msci_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/gh-pages/ESG_Resources/msci_esg_scatter.png?raw=true)
 
 Again, there appears to be no relationship. I confirmed this lack of relationship by calculating the correlation between returns over the time period studied and Sustainalytics score: 
 ```
