@@ -10,31 +10,32 @@
     + [The Rise of SPACs: During Covid, SPACs have become more popular. Since the vaccine released, which have been proven to be better investments — IPOs or SPACs?](#the-rise-of-spacs--during-covid--spacs-have-become-more-popular-since-the-vaccine-released--which-have-been-proven-to-be-better-investments---ipos-or-spacs-)
     + [How did tech perform compared to other sectors?](#how-did-tech-perform-compared-to-other-sectors-)
     + [Have tech stocks with higher ESG scores generated higher returns during the Covid-19 pandemic?](#have-tech-stocks-with-higher-esg-scores-generated-higher-returns-during-the-covid-19-pandemic-)
-  * [Source Data:](#source-data-)
+  * [Source Data](#source-data)
   * [Company selection criteria](#company-selection-criteria)
+- [Tools](#tools)
 - [Database](#database)
   * [Database Design](#database-design)
   * [Purpose](#purpose)
   * [Data source](#data-source)
   * [Process](#process)
   * [Results](#results)
+- [Data Exploration](#data-exploration)
 - [Analysis](#analysis)
   * [Machine Learning and Blue Chip vs. Newcomer Predictions](#machine-learning-and-blue-chip-vs-newcomer-predictions)
     + [What is ARIMA?](#what-is-arima-)
-      - [p value:](#p-value-)
-      - [d value:](#d-value-)
-      - [q value:](#q-value-)
+      - [p value](#p-value)
+      - [d value](#d-value)
+      - [q value](#q-value)
     + [Moving on to modeling](#moving-on-to-modeling)
     + [Exploring the results](#exploring-the-results)
   * [IPO vs. SPACs](#ipo-vs-spacs)
   * [ESG and investor returns](#esg-and-investor-returns)
-    + [Hypothesis:](#hypothesis-)
-    + [Data:](#data-)
-    + [Scope of the analysis:](#scope-of-the-analysis-)
-    + [Data collection, cleaning, and preparation:](#data-collection--cleaning--and-preparation-)
+    + [Hypothesis](#hypothesis)
+    + [Data](#data)
+    + [Scope of the analysis](#scope-of-the-analysis)
+    + [Data collection, cleaning, and preparation](#data-collection--cleaning--and-preparation)
     + [Analysis](#analysis-1)
     + [ESG Analysis Conclusion](#esg-analysis-conclusion)
-
 
 
 # Final_Project_Group5: An Analysis into the Tech Sector before and after Covid:
@@ -45,8 +46,6 @@ Available [here.](https://docs.google.com/presentation/d/1lW8-Si68omeYsMeeIKVGWd
 
 # Tableau Dashboard
 Available [here.](https://public.tableau.com/profile/perry2045#!/vizhome/Group5ColumbiaDataAnalyticsFinalProject-TechStocksDuringCovidVersion2/TOC-7)
-
-<div class='tableauPlaceholder' id='viz1621819993702' style='position: relative'><noscript><a href='#'><img alt='TOC - 7 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Group5ColumbiaDataAnalyticsFinalProject-TechStocksDuringCovidVersion2&#47;TOC-7&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Group5ColumbiaDataAnalyticsFinalProject-TechStocksDuringCovidVersion2&#47;TOC-7' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Group5ColumbiaDataAnalyticsFinalProject-TechStocksDuringCovidVersion2&#47;TOC-7&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                
 
 ## Communication Protocols 
 ### Roles
@@ -61,7 +60,6 @@ Database: Wengi Dedebar
 
 ### Communication methods
 * Collaboration through Slack group
-* Lay out 5 questions we will be answering, distributed questions
 * Meetings throughout the week outside of class
 * Shared [Google doc](https://docs.google.com/document/d/1SY56LAwAWJcryRgtg58EKAuqdpSpt0IqHUjSmKUIQa4/edit)
 * Zoom meetings
@@ -87,16 +85,20 @@ Hypothesis: Tech stocks have surged during Covid and helped the stock market ris
 Hypothesis: companies with better ESG scores (environmental, social, governance) have performed better during the Covid-19 pandemic. In a chaotic world, consumers are more likely to support charitable corporations. Furthermore, companies that have better accommodated employees during the pandemic by providing more sick leave, greater remote work opportunities, and bonuses have reaped the rewards of greater employee morale and productivity.
 
 
-
-
-
-## Source Data: 
-We will be pulling data from finance.yahoo.com, Bloomberg, and FactSet data sets.
+## Source Data
+We will be pulling data from finance.yahoo.com, Bloomberg, MSCI, Sustainalytics, and FactSet data sets. Yahoo Finance will provide the bulk of stock data (daily high, low, open, close, etc.) Bloomberg and FactSet will supply supplementary data, such as sector and market cap. Finally, MSCI and Sustainalytics will furnish ESG data.
 
 ## Company selection criteria
 For our primary analysis, we have selected 15 stocks. Five are blue chip stocks, defined as the largest U.S. tech stocks by market cap as of May 1st, 2021. Five are newcomers, defined as stocks that have IPO’d since 2019, but had more than six months of stock data by May 1st, 2019. Finally, five are SPACs, which we have selected as the five largest SPACs by market cap (a time limit is unnecessary for SPACs, as they are automatically delisted if they do not make an acquisition within 1-2 years.)
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/JPG/Tickers.JPG)
+
+# Tools 
+Data collection: pandas_datareader
+Data processing and analysis: numpy, pandas, sklearn, keras, time
+Machine learning models: linear regression, tree, ARIMA, ARMA
+Visualization/Presentation: Tableau Public, MatPlotLib, Google Slides, Github, Github Pages, markdown-toc (for creating table of contents in Github markdown) 
+
 
 # Database
 
@@ -169,6 +171,22 @@ In this analysis, the machine learning model required five blue-chip stocks that
 
 <img width="591" alt="Screen Shot 2021-05-19 at 5 39 32 PM" src="https://user-images.githubusercontent.com/74740339/118888802-2050c180-b8ca-11eb-8046-de3821fddd10.png">
 
+# Data Exploration 
+
+Initially in our attempts to build a stock-price-predicting model, we tried a linear regression machine learning model. Unfortunately, it failed to predict price accurately.
+
+![linear_regression_model](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/linear_regression_model.PNG?raw=true)
+
+This caused us to re-evaluate our model and pushed us in the direction of machine learning models that are capable of handling less clearly linear data. Later in the write-up, we will discuss the ARMA and ARIMA machine learning models we settled on. 
+For the ESG analysis, we began by analyzing the same five blue chip stocks used in our ML model. Using the MSCI and Sustainalytics ESG scores for these stocks, we created this correlation matrix: 
+
+![esg_corr_matrix](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/esg_corr_matrix.PNG?raw=true)
+
+The initial data suggested that there could be a correlation between returns and the 2018 MSCI rating/2021 MSCI rating. However, it made little sense that MSCI ESG scores would correlate for only some years and not others. Furthermore, the scatter plot simply had too few data points to allow for any conclusions: 
+
+![esg_exploratory_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/esg_exploratory_scatter.PNG?raw=true)
+
+Because of these initial inconclusive results, we expanded our ESG analysis to include the 98 tech and communication services companies in the S&P500, hoping that a larger dataset would allow for more conclusive observations.
 
 # Analysis 
 
@@ -178,14 +196,14 @@ The question we sought to answer with machine learning was comparing blue chip s
 ### What is ARIMA? 
 'Auto Regressive Integrated Moving Average' or ARIMA for short can be used in the analysis of time series models to better understand the data and/or predict future points based on its own past values. The ARIMA model uses 3 characteristics: p the number of autoregressive terms, d the number of differencing needed to create stationarity, and q the number of lagged forecast errors. ARMA model (Autoregressive Moving Average) is very similar to an ARIMA model, but it without differencing your model (so your d value is 0).
 
-#### p value:
+#### p value
 p value is the order of the Auto Regressive (AR) term. This refers to the number of lags needed in the model to be used as predictors. We can find different p-values to test by creating a partial autocorrelation plot (PACF)
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/Partial_autocorrelation.JPG)
 
 By default, 1 should be tested in your model, but we can also see 3 and 14 are above the standard deviation and should be considered as a p-value. 
 
-#### d value:
+#### d value
 d value is the number of differencing required to make the time series stationary we first perform an ADF test. If the p-value is >.05 we cannot reject the null hypothesis and will need to find the order of the differencing. 
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/ADF_test.JPG)
@@ -196,7 +214,7 @@ After we conclude the model is not stationary there are 2 methods in finding the
 
 First, we can plot the autocorrelation with different differencing numbers and see if the autocorrelation drastically changes. Above, I tested with differencing of 1, 2 and 3 and concluded that differencing the model 1 time was enough. To double check my results, I imported the ndiffs module from pdarima.arima-utils package and concluded 1 difference was adequate for the model. 
 
-#### q value:
+#### q value
 q value is the order of the Moving Average (MA) term. This explains the number of lagged forecast errors in our ARIMA model. We can choose our q values by creating an ACF plot: 
 
 ![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/Autocorrelation.JPG)
@@ -209,7 +227,7 @@ Now that we have decided on our p, d, and q terms we must split our data into tr
 
 By splitting with this method, we do not need to manually calculate 80% and 20% of our data and the code is more fluid for shorter or longer time series. Below we can see the data we are working on and visualize our train vs. test data:
 
-![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/trainvstest.JPG)
+![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/trainvstest.JPG}
 
 The ARMA and ARIMA models I built came up with varying results. Most of the time, ARIMA seemed to better forecast stock prices where ARMA did have an advantage across a few stocks. Below are 2 example models: 
 
@@ -236,29 +254,26 @@ There are plenty of reasons why a company would want to go public, a couple bein
 
 During Covid, SPACs have gained a lot of traction in terms of popularity.  To best address my hypothesis that  IPOs are more profitable compared to SPACs, I have chosen five companies that have IPO’ed and five SPACs, specifically in the Technology sector. The IPO companies I have chosen are Zoom, Moderna, CrowdStrike, DocuSign and Peloton. The SPACs I have chosen are Reinvent Technology Partners, Mason Industrial Technology, E.Merge Technology Acquisition Corp, ScION Tech Growth, and TPG Pace Tech Opportunities Corp. Below, you will find the their growth since the vaccine was released to the general public in early 2021. 
 
-
+<img width="456" alt="ipos" src="https://user-images.githubusercontent.com/74915619/118407128-40278180-b64d-11eb-9538-e11d172af886.png"> 
 **IPOs**
 
-<img width="456" alt="ipos" src="https://user-images.githubusercontent.com/74915619/118407128-40278180-b64d-11eb-9538-e11d172af886.png"> 
-
-**SPACs**
-
 <img width="484" alt="spacs" src="https://user-images.githubusercontent.com/74915619/118407148-5b928c80-b64d-11eb-9c5a-48e36207fe65.png"> 
+**SPACs**
 
 In these graphs, we are comparing the market capitalization of these companies. Market capitalization is the market value of a publicly traded company’s outstanding shares. Market cap is calculated by the share price multiplied by the number of shares outstanding. As you can see from both graphs, all ten companies have not had much growth in these past four months. However, the companies that IPO’d have a higher market capitalization to begin with and have been quite steady throughout these months since the vaccine got released. SPACs have started with a lower market cap and have continued to stay in that low range. One of the SPACs even had a large fall in market cap in March. Although SPACs look to be profitable, IPOs have proven to be the safer and more profitable option in the long run. 
 
 ## ESG and investor returns
 
-### Hypothesis: 
+### Hypothesis
 Companies with better ESG scores (environmental, social, governance) have performed better during the Covid-19 pandemic. In a chaotic world, consumers are more likely to support charitable corporations. Furthermore, companies that have better accommodated employees during the pandemic by providing more sick leave, greater remote work opportunities, and bonuses have reaped the rewards of greater employee morale and productivity.
 
-### Data: 
+### Data
 The data for this analysis came from three sources. I used Pandas Data Reader to pull basic stock info (open, close, high, low, volume, adjusted close) from Yahoo Finance’s API. I used data from two of the main ESG rating agencies, MSCI and Morningstar’s Sustainalytics to get data on ESG scores. They are the only two major rating agencies that have their ESG rankings available for free. I decided to use both because they offer different advantages. The benefit of Sustainalytics is that it offers a simple number from 0 to 100 as its ESG rating, with 0 being the best and 100 being the worst. The benefit of Sustainalytics comes from the continuous nature of its rankings. However, MSCI’s ESG ratings offered advantages too. While its ratings are categorical, it provides historical ratings going back to 2017. This chronological information allowed me to see if, for example, an increase in ESG score corresponded with an uptick in stock price in a given year.
 
-### Scope of the analysis: 
+### Scope of the analysis 
 Initially, I began my data exploration using just the five largest tech companies by market cap. However, it became apparent that I would need more data points to make stronger conclusions. So, I pulled stock data for all companies in the S&P500 that are either classified as “technology” or “communications services” by the index. It is important to note that in 2018, the S&P500 made an effort to “de-FAANG” its tech sector; because of the massive market caps of Facebook, Amazon, Apple, Netflix, Microsoft, and Alphabet, the tech sector of the index was massively overweight compared to other sectors. Those companies that focused more on social media, streaming, or digital content creation were spun off into “communication services,” while “technology” became the domain of companies specializing in hardware production. I included both sectors in my analysis of the tech sector, because in colloquial speech “tech” is synonymous with Facebook, Microsoft, Google, and Netflix, but all are considered “communication services” under the new classification. So, I pulled stock and ESG data for the 98 companies that met one of these criteria.
 
-### Data collection, cleaning, and preparation: 
+### Data collection, cleaning, and preparation
 Please note that for the sake of brevity I have omitted some of the more basic and mundane steps of data cleaning, such as renaming columns. Those intermediary steps can all be viewed in the accompanying notebook. 
 
 First, I created a .csv file (Tech and Comms Sustainability Scores 2.csv) with the ticker, Sustainalytics score, sector (tech or communication services), MSCI 2017 ESG rating, MSCI 2018 ESG rating, MSCI 2019 ESG rating, MSCI 2020 ESG rating, and MSCI 2021 ESG rating. I collected this data manually; there were few enough stocks, and the websites were navigable enough that it would have taken more time to build a scraper.
@@ -332,7 +347,7 @@ tech_comms_df_final.plot.scatter(x = 'Sustainalytics Score', y = 'return')
 ```
 
 
-![sustainalytics_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/gh-pages/ESG_Resources/sustainalytics_esg_scatter.png?raw=true)
+![sustainalytics_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/sustainalytics_esg_scatter.png)
 
 Visually, there does not appear to be a relationship between Sustainalytics ESG score and returns.
 
@@ -343,7 +358,7 @@ I then made the same plot using the most recent ESG scores from MSCI in place of
 tech_comms_df_final.plot.scatter(x = 'MSCI ESG 2021', y = 'return')
 ```
 
-![msci_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/gh-pages/ESG_Resources/msci_esg_scatter.png?raw=true)
+![msci_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/msci_esg_scatter.png)
 
 Again, there appears to be no relationship. I confirmed this lack of relationship by calculating the correlation between returns over the time period studied and Sustainalytics score: 
 ```
@@ -393,11 +408,11 @@ Creating a scatter plot using this data reveals that there is no relationship be
 returns_2021_final_df.plot.scatter(x = 'Sustainalytics Score', y = '2019-2021 standard deviation')
 ```
 
-![sustainalytics_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/gh-pages/ESG_Resources/sustainalytics_std_scatter.png?raw=true)
+![sustainalytics_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/sustainalytics_std_scatter.png)
 
 There is also no relationship between MSCI score in 2021 and standard deviation of 2019-2021 returns. 
 
-![msci_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/gh-pages/ESG_Resources/msci_std_scatter.png?raw=true)
+![msci_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/msci_esg_scatter.png)
 
 Finally, there is no correlation between annual standard deviation and annual MSCI scores.
 
