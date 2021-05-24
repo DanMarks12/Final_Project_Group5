@@ -190,9 +190,11 @@ There are plenty of reasons why a company would want to go public, a couple bein
 During Covid, SPACs have gained a lot of traction in terms of popularity.  To best address my hypothesis that  IPOs are more profitable compared to SPACs, I have chosen five companies that have IPO’ed and five SPACs, specifically in the Technology sector. The IPO companies I have chosen are Zoom, Moderna, CrowdStrike, DocuSign and Peloton. The SPACs I have chosen are Reinvent Technology Partners, Mason Industrial Technology, E.Merge Technology Acquisition Corp, ScION Tech Growth, and TPG Pace Tech Opportunities Corp. Below, you will find the their growth since the vaccine was released to the general public in early 2021. 
 
 **IPOs**
+
 <img width="456" alt="ipos" src="https://user-images.githubusercontent.com/74915619/118407128-40278180-b64d-11eb-9538-e11d172af886.png"> 
 
 **SPACs**
+
 <img width="484" alt="spacs" src="https://user-images.githubusercontent.com/74915619/118407148-5b928c80-b64d-11eb-9c5a-48e36207fe65.png"> 
 
 
