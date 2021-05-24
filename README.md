@@ -18,7 +18,7 @@ Database: Wengi Dedebar
 * Collaboration through Slack group
 * Lay out 5 questions we will be answering, distributed questions
 * Meetings throughout the week outside of class
-* Shared (Google doc:)[https://docs.google.com/document/d/1SY56LAwAWJcryRgtg58EKAuqdpSpt0IqHUjSmKUIQa4/edit]
+* Shared [Google doc:](https://docs.google.com/document/d/1SY56LAwAWJcryRgtg58EKAuqdpSpt0IqHUjSmKUIQa4/edit)
 * Zoom meetings
 
 
