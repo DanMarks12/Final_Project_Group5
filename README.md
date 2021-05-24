@@ -175,16 +175,16 @@ In this analysis, the machine learning model required five blue-chip stocks that
 
 Initially in our attempts to build a stock-price-predicting model, we tried a linear regression machine learning model. Unfortunately, it failed to predict price accurately.
 
-![linear_regression_model](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/linear_regression_model.PNG?raw=true)
+![linear_regression_model](https://github.com/DanMarks12/Final_Project_Group5/blob/gh-pages/ESG_Resources/linear_regression_model.PNG?raw=true)
 
 This caused us to re-evaluate our model and pushed us in the direction of machine learning models that are capable of handling less clearly linear data. Later in the write-up, we will discuss the ARMA and ARIMA machine learning models we settled on. 
 For the ESG analysis, we began by analyzing the same five blue chip stocks used in our ML model. Using the MSCI and Sustainalytics ESG scores for these stocks, we created this correlation matrix: 
 
-![esg_corr_matrix](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/esg_corr_matrix.PNG?raw=true)
+![esg_corr_matrix](https://github.com/DanMarks12/Final_Project_Group5/blob/gh-pages/ESG_Resources/esg_corr_matrix.PNG?raw=true)
 
 The initial data suggested that there could be a correlation between returns and the 2018 MSCI rating/2021 MSCI rating. However, it made little sense that MSCI ESG scores would correlate for only some years and not others. Furthermore, the scatter plot simply had too few data points to allow for any conclusions: 
 
-![esg_exploratory_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/esg_exploratory_scatter.PNG?raw=true)
+![esg_exploratory_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/gh-pages/ESG_Resources/esg_exploratory_scatter.PNG?raw=true)
 
 Because of these initial inconclusive results, we expanded our ESG analysis to include the 98 tech and communication services companies in the S&P500, hoping that a larger dataset would allow for more conclusive observations.
 
@@ -227,7 +227,7 @@ Now that we have decided on our p, d, and q terms we must split our data into tr
 
 By splitting with this method, we do not need to manually calculate 80% and 20% of our data and the code is more fluid for shorter or longer time series. Below we can see the data we are working on and visualize our train vs. test data:
 
-![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/trainvstest.JPG}
+![](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ML_tests/Github_JPGs/trainvstest.JPG)
 
 The ARMA and ARIMA models I built came up with varying results. Most of the time, ARIMA seemed to better forecast stock prices where ARMA did have an advantage across a few stocks. Below are 2 example models: 
 
@@ -347,7 +347,7 @@ tech_comms_df_final.plot.scatter(x = 'Sustainalytics Score', y = 'return')
 ```
 
 
-![sustainalytics_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/sustainalytics_esg_scatter.png)
+![sustainalytics_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/gh-pages/ESG_Resources/sustainalytics_esg_scatter.png?raw=true)
 
 Visually, there does not appear to be a relationship between Sustainalytics ESG score and returns.
 
@@ -358,7 +358,7 @@ I then made the same plot using the most recent ESG scores from MSCI in place of
 tech_comms_df_final.plot.scatter(x = 'MSCI ESG 2021', y = 'return')
 ```
 
-![msci_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/msci_esg_scatter.png)
+![msci_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/gh-pages/ESG_Resources/msci_esg_scatter.png?raw=true)
 
 Again, there appears to be no relationship. I confirmed this lack of relationship by calculating the correlation between returns over the time period studied and Sustainalytics score: 
 ```
@@ -408,11 +408,11 @@ Creating a scatter plot using this data reveals that there is no relationship be
 returns_2021_final_df.plot.scatter(x = 'Sustainalytics Score', y = '2019-2021 standard deviation')
 ```
 
-![sustainalytics_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/sustainalytics_std_scatter.png)
+![sustainalytics_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/gh-pages/ESG_Resources/sustainalytics_std_scatter.png?raw=true)
 
 There is also no relationship between MSCI score in 2021 and standard deviation of 2019-2021 returns. 
 
-![msci_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/main/ESG_Resources/msci_esg_scatter.png)
+![msci_esg_scatter.PNG](https://github.com/DanMarks12/Final_Project_Group5/blob/gh-pages/ESG_Resources/msci_std_scatter.png?raw=true)
 
 Finally, there is no correlation between annual standard deviation and annual MSCI scores.
 
