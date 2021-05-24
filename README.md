@@ -1,24 +1,25 @@
 # Final_Project_Group5: An Analysis into the Tech Sector before and after Covid:
 While the Covid-19 pandemic has generally wreaked havoc on the global economy, it has served as a financial boon to some. Tech, in particular, has been able to flourish during pandemic: many businesses have transitioned to a work-from-home model, necessitating technological facilitation, schools have moved to remote learning, and public transportation has been eclipsed by rideshare apps. Our goal in our final project is to investigate the impact covid has had on the tech industry, an industry uniquely suited to surviving in a world where brick and mortar stores have gone all but the way of the Dodo. 
 
-## Communication Protocals 
+## Communication Protocols 
 ### Roles
 
 Github: Collaborative
 
-MI : Dan Marks
+Machine Learning: Dan Marks
 
-Dashboard : Perry Abdulkadir
+Dashboard: Perry Abdulkadir
 
-Database : Wengi 
+Database: Wengi Dedebar
 
 
-### Protocals
-- Colaboration through Slack group
-- Lay out 5 questions we will be answering, distributed questions
-- Meetings throughout the week outside of class
-- Shared Google doc: https://docs.google.com/document/d/1SY56LAwAWJcryRgtg58EKAuqdpSpt0IqHUjSmKUIQa4/edit
-- Zoom meetings
+### Protocols
+### Communication methods
+* Collaboration through Slack group
+* Lay out 5 questions we will be answering, distributed questions
+* Meetings throughout the week outside of class
+* Shared (Google doc:)[https://docs.google.com/document/d/1SY56LAwAWJcryRgtg58EKAuqdpSpt0IqHUjSmKUIQa4/edit]
+* Zoom meetings
 
 
 ## Questions:
