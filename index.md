@@ -430,3 +430,12 @@ There is yet to be an academic consensus on how ESG factors into a stock’s pri
 However, more recent analysis has challenged this notion that ESG positively impacts investment performance. Writing in the journal *Sustainability* in 2020, authors from the University of Rome found no relationship between volatility or returns and ESG ([La Torre M, Mango F, Cafaro A, Leo S. *Does the ESG Index Affect Stock Return? Evidence from the Eurostoxx50.* Sustainability. 2020; 12(16):6387.)](https://doi.org/10.3390/su12166387). 
 
 This analysis fits in with more recent analysis showing that ESG does not significantly impact investment performance. Of course, this analysis was limited to US tech stocks in the past few years. Further analysis needs to be done to see if this pattern holds in other contexts. The upshot for investors is this: if you are looking for reduced volatility or greater returns after the market jitters caused by Covid, don’t necessarily look to tech stocks with high ESG. High ESG tech stocks are just as likely as low ESG tech stocks to have low volatility and high returns. That being said, there is still of course moral value in ESG investing, even if that does not allow you to have your cake and eat it too. 
+
+
+## Sector Analysis
+
+
+![](https://user-images.githubusercontent.com/74515412/119244788-015c6480-bb42-11eb-93da-d8c1ea6c4e85.png)
+
+
+![](https://user-images.githubusercontent.com/74515412/119244793-09b49f80-bb42-11eb-9fd5-de7e2a25c9ff.png)
