@@ -433,4 +433,11 @@ This analysis fits in with more recent analysis showing that ESG does not signif
 
 
 
+## Sector Analysis
+
+
+![](https://user-images.githubusercontent.com/74515412/119244788-015c6480-bb42-11eb-93da-d8c1ea6c4e85.png)
+
+
+![](https://user-images.githubusercontent.com/74515412/119244793-09b49f80-bb42-11eb-9fd5-de7e2a25c9ff.png)
 
